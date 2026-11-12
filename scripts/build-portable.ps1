@@ -50,6 +50,10 @@ Remove-Item (Join-Path $app 'data\tmp') -Recurse -Force -ErrorAction SilentlyCon
 Remove-Item (Join-Path $app 'data\screenshots') -Recurse -Force -ErrorAction SilentlyContinue
 New-Item -ItemType Directory -Path (Join-Path $app 'data\tmp') | Out-Null
 New-Item -ItemType Directory -Path (Join-Path $app 'data\screenshots') | Out-Null
+# Never ship the developer's personal rule overrides; every user creates their own
+# through the bundled 标签管理.cmd.
+Remove-Item (Join-Path $app 'data\tag-overrides.json') -Force -ErrorAction SilentlyContinue
+Remove-Item (Join-Path $app 'data\tag-overrides.json.bak') -Force -ErrorAction SilentlyContinue
 # Ship the small item-icon cache so the first build panel does not need to
 # download ~20 images before showing icons. Build data/cache is still omitted.
 $iconSrc = Join-Path $root 'data\tmp\item-icons'
@@ -59,7 +63,7 @@ if (Test-Path $iconSrc) {
   Copy-Item (Join-Path $iconSrc '*') $iconDest -Force -ErrorAction SilentlyContinue
 }
 New-Item -ItemType Directory -Path (Join-Path $app 'scripts') | Out-Null
-foreach ($script in @('ocr-win.ps1', 'ocr-daemon.ps1', 'ocr-daemon-file.ps1')) {
+foreach ($script in @('ocr-win.ps1', 'ocr-daemon.ps1', 'ocr-daemon-file.ps1', 'tag_admin.py', 'tag-admin.html')) {
   Copy-Item (Join-Path $root "scripts\$script") (Join-Path $app 'scripts')
 }
 
@@ -118,6 +122,25 @@ timeout /t 2 >nul
 '@
 $closer = $closer -replace "`r?`n", "`r`n"
 [IO.File]::WriteAllText((Join-Path $bundle '关闭面板.cmd'), $closer, [Text.Encoding]::ASCII)
+
+$tagAdmin = @'
+@echo off
+chcp 65001 >nul
+cd /d "%~dp0"
+if not exist "python\python.exe" (
+  echo python runtime not found. Please extract the whole zip again.
+  pause
+  exit /b 1
+)
+if not exist "app\scripts\tag_admin.py" (
+  echo tag_admin.py not found. Please extract the whole zip again.
+  pause
+  exit /b 1
+)
+"python\python.exe" "app\scripts\tag_admin.py"
+'@
+$tagAdmin = $tagAdmin -replace "`r?`n", "`r`n"
+[IO.File]::WriteAllText((Join-Path $bundle '标签管理.cmd'), $tagAdmin, [Text.Encoding]::ASCII)
 
 Write-Output "[5/6] zip"
 $version = (Get-Content (Join-Path $root 'package.json') -Raw | ConvertFrom-Json).version

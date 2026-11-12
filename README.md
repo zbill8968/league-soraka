@@ -38,8 +38,10 @@ powershell -ExecutionPolicy Bypass -File scripts\build-portable.ps1
 ```
 
 产物：`dist\LeagueSoraka\`（内置 Python + app + data + 启动器）和
-`dist\LeagueSoraka-0.5.4-portable.zip`（约 29 MB）。这个版本不需要装 Python/Node，也不依赖
+`dist\LeagueSoraka-0.5.5-portable.zip`（约 29 MB）。这个版本不需要装 Python/Node，也不依赖
 PyInstaller；内置运行时只保留 Pillow。
+
+压缩包里同时包含 `标签管理.cmd`，每个用户都可以双击它修改自己本地的标签规则，保存到自己的 `data/tag-overrides.json`，不会影响其他用户。包内不附带开发者个人的覆盖文件。
 
 压缩包解开后双击 `启动LeagueSoraka.vbs` 即可（会请求一次管理员权限），细节见包内的
 `使用说明.txt`。打包版内置分类器（`overlay-py/scoring.py`、`overlay-py/classify_local.py`），
