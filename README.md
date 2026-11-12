@@ -38,7 +38,7 @@ powershell -ExecutionPolicy Bypass -File scripts\build-portable.ps1
 ```
 
 产物：`dist\LeagueSoraka\`（内置 Python + app + data + 启动器）和
-`dist\LeagueSoraka-0.5.6-portable.zip`（约 29 MB）。这个版本不需要装 Python/Node，也不依赖
+`dist\LeagueSoraka-0.5.7-portable.zip`（约 29 MB）。这个版本不需要装 Python/Node，也不依赖
 PyInstaller；内置运行时只保留 Pillow。
 
 压缩包里同时包含 `标签管理.cmd`，每个用户都可以双击它修改自己本地的标签规则，保存到自己的 `data/tag-overrides.json`，不会影响其他用户。包内不附带开发者个人的覆盖文件。
@@ -207,7 +207,7 @@ test/                Node 单测 + Python 队友画像单测
 
 ## 标签调参后台（本地）
 
-双击根目录的 `标签管理.cmd`，会自动打开本地页面 `http://127.0.0.1:8765/`。启动器使用无控制台模式，不会留下黑窗口；面板右上角有【关闭后台】，关闭浏览器页后后台也会在约 12 秒内自动退出：
+双击根目录的 `标签管理.cmd`，会自动打开本地页面 `http://127.0.0.1:8765/`。启动器使用无控制台模式，不会留下黑窗口；面板右上角有【关闭后台】，关闭浏览器页后后台也会在约 90 秒内自动退出：
 
 - 左侧搜索/选择标签，右侧用下拉框和数字框改阈值、命中率、最少场次、启用状态、标签名和语气；
 - 保存写到 `data/tag-overrides.json`，下一次队友分析使用新规则；

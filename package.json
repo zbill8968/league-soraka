@@ -1,6 +1,6 @@
 {
   "name": "league-soraka",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "private": true,
   "description": "League Soraka: ARAM: Mayhem augment picks and champion-select ratings for DeepSeek Harness (screen-read overlay + OP.GG data).",
   "type": "module",

@@ -307,7 +307,7 @@ def serve(port=None, browser=True):
         # heartbeats stop and the local server exits by itself.
         while True:
             time.sleep(2)
-            if time.time() - LAST_PING > 12:
+            if time.time() - LAST_PING > 90:
                 try:
                     server.shutdown()
                 except Exception:
