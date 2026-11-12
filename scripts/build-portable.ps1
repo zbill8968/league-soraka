@@ -127,7 +127,7 @@ $tagAdmin = @'
 @echo off
 chcp 65001 >nul
 cd /d "%~dp0"
-if not exist "python\python.exe" (
+if not exist "python\pythonw.exe" (
   echo python runtime not found. Please extract the whole zip again.
   pause
   exit /b 1
@@ -137,7 +137,7 @@ if not exist "app\scripts\tag_admin.py" (
   pause
   exit /b 1
 )
-"python\python.exe" "app\scripts\tag_admin.py"
+start "" "python\pythonw.exe" "app\scripts\tag_admin.py"
 '@
 $tagAdmin = $tagAdmin -replace "`r?`n", "`r`n"
 [IO.File]::WriteAllText((Join-Path $bundle '标签管理.cmd'), $tagAdmin, [Text.Encoding]::ASCII)

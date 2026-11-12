@@ -54,6 +54,7 @@
   <span class="status" id="status"></span>
   <button class="primary" id="save">保存全部</button>
   <button class="danger" id="reset">恢复默认</button>
+  <button class="danger" id="shutdown">关闭后台</button>
 </header>
 <main>
   <aside class="side">
@@ -275,11 +276,23 @@ async function reset() {
   finally { btn.disabled = false; }
 }
 
+async function shutdown() {
+  if (state.dirty && !confirm('还有未保存的修改，确定关闭标签管理？')) return;
+  try {
+    await fetch('/api/shutdown', {method:'POST', headers:{'Content-Type':'application/json'}, body:'{}'});
+  } catch (e) {}
+  document.body.innerHTML = '<div style="padding:60px;text-align:center;color:#8b98a5;font:16px Microsoft YaHei">标签管理已关闭，可以关掉这个页面。</div>';
+  setTimeout(() => window.close(), 200);
+}
+
 $('#search').addEventListener('input', renderList);
 $('#save').addEventListener('click', save);
 $('#reset').addEventListener('click', reset);
+$('#shutdown').addEventListener('click', shutdown);
 window.addEventListener('beforeunload', (e) => { if (state.dirty) { e.preventDefault(); e.returnValue = ''; } });
-load().catch(e => setStatus('加载失败：' + e.message, true));
+load().then(() => fetch('/api/ping', {method:'POST', headers:{'Content-Type':'application/json'}, body:'{}'}).catch(() => {}))
+      .catch(e => setStatus('加载失败：' + e.message, true));
+setInterval(() => fetch('/api/ping', {method:'POST', headers:{'Content-Type':'application/json'}, body:'{}'}).catch(() => {}), 4000);
 </script>
 </body>
 </html>

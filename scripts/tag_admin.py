@@ -28,6 +28,7 @@ sys.path.insert(0, os.path.join(ROOT, "overlay-py"))
 import tagrules  # noqa: E402
 
 OVERRIDES = os.path.join(DATA, "tag-overrides.json")
+LAST_PING = time.time()
 PAGE = os.path.join(ROOT, "scripts", "tag-admin.html")
 OPS = {">=", "<=", ">", "<", "==", "!="}
 BOOL_METRICS = {
@@ -249,7 +250,16 @@ class Handler(BaseHTTPRequestHandler):
             self._send(404, "not found", "text/plain; charset=utf-8")
 
     def do_POST(self):
+        global LAST_PING
         path = urllib.parse.urlparse(self.path).path
+        if path == "/api/ping":
+            LAST_PING = time.time()
+            self._json(200, {"ok": True})
+            return
+        if path == "/api/shutdown":
+            self._json(200, {"ok": True})
+            threading.Thread(target=self.server.shutdown, daemon=True).start()
+            return
         try:
             length = int(self.headers.get("Content-Length") or 0)
             if length > 2 * 1024 * 1024:
@@ -285,10 +295,26 @@ def serve(port=None, browser=True):
     if server is None:
         raise SystemExit("no free port in 8765-8775")
     url = f"http://127.0.0.1:{chosen}/"
+    global LAST_PING
+    LAST_PING = time.time()
     print(f"[tag-admin] {url}")
     print(f"[tag-admin] overrides: {OVERRIDES}")
     if browser:
         threading.Timer(0.6, lambda: webbrowser.open(url)).start()
+
+    def watchdog():
+        # The launcher runs without a console. If the browser tab is closed,
+        # heartbeats stop and the local server exits by itself.
+        while True:
+            time.sleep(2)
+            if time.time() - LAST_PING > 12:
+                try:
+                    server.shutdown()
+                except Exception:
+                    pass
+                return
+
+    threading.Thread(target=watchdog, daemon=True).start()
     try:
         server.serve_forever()
     except KeyboardInterrupt:

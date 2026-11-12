@@ -38,7 +38,7 @@ powershell -ExecutionPolicy Bypass -File scripts\build-portable.ps1
 ```
 
 产物：`dist\LeagueSoraka\`（内置 Python + app + data + 启动器）和
-`dist\LeagueSoraka-0.5.5-portable.zip`（约 29 MB）。这个版本不需要装 Python/Node，也不依赖
+`dist\LeagueSoraka-0.5.6-portable.zip`（约 29 MB）。这个版本不需要装 Python/Node，也不依赖
 PyInstaller；内置运行时只保留 Pillow。
 
 压缩包里同时包含 `标签管理.cmd`，每个用户都可以双击它修改自己本地的标签规则，保存到自己的 `data/tag-overrides.json`，不会影响其他用户。包内不附带开发者个人的覆盖文件。
@@ -106,7 +106,7 @@ PyInstaller；内置运行时只保留 Pillow。
 
 - **采样**：SGP 一次拉最近 20 场（每场的 `json` 自带完整 10 人），筛 `mapId=12`、`queueId 2400/450`、≥5 分钟。
 - **贴标签门槛**：正面/中性行为 n≥5 且 ≥40% 场次命中；负面/调侃 n≥8 且 ≥50%；稳定类/节奏类 5–7 场可低置信；n<5 只出数据质量。
-- **新增标签**：`K头者`（射手/战士/刺客 ≥60% 场次，且这些场次出「收集者」≥80%）、`数学奇才`（前三个海克斯含暴击率强化，最终暴击 ≥125%）。已移除 `六神装`、`裸装哥`、`收割机`。
+- 已移除 `六神装`、`裸装哥`、`收割机`、`空手道`、`铁王八`、`保姆`、`财迷`、`K头者`、`数学奇才`、`科研家`、`钢门`、`雪球信徒`、`逆版本勇士`。
 - **查不到会说明原因**：`神秘人·匿名者` / `神秘人·隐藏生涯` / `数据暂不可用` / `非大乱斗玩家` / `样本不足`，不把所有情况混成一个「神秘人」。
 - **数据源**：优先本机 LCU 列表 + 单局详情（实测约 0.1 秒/人），LCU 不可用时回退 SGP SUMMARY。SGP 不是隐私绕过。
 
@@ -207,7 +207,7 @@ test/                Node 单测 + Python 队友画像单测
 
 ## 标签调参后台（本地）
 
-双击根目录的 `标签管理.cmd`，会自动打开本地页面 `http://127.0.0.1:8765/`：
+双击根目录的 `标签管理.cmd`，会自动打开本地页面 `http://127.0.0.1:8765/`。启动器使用无控制台模式，不会留下黑窗口；面板右上角有【关闭后台】，关闭浏览器页后后台也会在约 12 秒内自动退出：
 
 - 左侧搜索/选择标签，右侧用下拉框和数字框改阈值、命中率、最少场次、启用状态、标签名和语气；
 - 保存写到 `data/tag-overrides.json`，下一次队友分析使用新规则；
@@ -223,7 +223,7 @@ node scripts/fetch-opgg.mjs                # 抓增幅数据
 node scripts/fetch-champions.mjs           # 抓英雄强度
 node scripts/fetch-champions.mjs --tags-only  # 只合并 DDragon 职业标签（Tank/Mage/...）
 node scripts/fetch-zh-names.mjs --champions 20  # 补 nameZh / descZh（OP.GG 中文说明）
-node scripts/fetch-items.mjs               # 补暴击装备表（数学奇才用）
+node scripts/fetch-items.mjs               # 补暴击装备表
 python scripts/build-champ-index.py        # 构建英雄头像索引
 python overlay-py/avatar.py                # 重新生成眨眼帧
 node --test --test-isolation=none test/policy.test.mjs test/score.test.mjs test/matcher.test.mjs

@@ -148,29 +148,13 @@ class TagRuleTests(unittest.TestCase):
 
     def test_removed_build_and_reaper_tags(self):
         rule_ids = {rule["id"] for rule in tagrules.RULES}
-        for removed in ("full_build", "naked", "reaper"):
+        for removed in (
+            "full_build", "naked", "reaper",
+            "no_kill", "iron_turtle", "nanny", "gold_hoarder",
+            "k_head", "math_wizard", "mad_scientist", "steel_warmog",
+            "snowball", "off_meta",
+        ):
             self.assertNotIn(removed, rule_ids)
-
-    def test_k_head(self):
-        games = [
-            game(3, i, True, {"items": [6676, 3031, 3046, 3094, 0, 0, 0]})
-            for i in range(8)
-        ]
-        tags = tagrules.evaluate(metrics_for(games), {"level": 200, "full_team": True})
-        self.assertIn("k_head", ids(tags))
-
-    def test_math_wizard(self):
-        games = []
-        for i in range(5):
-            if i < 1:
-                stats = {"augments": [1047, 0, 0, 0, 0, 0],
-                         "items": [3031, 3046, 3094, 0, 0, 0, 0]}
-            else:
-                stats = {"augments": [0, 0, 0, 0, 0, 0],
-                         "items": [3031, 3046, 3094, 0, 0, 0, 0]}
-            games.append(game(3, i, True, stats))
-        tags = tagrules.evaluate(metrics_for(games), {"level": 200, "full_team": True})
-        self.assertIn("math_wizard", ids(tags))
 
     def test_stable_at_five_games(self):
         games = [
