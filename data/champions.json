@@ -1,0 +1,2560 @@
+{
+ "patch": "16.22.1",
+ "source": "op.gg/aram-mayhem champion tier list",
+ "generatedAt": "2026-11-05T08:56:01.274Z",
+ "total": 173,
+ "champions": [
+  {
+   "id": 17,
+   "key": "teemo",
+   "nameEn": "Teemo",
+   "titleEn": "the Swift Scout",
+   "nameZh": "迅捷斥候",
+   "titleZh": "提莫",
+   "tier": 1,
+   "rank": 1,
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 4,
+   "key": "twistedfate",
+   "nameEn": "Twisted Fate",
+   "titleEn": "the Card Master",
+   "nameZh": "卡牌大师",
+   "titleZh": "崔斯特",
+   "tier": 1,
+   "rank": 2,
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 11,
+   "key": "masteryi",
+   "nameEn": "Master Yi",
+   "titleEn": "the Wuju Bladesman",
+   "nameZh": "无极剑圣",
+   "titleZh": "易",
+   "tier": 1,
+   "rank": 3,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 25,
+   "key": "morgana",
+   "nameEn": "Morgana",
+   "titleEn": "the Fallen",
+   "nameZh": "堕落天使",
+   "titleZh": "莫甘娜",
+   "tier": 1,
+   "rank": 4,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 223,
+   "key": "tahmkench",
+   "nameEn": "Tahm Kench",
+   "titleEn": "The River King",
+   "nameZh": "河流之王",
+   "titleZh": "塔姆",
+   "tier": 2,
+   "rank": 5,
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 13,
+   "key": "ryze",
+   "nameEn": "Ryze",
+   "titleEn": "the Rune Mage",
+   "nameZh": "符文法师",
+   "titleZh": "瑞兹",
+   "tier": 2,
+   "rank": 6,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 245,
+   "key": "ekko",
+   "nameEn": "Ekko",
+   "titleEn": "the Boy Who Shattered Time",
+   "nameZh": "时间刺客",
+   "titleZh": "艾克",
+   "tier": 2,
+   "rank": 7,
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 10,
+   "key": "kayle",
+   "nameEn": "Kayle",
+   "titleEn": "the Righteous",
+   "nameZh": "正义天使",
+   "titleZh": "凯尔",
+   "tier": 2,
+   "rank": 8,
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 12,
+   "key": "alistar",
+   "nameEn": "Alistar",
+   "titleEn": "the Minotaur",
+   "nameZh": "牛头酋长",
+   "titleZh": "阿利斯塔",
+   "tier": 2,
+   "rank": 9,
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 876,
+   "key": "lillia",
+   "nameEn": "Lillia",
+   "titleEn": "the Bashful Bloom",
+   "nameZh": "含羞蓓蕾",
+   "titleZh": "莉莉娅",
+   "tier": 2,
+   "rank": 10,
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 48,
+   "key": "trundle",
+   "nameEn": "Trundle",
+   "titleEn": "the Troll King",
+   "nameZh": "巨魔之王",
+   "titleZh": "特朗德尔",
+   "tier": 2,
+   "rank": 11,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 5,
+   "key": "xinzhao",
+   "nameEn": "Xin Zhao",
+   "titleEn": "the Seneschal of Demacia",
+   "nameZh": "德邦总管",
+   "titleZh": "赵信",
+   "tier": 2,
+   "rank": 12,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 777,
+   "key": "yone",
+   "nameEn": "Yone",
+   "titleEn": "the Unforgotten",
+   "nameZh": "封魔剑魂",
+   "titleZh": "永恩",
+   "tier": 2,
+   "rank": 13,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "剑意"
+  },
+  {
+   "id": 157,
+   "key": "yasuo",
+   "nameEn": "Yasuo",
+   "titleEn": "the Unforgiven",
+   "nameZh": "疾风剑豪",
+   "titleZh": "亚索",
+   "tier": 2,
+   "rank": 14,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "剑意"
+  },
+  {
+   "id": 37,
+   "key": "sona",
+   "nameEn": "Sona",
+   "titleEn": "Maven of the Strings",
+   "nameZh": "琴瑟仙女",
+   "titleZh": "娑娜",
+   "tier": 2,
+   "rank": 15,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 120,
+   "key": "hecarim",
+   "nameEn": "Hecarim",
+   "titleEn": "the Shadow of War",
+   "nameZh": "战争之影",
+   "titleZh": "赫卡里姆",
+   "tier": 2,
+   "rank": 16,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 103,
+   "key": "ahri",
+   "nameEn": "Ahri",
+   "titleEn": "the Nine-Tailed Fox",
+   "nameZh": "九尾妖狐",
+   "titleZh": "阿狸",
+   "tier": 2,
+   "rank": 17,
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 147,
+   "key": "seraphine",
+   "nameEn": "Seraphine",
+   "titleEn": "the Starry-Eyed Songstress",
+   "nameZh": "星籁歌姬",
+   "titleZh": "萨勒芬妮",
+   "tier": 2,
+   "rank": 18,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 875,
+   "key": "sett",
+   "nameEn": "Sett",
+   "titleEn": "the Boss",
+   "nameZh": "腕豪",
+   "titleZh": "瑟提",
+   "tier": 2,
+   "rank": 19,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "豪意"
+  },
+  {
+   "id": 24,
+   "key": "jax",
+   "nameEn": "Jax",
+   "titleEn": "Grandmaster at Arms",
+   "nameZh": "武器大师",
+   "titleZh": "贾克斯",
+   "tier": 3,
+   "rank": 20,
+   "tags": [
+    "Fighter"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 910,
+   "key": "hwei",
+   "nameEn": "Hwei",
+   "titleEn": "the Visionary",
+   "nameZh": "异画师",
+   "titleZh": "彗",
+   "tier": 3,
+   "rank": 21,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 804,
+   "key": "yunara",
+   "nameEn": "Yunara",
+   "titleEn": "the Unbroken Faith",
+   "nameZh": "不破之誓",
+   "titleZh": "芸阿娜",
+   "tier": 3,
+   "rank": 22,
+   "tags": [
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 36,
+   "key": "drmundo",
+   "nameEn": "Dr. Mundo",
+   "titleEn": "the Madman of Zaun",
+   "nameZh": "祖安狂人",
+   "titleZh": "蒙多医生",
+   "tier": 3,
+   "rank": 23,
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "partype": "无"
+  },
+  {
+   "id": 89,
+   "key": "leona",
+   "nameEn": "Leona",
+   "titleEn": "the Radiant Dawn",
+   "nameZh": "曙光女神",
+   "titleZh": "蕾欧娜",
+   "tier": 3,
+   "rank": 24,
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 38,
+   "key": "kassadin",
+   "nameEn": "Kassadin",
+   "titleEn": "the Void Walker",
+   "nameZh": "虚空行者",
+   "titleZh": "卡萨丁",
+   "tier": 3,
+   "rank": 25,
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 517,
+   "key": "sylas",
+   "nameEn": "Sylas",
+   "titleEn": "the Unshackled",
+   "nameZh": "解脱者",
+   "titleZh": "塞拉斯",
+   "tier": 3,
+   "rank": 26,
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 114,
+   "key": "fiora",
+   "nameEn": "Fiora",
+   "titleEn": "the Grand Duelist",
+   "nameZh": "无双剑姬",
+   "titleZh": "菲奥娜",
+   "tier": 3,
+   "rank": 27,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 887,
+   "key": "gwen",
+   "nameEn": "Gwen",
+   "titleEn": "The Hallowed Seamstress",
+   "nameZh": "灵罗娃娃",
+   "titleZh": "格温",
+   "tier": 3,
+   "rank": 28,
+   "tags": [
+    "Fighter"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 104,
+   "key": "graves",
+   "nameEn": "Graves",
+   "titleEn": "the Outlaw",
+   "nameZh": "法外狂徒",
+   "titleZh": "格雷福斯",
+   "tier": 3,
+   "rank": 29,
+   "tags": [
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 222,
+   "key": "jinx",
+   "nameEn": "Jinx",
+   "titleEn": "the Loose Cannon",
+   "nameZh": "暴走萝莉",
+   "titleZh": "金克丝",
+   "tier": 3,
+   "rank": 30,
+   "tags": [
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 27,
+   "key": "singed",
+   "nameEn": "Singed",
+   "titleEn": "the Mad Chemist",
+   "nameZh": "炼金术士",
+   "titleZh": "辛吉德",
+   "tier": 3,
+   "rank": 31,
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 234,
+   "key": "viego",
+   "nameEn": "Viego",
+   "titleEn": "The Ruined King",
+   "nameZh": "破败之王",
+   "titleZh": "佛耶戈",
+   "tier": 3,
+   "rank": 32,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "无"
+  },
+  {
+   "id": 112,
+   "key": "viktor",
+   "nameEn": "Viktor",
+   "titleEn": "the Herald of the Arcane",
+   "nameZh": "奥术先驱",
+   "titleZh": "维克托",
+   "tier": 3,
+   "rank": 33,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 75,
+   "key": "nasus",
+   "nameEn": "Nasus",
+   "titleEn": "the Curator of the Sands",
+   "nameZh": "沙漠死神",
+   "titleZh": "内瑟斯",
+   "tier": 3,
+   "rank": 34,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 904,
+   "key": "zaahen",
+   "nameEn": "Zaahen",
+   "titleEn": "The Unsundered",
+   "nameZh": "不落魔锋",
+   "titleZh": "亚恒",
+   "tier": 3,
+   "rank": 35,
+   "tags": [
+    "Fighter"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 3,
+   "key": "galio",
+   "nameEn": "Galio",
+   "titleEn": "the Colossus",
+   "nameZh": "正义巨像",
+   "titleZh": "加里奥",
+   "tier": 3,
+   "rank": 36,
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 62,
+   "key": "monkeyking",
+   "nameEn": "Wukong",
+   "titleEn": "the Monkey King",
+   "nameZh": "齐天大圣",
+   "titleZh": "孙悟空",
+   "tier": 3,
+   "rank": 37,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 41,
+   "key": "gangplank",
+   "nameEn": "Gangplank",
+   "titleEn": "the Saltwater Scourge",
+   "nameZh": "海洋之灾",
+   "titleZh": "普朗克",
+   "tier": 3,
+   "rank": 38,
+   "tags": [
+    "Fighter"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 161,
+   "key": "velkoz",
+   "nameEn": "Vel'Koz",
+   "titleEn": "the Eye of the Void",
+   "nameZh": "虚空之眼",
+   "titleZh": "维克兹",
+   "tier": 3,
+   "rank": 39,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 21,
+   "key": "missfortune",
+   "nameEn": "Miss Fortune",
+   "titleEn": "the Bounty Hunter",
+   "nameZh": "赏金猎人",
+   "titleZh": "厄运小姐",
+   "tier": 3,
+   "rank": 40,
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 67,
+   "key": "vayne",
+   "nameEn": "Vayne",
+   "titleEn": "the Night Hunter",
+   "nameZh": "暗夜猎手",
+   "titleZh": "薇恩",
+   "tier": 3,
+   "rank": 41,
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 526,
+   "key": "rell",
+   "nameEn": "Rell",
+   "titleEn": "the Iron Maiden",
+   "nameZh": "镕铁少女",
+   "titleZh": "芮尔",
+   "tier": 3,
+   "rank": 42,
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 136,
+   "key": "aurelionsol",
+   "nameEn": "Aurelion Sol",
+   "titleEn": "The Star Forger",
+   "nameZh": "铸星龙王",
+   "titleZh": "奥瑞利安·索尔",
+   "tier": 3,
+   "rank": 43,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 40,
+   "key": "janna",
+   "nameEn": "Janna",
+   "titleEn": "the Storm's Fury",
+   "nameZh": "风暴之怒",
+   "titleZh": "迦娜",
+   "tier": 3,
+   "rank": 44,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 80,
+   "key": "pantheon",
+   "nameEn": "Pantheon",
+   "titleEn": "the Unbreakable Spear",
+   "nameZh": "不屈之枪",
+   "titleZh": "潘森",
+   "tier": 3,
+   "rank": 45,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 350,
+   "key": "yuumi",
+   "nameEn": "Yuumi",
+   "titleEn": "the Magical Cat",
+   "nameZh": "魔法猫咪",
+   "titleZh": "悠米",
+   "tier": 3,
+   "rank": 46,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 102,
+   "key": "shyvana",
+   "nameEn": "Shyvana",
+   "titleEn": "the Half-Dragon",
+   "nameZh": "龙血武姬",
+   "titleZh": "希瓦娜",
+   "tier": 3,
+   "rank": 47,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "怒气"
+  },
+  {
+   "id": 90,
+   "key": "malzahar",
+   "nameEn": "Malzahar",
+   "titleEn": "the Prophet of the Void",
+   "nameZh": "虚空先知",
+   "titleZh": "玛尔扎哈",
+   "tier": 3,
+   "rank": 48,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 893,
+   "key": "aurora",
+   "nameEn": "Aurora",
+   "titleEn": "the Witch Between Worlds",
+   "nameZh": "双界灵兔",
+   "titleZh": "阿萝拉",
+   "tier": 3,
+   "rank": 49,
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 799,
+   "key": "ambessa",
+   "nameEn": "Ambessa",
+   "titleEn": "Matriarch of War",
+   "nameZh": "铁血狼母",
+   "titleZh": "安蓓萨",
+   "tier": 3,
+   "rank": 50,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "能量"
+  },
+  {
+   "id": 107,
+   "key": "rengar",
+   "nameEn": "Rengar",
+   "titleEn": "the Pridestalker",
+   "nameZh": "傲之追猎者",
+   "titleZh": "雷恩加尔",
+   "tier": 3,
+   "rank": 51,
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "partype": "残暴"
+  },
+  {
+   "id": 23,
+   "key": "tryndamere",
+   "nameEn": "Tryndamere",
+   "titleEn": "the Barbarian King",
+   "nameZh": "蛮族之王",
+   "titleZh": "泰达米尔",
+   "tier": 3,
+   "rank": 52,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "怒气"
+  },
+  {
+   "id": 101,
+   "key": "xerath",
+   "nameEn": "Xerath",
+   "titleEn": "the Magus Ascendant",
+   "nameZh": "远古巫灵",
+   "titleZh": "泽拉斯",
+   "tier": 3,
+   "rank": 53,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 106,
+   "key": "volibear",
+   "nameEn": "Volibear",
+   "titleEn": "the Relentless Storm",
+   "nameZh": "不灭狂雷",
+   "titleZh": "沃利贝尔",
+   "tier": 3,
+   "rank": 54,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 78,
+   "key": "poppy",
+   "nameEn": "Poppy",
+   "titleEn": "Keeper of the Hammer",
+   "nameZh": "圣锤之毅",
+   "titleZh": "波比",
+   "tier": 3,
+   "rank": 55,
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 200,
+   "key": "belveth",
+   "nameEn": "Bel'Veth",
+   "titleEn": "the Empress of the Void",
+   "nameZh": "虚空女皇",
+   "titleZh": "卑尔维斯",
+   "tier": 3,
+   "rank": 56,
+   "tags": [
+    "Fighter"
+   ],
+   "partype": ""
+  },
+  {
+   "id": 105,
+   "key": "fizz",
+   "nameEn": "Fizz",
+   "titleEn": "the Tidal Trickster",
+   "nameZh": "潮汐海灵",
+   "titleZh": "菲兹",
+   "tier": 3,
+   "rank": 57,
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 143,
+   "key": "zyra",
+   "nameEn": "Zyra",
+   "titleEn": "Rise of the Thorns",
+   "nameZh": "荆棘之兴",
+   "titleZh": "婕拉",
+   "tier": 3,
+   "rank": 58,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 902,
+   "key": "milio",
+   "nameEn": "Milio",
+   "titleEn": "The Gentle Flame",
+   "nameZh": "明烛",
+   "titleZh": "米利欧",
+   "tier": 3,
+   "rank": 59,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 74,
+   "key": "heimerdinger",
+   "nameEn": "Heimerdinger",
+   "titleEn": "the Revered Inventor",
+   "nameZh": "大发明家",
+   "titleZh": "黑默丁格",
+   "tier": 3,
+   "rank": 60,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 98,
+   "key": "shen",
+   "nameEn": "Shen",
+   "titleEn": "the Eye of Twilight",
+   "nameZh": "暮光之眼",
+   "titleZh": "慎",
+   "tier": 3,
+   "rank": 61,
+   "tags": [
+    "Tank"
+   ],
+   "partype": "能量"
+  },
+  {
+   "id": 134,
+   "key": "syndra",
+   "nameEn": "Syndra",
+   "titleEn": "the Dark Sovereign",
+   "nameZh": "暗黑元首",
+   "titleZh": "辛德拉",
+   "tier": 3,
+   "rank": 62,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 14,
+   "key": "sion",
+   "nameEn": "Sion",
+   "titleEn": "The Undead Juggernaut",
+   "nameZh": "亡灵战神",
+   "titleZh": "赛恩",
+   "tier": 3,
+   "rank": 63,
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 39,
+   "key": "irelia",
+   "nameEn": "Irelia",
+   "titleEn": "the Blade Dancer",
+   "nameZh": "刀锋舞者",
+   "titleZh": "艾瑞莉娅",
+   "tier": 3,
+   "rank": 64,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 91,
+   "key": "talon",
+   "nameEn": "Talon",
+   "titleEn": "the Blade's Shadow",
+   "nameZh": "刀锋之影",
+   "titleZh": "泰隆",
+   "tier": 3,
+   "rank": 65,
+   "tags": [
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 523,
+   "key": "aphelios",
+   "nameEn": "Aphelios",
+   "titleEn": "the Weapon of the Faithful",
+   "nameZh": "残月之肃",
+   "titleZh": "厄斐琉斯",
+   "tier": 3,
+   "rank": 66,
+   "tags": [
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 57,
+   "key": "maokai",
+   "nameEn": "Maokai",
+   "titleEn": "the Twisted Treant",
+   "nameZh": "扭曲树精",
+   "titleZh": "茂凯",
+   "tier": 3,
+   "rank": 67,
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 68,
+   "key": "rumble",
+   "nameEn": "Rumble",
+   "titleEn": "the Mechanized Menace",
+   "nameZh": "机械公敌",
+   "titleZh": "兰博",
+   "tier": 3,
+   "rank": 68,
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "partype": "热量"
+  },
+  {
+   "id": 44,
+   "key": "taric",
+   "nameEn": "Taric",
+   "titleEn": "the Shield of Valoran",
+   "nameZh": "瓦洛兰之盾",
+   "titleZh": "塔里克",
+   "tier": 3,
+   "rank": 69,
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 238,
+   "key": "zed",
+   "nameEn": "Zed",
+   "titleEn": "the Master of Shadows",
+   "nameZh": "影流之主",
+   "titleZh": "劫",
+   "tier": 3,
+   "rank": 70,
+   "tags": [
+    "Assassin"
+   ],
+   "partype": "能量"
+  },
+  {
+   "id": 412,
+   "key": "thresh",
+   "nameEn": "Thresh",
+   "titleEn": "the Chain Warden",
+   "nameZh": "魂锁典狱长",
+   "titleZh": "锤石",
+   "tier": 3,
+   "rank": 71,
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 19,
+   "key": "warwick",
+   "nameEn": "Warwick",
+   "titleEn": "the Uncaged Wrath of Zaun",
+   "nameZh": "祖安怒兽",
+   "titleZh": "沃里克",
+   "tier": 3,
+   "rank": 72,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 427,
+   "key": "ivern",
+   "nameEn": "Ivern",
+   "titleEn": "the Green Father",
+   "nameZh": "翠神",
+   "titleZh": "艾翁",
+   "tier": 3,
+   "rank": 73,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 895,
+   "key": "nilah",
+   "nameEn": "Nilah",
+   "titleEn": "the Joy Unbound",
+   "nameZh": "不羁之悦",
+   "titleZh": "尼菈",
+   "tier": 3,
+   "rank": 74,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 2,
+   "key": "olaf",
+   "nameEn": "Olaf",
+   "titleEn": "the Berserker",
+   "nameZh": "狂战士",
+   "titleZh": "奥拉夫",
+   "tier": 3,
+   "rank": 75,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 429,
+   "key": "kalista",
+   "nameEn": "Kalista",
+   "titleEn": "the Spear of Vengeance",
+   "nameZh": "复仇之矛",
+   "titleZh": "卡莉丝塔",
+   "tier": 3,
+   "rank": 76,
+   "tags": [
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 51,
+   "key": "caitlyn",
+   "nameEn": "Caitlyn",
+   "titleEn": "the Sheriff of Piltover",
+   "nameZh": "皮城女警",
+   "titleZh": "凯特琳",
+   "tier": 3,
+   "rank": 77,
+   "tags": [
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 233,
+   "key": "briar",
+   "nameEn": "Briar",
+   "titleEn": "the Restrained Hunger",
+   "nameZh": "狂厄蔷薇",
+   "titleZh": "贝蕾亚",
+   "tier": 3,
+   "rank": 78,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "怒气"
+  },
+  {
+   "id": 240,
+   "key": "kled",
+   "nameEn": "Kled",
+   "titleEn": "the Cantankerous Cavalier",
+   "nameZh": "暴怒骑士",
+   "titleZh": "克烈",
+   "tier": 3,
+   "rank": 79,
+   "tags": [
+    "Fighter"
+   ],
+   "partype": "勇气"
+  },
+  {
+   "id": 421,
+   "key": "reksai",
+   "nameEn": "Rek'Sai",
+   "titleEn": "the Void Burrower",
+   "nameZh": "虚空遁地兽",
+   "titleZh": "雷克塞",
+   "tier": 3,
+   "rank": 80,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "怒气"
+  },
+  {
+   "id": 164,
+   "key": "camille",
+   "nameEn": "Camille",
+   "titleEn": "the Steel Shadow",
+   "nameZh": "青钢影",
+   "titleZh": "卡蜜尔",
+   "tier": 3,
+   "rank": 81,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 711,
+   "key": "vex",
+   "nameEn": "Vex",
+   "titleEn": "the Gloomist",
+   "nameZh": "愁云使者",
+   "titleZh": "薇古丝",
+   "tier": 3,
+   "rank": 82,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 119,
+   "key": "draven",
+   "nameEn": "Draven",
+   "titleEn": "the Glorious Executioner",
+   "nameZh": "荣耀行刑官",
+   "titleZh": "德莱文",
+   "tier": 3,
+   "rank": 83,
+   "tags": [
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 61,
+   "key": "orianna",
+   "nameEn": "Orianna",
+   "titleEn": "the Lady of Clockwork",
+   "nameZh": "发条魔灵",
+   "titleZh": "奥莉安娜",
+   "tier": 3,
+   "rank": 84,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 1,
+   "key": "annie",
+   "nameEn": "Annie",
+   "titleEn": "the Dark Child",
+   "nameZh": "黑暗之女",
+   "titleZh": "安妮",
+   "tier": 3,
+   "rank": 85,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 28,
+   "key": "evelynn",
+   "nameEn": "Evelynn",
+   "titleEn": "Agony's Embrace",
+   "nameZh": "痛苦之拥",
+   "titleZh": "伊芙琳",
+   "tier": 3,
+   "rank": 86,
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 60,
+   "key": "elise",
+   "nameEn": "Elise",
+   "titleEn": "the Spider Queen",
+   "nameZh": "蜘蛛女皇",
+   "titleZh": "伊莉丝",
+   "tier": 3,
+   "rank": 87,
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 56,
+   "key": "nocturne",
+   "nameEn": "Nocturne",
+   "titleEn": "the Eternal Nightmare",
+   "nameZh": "永恒梦魇",
+   "titleZh": "魔腾",
+   "tier": 3,
+   "rank": 88,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 141,
+   "key": "kayn",
+   "nameEn": "Kayn",
+   "titleEn": "the Shadow Reaper",
+   "nameZh": "影流之镰",
+   "titleZh": "凯隐",
+   "tier": 3,
+   "rank": 89,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 221,
+   "key": "zeri",
+   "nameEn": "Zeri",
+   "titleEn": "The Spark of Zaun",
+   "nameZh": "祖安花火",
+   "titleZh": "泽丽",
+   "tier": 3,
+   "rank": 90,
+   "tags": [
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 92,
+   "key": "riven",
+   "nameEn": "Riven",
+   "titleEn": "the Exile",
+   "nameZh": "放逐之刃",
+   "titleZh": "锐雯",
+   "tier": 3,
+   "rank": 91,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "无"
+  },
+  {
+   "id": 83,
+   "key": "yorick",
+   "nameEn": "Yorick",
+   "titleEn": "Shepherd of Souls",
+   "nameZh": "牧魂人",
+   "titleZh": "约里克",
+   "tier": 3,
+   "rank": 92,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 26,
+   "key": "zilean",
+   "nameEn": "Zilean",
+   "titleEn": "the Chronokeeper",
+   "nameZh": "时光守护者",
+   "titleZh": "基兰",
+   "tier": 3,
+   "rank": 93,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 122,
+   "key": "darius",
+   "nameEn": "Darius",
+   "titleEn": "the Hand of Noxus",
+   "nameZh": "诺克萨斯之手",
+   "titleZh": "德莱厄斯",
+   "tier": 3,
+   "rank": 94,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 50,
+   "key": "swain",
+   "nameEn": "Swain",
+   "titleEn": "the Noxian Grand General",
+   "nameZh": "诺克萨斯统领",
+   "titleZh": "斯维因",
+   "tier": 3,
+   "rank": 95,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 72,
+   "key": "skarner",
+   "nameEn": "Skarner",
+   "titleEn": "the Primordial Sovereign",
+   "nameZh": "上古领主",
+   "titleZh": "斯卡纳",
+   "tier": 3,
+   "rank": 96,
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 163,
+   "key": "taliyah",
+   "nameEn": "Taliyah",
+   "titleEn": "the Stoneweaver",
+   "nameZh": "岩雀",
+   "titleZh": "塔莉垭",
+   "tier": 3,
+   "rank": 97,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 110,
+   "key": "varus",
+   "nameEn": "Varus",
+   "titleEn": "the Arrow of Retribution",
+   "nameZh": "惩戒之箭",
+   "titleZh": "韦鲁斯",
+   "tier": 3,
+   "rank": 98,
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 268,
+   "key": "azir",
+   "nameEn": "Azir",
+   "titleEn": "the Emperor of the Sands",
+   "nameZh": "沙漠皇帝",
+   "titleZh": "阿兹尔",
+   "tier": 3,
+   "rank": 99,
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 32,
+   "key": "amumu",
+   "nameEn": "Amumu",
+   "titleEn": "the Sad Mummy",
+   "nameZh": "殇之木乃伊",
+   "titleZh": "阿木木",
+   "tier": 3,
+   "rank": 100,
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 888,
+   "key": "renata",
+   "nameEn": "Renata Glasc",
+   "titleEn": "the Chem-Baroness",
+   "nameZh": "炼金男爵",
+   "titleZh": "烈娜塔 · 戈拉斯克",
+   "tier": 3,
+   "rank": 101,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 432,
+   "key": "bard",
+   "nameEn": "Bard",
+   "titleEn": "the Wandering Caretaker",
+   "nameZh": "星界游神",
+   "titleZh": "巴德",
+   "tier": 3,
+   "rank": 102,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 267,
+   "key": "nami",
+   "nameEn": "Nami",
+   "titleEn": "the Tidecaller",
+   "nameZh": "唤潮鲛姬",
+   "titleZh": "娜美",
+   "tier": 3,
+   "rank": 103,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 55,
+   "key": "katarina",
+   "nameEn": "Katarina",
+   "titleEn": "the Sinister Blade",
+   "nameZh": "不祥之刃",
+   "titleZh": "卡特琳娜",
+   "tier": 3,
+   "rank": 104,
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "partype": "无"
+  },
+  {
+   "id": 77,
+   "key": "udyr",
+   "nameEn": "Udyr",
+   "titleEn": "the Spirit Walker",
+   "nameZh": "兽灵行者",
+   "titleZh": "乌迪尔",
+   "tier": 3,
+   "rank": 105,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 254,
+   "key": "vi",
+   "nameEn": "Vi",
+   "titleEn": "the Piltover Enforcer",
+   "nameZh": "皮城执法官",
+   "titleZh": "蔚",
+   "tier": 3,
+   "rank": 106,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 79,
+   "key": "gragas",
+   "nameEn": "Gragas",
+   "titleEn": "the Rabble Rouser",
+   "nameZh": "酒桶",
+   "titleZh": "古拉加斯",
+   "tier": 3,
+   "rank": 107,
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 127,
+   "key": "lissandra",
+   "nameEn": "Lissandra",
+   "titleEn": "the Ice Witch",
+   "nameZh": "冰霜女巫",
+   "titleZh": "丽桑卓",
+   "tier": 3,
+   "rank": 108,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 58,
+   "key": "renekton",
+   "nameEn": "Renekton",
+   "titleEn": "the Butcher of the Sands",
+   "nameZh": "荒漠屠夫",
+   "titleZh": "雷克顿",
+   "tier": 3,
+   "rank": 109,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "怒气"
+  },
+  {
+   "id": 113,
+   "key": "sejuani",
+   "nameEn": "Sejuani",
+   "titleEn": "Fury of the North",
+   "nameZh": "北地之怒",
+   "titleZh": "瑟庄妮",
+   "tier": 3,
+   "rank": 110,
+   "tags": [
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 131,
+   "key": "diana",
+   "nameEn": "Diana",
+   "titleEn": "Scorn of the Moon",
+   "nameZh": "皎月女神",
+   "titleZh": "黛安娜",
+   "tier": 3,
+   "rank": 111,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 111,
+   "key": "nautilus",
+   "nameEn": "Nautilus",
+   "titleEn": "the Titan of the Depths",
+   "nameZh": "深海泰坦",
+   "titleZh": "诺提勒斯",
+   "tier": 3,
+   "rank": 112,
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 96,
+   "key": "kogmaw",
+   "nameEn": "Kog'Maw",
+   "titleEn": "the Mouth of the Abyss",
+   "nameZh": "深渊巨口",
+   "titleZh": "克格莫",
+   "tier": 3,
+   "rank": 113,
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 121,
+   "key": "khazix",
+   "nameEn": "Kha'Zix",
+   "titleEn": "the Voidreaver",
+   "nameZh": "虚空掠夺者",
+   "titleZh": "卡兹克",
+   "tier": 3,
+   "rank": 114,
+   "tags": [
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 42,
+   "key": "corki",
+   "nameEn": "Corki",
+   "titleEn": "the Daring Bombardier",
+   "nameZh": "英勇投弹手",
+   "titleZh": "库奇",
+   "tier": 3,
+   "rank": 115,
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 420,
+   "key": "illaoi",
+   "nameEn": "Illaoi",
+   "titleEn": "the Kraken Priestess",
+   "nameZh": "海兽祭司",
+   "titleZh": "俄洛伊",
+   "tier": 3,
+   "rank": 116,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 497,
+   "key": "rakan",
+   "nameEn": "Rakan",
+   "titleEn": "The Charmer",
+   "nameZh": "幻翎",
+   "titleZh": "洛",
+   "tier": 3,
+   "rank": 117,
+   "tags": [
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 33,
+   "key": "rammus",
+   "nameEn": "Rammus",
+   "titleEn": "the Armordillo",
+   "nameZh": "披甲龙龟",
+   "titleZh": "拉莫斯",
+   "tier": 3,
+   "rank": 118,
+   "tags": [
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 9,
+   "key": "fiddlesticks",
+   "nameEn": "Fiddlesticks",
+   "titleEn": "the Ancient Fear",
+   "nameZh": "远古恐惧",
+   "titleZh": "费德提克",
+   "tier": 3,
+   "rank": 119,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 203,
+   "key": "kindred",
+   "nameEn": "Kindred",
+   "titleEn": "The Eternal Hunters",
+   "nameZh": "永猎双子",
+   "titleZh": "千珏",
+   "tier": 3,
+   "rank": 120,
+   "tags": [
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 8,
+   "key": "vladimir",
+   "nameEn": "Vladimir",
+   "titleEn": "the Crimson Reaper",
+   "nameZh": "猩红收割者",
+   "titleZh": "弗拉基米尔",
+   "tier": 3,
+   "rank": 121,
+   "tags": [
+    "Mage",
+    "Fighter"
+   ],
+   "partype": "猩红冲刺"
+  },
+  {
+   "id": 154,
+   "key": "zac",
+   "nameEn": "Zac",
+   "titleEn": "the Secret Weapon",
+   "nameZh": "生化魔人",
+   "titleZh": "扎克",
+   "tier": 3,
+   "rank": 122,
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "partype": "无"
+  },
+  {
+   "id": 498,
+   "key": "xayah",
+   "nameEn": "Xayah",
+   "titleEn": "the Rebel",
+   "nameZh": "逆羽",
+   "titleZh": "霞",
+   "tier": 3,
+   "rank": 123,
+   "tags": [
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 201,
+   "key": "braum",
+   "nameEn": "Braum",
+   "titleEn": "the Heart of the Freljord",
+   "nameZh": "弗雷尔卓德之心",
+   "titleZh": "布隆",
+   "tier": 3,
+   "rank": 124,
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 246,
+   "key": "qiyana",
+   "nameEn": "Qiyana",
+   "titleEn": "Empress of the Elements",
+   "nameZh": "元素女皇",
+   "titleZh": "奇亚娜",
+   "tier": 3,
+   "rank": 125,
+   "tags": [
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 950,
+   "key": "naafiri",
+   "nameEn": "Naafiri",
+   "titleEn": "the Hound of a Hundred Bites",
+   "nameZh": "百裂冥犬",
+   "titleZh": "纳亚菲利",
+   "tier": 3,
+   "rank": 126,
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 133,
+   "key": "quinn",
+   "nameEn": "Quinn",
+   "titleEn": "Demacia's Wings",
+   "nameZh": "德玛西亚之翼",
+   "titleZh": "奎因",
+   "tier": 3,
+   "rank": 127,
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 69,
+   "key": "cassiopeia",
+   "nameEn": "Cassiopeia",
+   "titleEn": "the Serpent's Embrace",
+   "nameZh": "魔蛇之拥",
+   "titleZh": "卡西奥佩娅",
+   "tier": 3,
+   "rank": 128,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 142,
+   "key": "zoe",
+   "nameEn": "Zoe",
+   "titleEn": "the Aspect of Twilight",
+   "nameZh": "暮光星灵",
+   "titleZh": "佐伊",
+   "tier": 3,
+   "rank": 129,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 360,
+   "key": "samira",
+   "nameEn": "Samira",
+   "titleEn": "the Desert Rose",
+   "nameZh": "沙漠玫瑰",
+   "titleZh": "莎弥拉",
+   "tier": 3,
+   "rank": 130,
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 6,
+   "key": "urgot",
+   "nameEn": "Urgot",
+   "titleEn": "the Dreadnought",
+   "nameZh": "无畏战车",
+   "titleZh": "厄加特",
+   "tier": 3,
+   "rank": 131,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 43,
+   "key": "karma",
+   "nameEn": "Karma",
+   "titleEn": "the Enlightened One",
+   "nameZh": "天启者",
+   "titleZh": "卡尔玛",
+   "tier": 3,
+   "rank": 132,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 117,
+   "key": "lulu",
+   "nameEn": "Lulu",
+   "titleEn": "the Fae Sorceress",
+   "nameZh": "仙灵女巫",
+   "titleZh": "璐璐",
+   "tier": 3,
+   "rank": 133,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 45,
+   "key": "veigar",
+   "nameEn": "Veigar",
+   "titleEn": "the Tiny Master of Evil",
+   "nameZh": "邪恶小法师",
+   "titleZh": "维迦",
+   "tier": 3,
+   "rank": 134,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 16,
+   "key": "soraka",
+   "nameEn": "Soraka",
+   "titleEn": "the Starchild",
+   "nameZh": "众星之子",
+   "titleZh": "索拉卡",
+   "tier": 3,
+   "rank": 135,
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 82,
+   "key": "mordekaiser",
+   "nameEn": "Mordekaiser",
+   "titleEn": "the Iron Revenant",
+   "nameZh": "铁铠冥魂",
+   "titleZh": "莫德凯撒",
+   "tier": 3,
+   "rank": 136,
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "partype": "护盾"
+  },
+  {
+   "id": 805,
+   "key": "locke",
+   "nameEn": "Locke",
+   "titleEn": "the Ashen Exorcist",
+   "nameZh": "灰烬驱魔人",
+   "titleZh": "洛克",
+   "tier": 3,
+   "rank": 137,
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 150,
+   "key": "gnar",
+   "nameEn": "Gnar",
+   "titleEn": "the Missing Link",
+   "nameZh": "迷失之牙",
+   "titleZh": "纳尔",
+   "tier": 3,
+   "rank": 138,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "怒气"
+  },
+  {
+   "id": 85,
+   "key": "kennen",
+   "nameEn": "Kennen",
+   "titleEn": "the Heart of the Tempest",
+   "nameZh": "狂暴之心",
+   "titleZh": "凯南",
+   "tier": 3,
+   "rank": 139,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "能量"
+  },
+  {
+   "id": 20,
+   "key": "nunu",
+   "nameEn": "Nunu & Willump",
+   "titleEn": "the Boy and His Yeti",
+   "nameZh": "雪原双子",
+   "titleZh": "努努和威朗普",
+   "tier": 3,
+   "rank": 140,
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 897,
+   "key": "ksante",
+   "nameEn": "K'Sante",
+   "titleEn": "the Pride of Nazumah",
+   "nameZh": "纳祖芒荣耀",
+   "titleZh": "奎桑提",
+   "tier": 3,
+   "rank": 141,
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 30,
+   "key": "karthus",
+   "nameEn": "Karthus",
+   "titleEn": "the Deathsinger",
+   "nameZh": "死亡颂唱者",
+   "titleZh": "卡尔萨斯",
+   "tier": 3,
+   "rank": 142,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 15,
+   "key": "sivir",
+   "nameEn": "Sivir",
+   "titleEn": "the Battle Mistress",
+   "nameZh": "战争女神",
+   "titleZh": "希维尔",
+   "tier": 3,
+   "rank": 143,
+   "tags": [
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 266,
+   "key": "aatrox",
+   "nameEn": "Aatrox",
+   "titleEn": "the Darkin Blade",
+   "nameZh": "暗裔剑魔",
+   "titleZh": "亚托克斯",
+   "tier": 3,
+   "rank": 144,
+   "tags": [
+    "Fighter"
+   ],
+   "partype": "鲜血魔井"
+  },
+  {
+   "id": 555,
+   "key": "pyke",
+   "nameEn": "Pyke",
+   "titleEn": "the Bloodharbor Ripper",
+   "nameZh": "血港鬼影",
+   "titleZh": "派克",
+   "tier": 3,
+   "rank": 145,
+   "tags": [
+    "Support",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 516,
+   "key": "ornn",
+   "nameEn": "Ornn",
+   "titleEn": "The Fire below the Mountain",
+   "nameZh": "山隐之焰",
+   "titleZh": "奥恩",
+   "tier": 3,
+   "rank": 146,
+   "tags": [
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 84,
+   "key": "akali",
+   "nameEn": "Akali",
+   "titleEn": "the Rogue Assassin",
+   "nameZh": "离群之刺",
+   "titleZh": "阿卡丽",
+   "tier": 3,
+   "rank": 147,
+   "tags": [
+    "Assassin"
+   ],
+   "partype": "能量"
+  },
+  {
+   "id": 166,
+   "key": "akshan",
+   "nameEn": "Akshan",
+   "titleEn": "the Rogue Sentinel",
+   "nameZh": "影哨",
+   "titleZh": "阿克尚",
+   "tier": 3,
+   "rank": 148,
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 29,
+   "key": "twitch",
+   "nameEn": "Twitch",
+   "titleEn": "the Plague Rat",
+   "nameZh": "瘟疫之源",
+   "titleZh": "图奇",
+   "tier": 3,
+   "rank": 149,
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 518,
+   "key": "neeko",
+   "nameEn": "Neeko",
+   "titleEn": "the Curious Chameleon",
+   "nameZh": "万花通灵",
+   "titleZh": "妮蔻",
+   "tier": 3,
+   "rank": 150,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 115,
+   "key": "ziggs",
+   "nameEn": "Ziggs",
+   "titleEn": "the Hexplosives Expert",
+   "nameZh": "爆破鬼才",
+   "titleZh": "吉格斯",
+   "tier": 3,
+   "rank": 151,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 34,
+   "key": "anivia",
+   "nameEn": "Anivia",
+   "titleEn": "the Cryophoenix",
+   "nameZh": "冰晶凤凰",
+   "titleZh": "艾尼维亚",
+   "tier": 4,
+   "rank": 152,
+   "tags": [
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 7,
+   "key": "leblanc",
+   "nameEn": "LeBlanc",
+   "titleEn": "the Deceiver",
+   "nameZh": "诡术妖姬",
+   "titleZh": "乐芙兰",
+   "tier": 4,
+   "rank": 153,
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 18,
+   "key": "tristana",
+   "nameEn": "Tristana",
+   "titleEn": "the Yordle Gunner",
+   "nameZh": "麦林炮手",
+   "titleZh": "崔丝塔娜",
+   "tier": 4,
+   "rank": 154,
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 86,
+   "key": "garen",
+   "nameEn": "Garen",
+   "titleEn": "The Might of Demacia",
+   "nameZh": "德玛西亚之力",
+   "titleZh": "盖伦",
+   "tier": 4,
+   "rank": 155,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "无"
+  },
+  {
+   "id": 126,
+   "key": "jayce",
+   "nameEn": "Jayce",
+   "titleEn": "the Defender of Tomorrow",
+   "nameZh": "未来守护者",
+   "titleZh": "杰斯",
+   "tier": 4,
+   "rank": 156,
+   "tags": [
+    "Fighter",
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 59,
+   "key": "jarvaniv",
+   "nameEn": "Jarvan IV",
+   "titleEn": "the Exemplar of Demacia",
+   "nameZh": "德玛西亚皇子",
+   "titleZh": "嘉文四世",
+   "tier": 4,
+   "rank": 157,
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 54,
+   "key": "malphite",
+   "nameEn": "Malphite",
+   "titleEn": "Shard of the Monolith",
+   "nameZh": "熔岩巨兽",
+   "titleZh": "墨菲特",
+   "tier": 4,
+   "rank": 158,
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 35,
+   "key": "shaco",
+   "nameEn": "Shaco",
+   "titleEn": "the Demon Jester",
+   "nameZh": "恶魔小丑",
+   "titleZh": "萨科",
+   "tier": 4,
+   "rank": 159,
+   "tags": [
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 236,
+   "key": "lucian",
+   "nameEn": "Lucian",
+   "titleEn": "the Purifier",
+   "nameZh": "圣枪游侠",
+   "titleZh": "卢锡安",
+   "tier": 4,
+   "rank": 160,
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 235,
+   "key": "senna",
+   "nameEn": "Senna",
+   "titleEn": "the Redeemer",
+   "nameZh": "涤魂圣枪",
+   "titleZh": "赛娜",
+   "tier": 4,
+   "rank": 161,
+   "tags": [
+    "Support",
+    "Marksman"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 901,
+   "key": "smolder",
+   "nameEn": "Smolder",
+   "titleEn": "the Fiery Fledgling",
+   "nameZh": "炽炎雏龙",
+   "titleZh": "斯莫德",
+   "tier": 4,
+   "rank": 162,
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 64,
+   "key": "leesin",
+   "nameEn": "Lee Sin",
+   "titleEn": "the Blind Monk",
+   "nameZh": "盲僧",
+   "titleZh": "李青",
+   "tier": 4,
+   "rank": 163,
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "partype": "能量"
+  },
+  {
+   "id": 31,
+   "key": "chogath",
+   "nameEn": "Cho'Gath",
+   "titleEn": "the Terror of the Void",
+   "nameZh": "虚空恐惧",
+   "titleZh": "科加斯",
+   "tier": 4,
+   "rank": 164,
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 202,
+   "key": "jhin",
+   "nameEn": "Jhin",
+   "titleEn": "the Virtuoso",
+   "nameZh": "戏命师",
+   "titleZh": "烬",
+   "tier": 4,
+   "rank": 165,
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 76,
+   "key": "nidalee",
+   "nameEn": "Nidalee",
+   "titleEn": "the Bestial Huntress",
+   "nameZh": "狂野女猎手",
+   "titleZh": "奈德丽",
+   "tier": 4,
+   "rank": 166,
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 99,
+   "key": "lux",
+   "nameEn": "Lux",
+   "titleEn": "the Lady of Luminosity",
+   "nameZh": "光辉女郎",
+   "titleZh": "拉克丝",
+   "tier": 4,
+   "rank": 167,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 63,
+   "key": "brand",
+   "nameEn": "Brand",
+   "titleEn": "the Burning Vengeance",
+   "nameZh": "复仇焰魂",
+   "titleZh": "布兰德",
+   "tier": 4,
+   "rank": 168,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 800,
+   "key": "mel",
+   "nameEn": "Mel",
+   "titleEn": "the Soul's Reflection",
+   "nameZh": "流光镜影",
+   "titleZh": "梅尔",
+   "tier": 4,
+   "rank": 169,
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 145,
+   "key": "kaisa",
+   "nameEn": "Kai'Sa",
+   "titleEn": "Daughter of the Void",
+   "nameZh": "虚空之女",
+   "titleZh": "卡莎",
+   "tier": 4,
+   "rank": 170,
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 53,
+   "key": "blitzcrank",
+   "nameEn": "Blitzcrank",
+   "titleEn": "the Great Steam Golem",
+   "nameZh": "蒸汽机器人",
+   "titleZh": "布里茨",
+   "tier": 4,
+   "rank": 171,
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 81,
+   "key": "ezreal",
+   "nameEn": "Ezreal",
+   "titleEn": "the Prodigal Explorer",
+   "nameZh": "探险家",
+   "titleZh": "伊泽瑞尔",
+   "tier": 4,
+   "rank": 172,
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "partype": "法力"
+  },
+  {
+   "id": 22,
+   "key": "ashe",
+   "nameEn": "Ashe",
+   "titleEn": "the Frost Archer",
+   "nameZh": "寒冰射手",
+   "titleZh": "艾希",
+   "tier": 5,
+   "rank": 173,
+   "tags": [
+    "Marksman",
+    "Support"
+   ],
+   "partype": "法力"
+  }
+ ]
+}

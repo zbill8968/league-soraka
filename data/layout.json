@@ -1,0 +1,13 @@
+{
+ "version": 1,
+ "generatedAt": "2026-11-05T12:02:00",
+ "source": "calibrated from live 1920x1080 ARAM: Mayhem screenshots",
+ "icons": [
+  { "x": 0.3099, "y": 0.2796, "size": 0.0781 },
+  { "x": 0.4906, "y": 0.2796, "size": 0.0781 },
+  { "x": 0.6615, "y": 0.2796, "size": 0.0781 }
+ ],
+ "nameBand": { "dy": 0.55, "h": 0.75, "w": 2.4 },
+ "descBand": { "dy": 1.15, "h": 2.1, "w": 2.4 },
+ "scoreBand": { "dy": 3.3, "w": 1.5, "h": 1.02 }
+}

@@ -1,0 +1,121 @@
+{
+ "version": 1,
+ "servers": {
+  "TENCENT_HN1": {
+   "matchHistory": "https://hn1-k8s-sgp.lol.qq.com:21019",
+   "common": "https://hn1-k8s-sgp.lol.qq.com:21019"
+  },
+  "TENCENT_HN10": {
+   "matchHistory": "https://hn10-k8s-sgp.lol.qq.com:21019",
+   "common": "https://hn10-k8s-sgp.lol.qq.com:21019"
+  },
+  "TENCENT_TJ100": {
+   "matchHistory": "https://tj100-sgp.lol.qq.com:21019",
+   "common": "https://tj100-sgp.lol.qq.com:21019"
+  },
+  "TENCENT_TJ101": {
+   "matchHistory": "https://tj101-sgp.lol.qq.com:21019",
+   "common": "https://tj101-sgp.lol.qq.com:21019"
+  },
+  "TENCENT_NJ100": {
+   "matchHistory": "https://nj100-sgp.lol.qq.com:21019",
+   "common": "https://nj100-sgp.lol.qq.com:21019"
+  },
+  "TENCENT_GZ100": {
+   "matchHistory": "https://gz100-sgp.lol.qq.com:21019",
+   "common": "https://gz100-sgp.lol.qq.com:21019"
+  },
+  "TENCENT_CQ100": {
+   "matchHistory": "https://cq100-sgp.lol.qq.com:21019",
+   "common": "https://cq100-sgp.lol.qq.com:21019"
+  },
+  "TENCENT_BGP2": {
+   "matchHistory": "https://bgp2-k8s-sgp.lol.qq.com:21019",
+   "common": "https://bgp2-k8s-sgp.lol.qq.com:21019"
+  },
+  "TENCENT_PBE": {
+   "matchHistory": "https://pbe-sgp.lol.qq.com:21019",
+   "common": "https://pbe-sgp.lol.qq.com:21019"
+  },
+  "TENCENT_PREPBE": {
+   "matchHistory": "https://prepbe-sgp.lol.qq.com:21019",
+   "common": "https://prepbe-sgp.lol.qq.com:21019"
+  },
+  "TW2": {
+   "common": "https://tw2-red.lol.sgp.pvp.net",
+   "matchHistory": "https://apse1-red.pp.sgp.pvp.net"
+  },
+  "SG2": {
+   "common": "https://sg2-red.lol.sgp.pvp.net",
+   "matchHistory": "https://apse1-red.pp.sgp.pvp.net"
+  },
+  "PH2": {
+   "matchHistory": "https://apse1-red.pp.sgp.pvp.net",
+   "common": "https://ph2-red.lol.sgp.pvp.net"
+  },
+  "VN2": {
+   "matchHistory": "https://apse1-red.pp.sgp.pvp.net",
+   "common": "https://vn2-red.lol.sgp.pvp.net"
+  },
+  "PBE": {
+   "matchHistory": "https://usw2-red.pp.sgp.pvp.net",
+   "common": "https://pbe-red.lol.sgp.pvp.net"
+  },
+  "EUW": {
+   "matchHistory": "https://euc1-red.pp.sgp.pvp.net",
+   "common": "https://euw-red.lol.sgp.pvp.net"
+  },
+  "JP": {
+   "matchHistory": "https://apne1-red.pp.sgp.pvp.net",
+   "common": "https://jp-red.lol.sgp.pvp.net"
+  },
+  "RU": {
+   "matchHistory": "https://euc1-red.pp.sgp.pvp.net",
+   "common": "https://ru-red.lol.sgp.pvp.net"
+  },
+  "BR1": {
+   "matchHistory": "https://usw2-red.pp.sgp.pvp.net",
+   "common": "https://br-red.lol.sgp.pvp.net"
+  },
+  "OC1": {
+   "matchHistory": "https://apse1-red.pp.sgp.pvp.net",
+   "common": "https://oce-red.lol.sgp.pvp.net"
+  },
+  "TR1": {
+   "matchHistory": "https://euc1-red.pp.sgp.pvp.net",
+   "common": "https://tr-red.lol.sgp.pvp.net"
+  },
+  "LA1": {
+   "matchHistory": "https://usw2-red.pp.sgp.pvp.net",
+   "common": "https://lan-red.lol.sgp.pvp.net"
+  },
+  "LA2": {
+   "matchHistory": "https://usw2-red.pp.sgp.pvp.net",
+   "common": "https://las-red.lol.sgp.pvp.net"
+  },
+  "NA1": {
+   "matchHistory": "https://usw2-red.pp.sgp.pvp.net",
+   "common": "https://na-red.lol.sgp.pvp.net"
+  },
+  "TH2": {
+   "matchHistory": "https://apse1-red.pp.sgp.pvp.net",
+   "common": "https://th2-red.lol.sgp.pvp.net"
+  },
+  "KR": {
+   "matchHistory": "https://apne1-red.pp.sgp.pvp.net",
+   "common": "https://kr-red.lol.sgp.pvp.net"
+  }
+ },
+ "tencentServerMatchHistoryInteroperability": [
+  "TENCENT_HN1",
+  "TENCENT_HN10",
+  "TENCENT_NJ100",
+  "TENCENT_GZ100",
+  "TENCENT_CQ100",
+  "TENCENT_TJ100",
+  "TENCENT_TJ101",
+  "TENCENT_BGP2",
+  "TENCENT_PBE",
+  "TENCENT_PREPBE"
+ ]
+}

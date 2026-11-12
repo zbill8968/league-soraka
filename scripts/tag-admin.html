@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>League Soraka · 标签调参</title>
+<style>
+  :root{--bg:#0d1117;--panel:#141c25;--panel2:#10171e;--line:#293745;--fg:#e6edf3;--dim:#8b98a5;--gold:#d8a94a;--blue:#7fc8ff;--red:#ff6b6b;--ok:#7ee787}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 "Microsoft YaHei",system-ui,sans-serif}
+  header{position:sticky;top:0;z-index:5;display:flex;gap:14px;align-items:center;padding:12px 18px;background:#0b1016;border-bottom:1px solid var(--line)}
+  header h1{font-size:18px;color:var(--gold);margin:0;white-space:nowrap}
+  header .path{color:var(--dim);font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+  button{background:#1d2a36;color:var(--fg);border:1px solid #385064;border-radius:6px;padding:7px 12px;cursor:pointer;font:inherit}
+  button:hover{border-color:var(--gold)}
+  button.primary{background:#24445a;border-color:var(--blue);color:#dff3ff}
+  button.danger{background:#3a2024;border-color:#7a3b43;color:#ffc3c8}
+  button:disabled{opacity:.45;cursor:not-allowed}
+  main{display:grid;grid-template-columns:310px 1fr;gap:14px;padding:14px;max-width:1500px;margin:auto}
+  .side,.editor{background:var(--panel);border:1px solid var(--line);border-radius:10px;min-height:70vh}
+  .side{padding:10px;position:sticky;top:64px;height:calc(100vh - 80px);overflow:auto}
+  .search{width:100%;padding:8px 10px;border-radius:6px;border:1px solid #334657;background:#0b1218;color:var(--fg);margin-bottom:10px}
+  .family{color:var(--dim);font-size:11px;letter-spacing:.08em;margin:12px 4px 4px;text-transform:uppercase}
+  .tagrow{display:flex;justify-content:space-between;gap:8px;padding:7px 9px;border-radius:6px;cursor:pointer;color:#cfdae4}
+  .tagrow:hover{background:#1a2732}
+  .tagrow.active{background:#24384a;outline:1px solid #3d6a86}
+  .tagrow.off{opacity:.5;text-decoration:line-through}
+  .tagrow .id{color:#6d7d8c;font-size:11px}
+  .editor{padding:18px}
+  h2{margin:0 0 4px;font-size:20px;color:var(--gold)}
+  .sub{color:var(--dim);font-size:12px;margin-bottom:16px}
+  .grid{display:grid;grid-template-columns:repeat(4,minmax(140px,1fr));gap:12px;margin-bottom:16px}
+  .field{display:flex;flex-direction:column;gap:5px}
+  .field label{font-size:12px;color:var(--dim)}
+  input,select{background:#0b1218;color:var(--fg);border:1px solid #334657;border-radius:5px;padding:7px 8px;font:inherit;min-width:0}
+  input:focus,select:focus{outline:1px solid var(--blue)}
+  .section{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}
+  .section h3{margin:0 0 10px;font-size:14px;color:var(--blue)}
+  .group{border-left:2px solid #2e4658;padding:6px 0 2px 12px;margin:6px 0}
+  .group .grouptitle{font-size:12px;color:var(--dim);margin-bottom:6px}
+  .cond{display:grid;grid-template-columns:1.5fr 110px 120px;gap:8px;align-items:center;margin:5px 0}
+  .cond .metric{color:#b9c7d3;font-size:13px}
+  .note{color:var(--dim);font-size:12px}
+  .status{margin-left:auto;font-size:12px;color:var(--dim);white-space:nowrap}
+  .status.ok{color:var(--ok)} .status.bad{color:var(--red)}
+  .empty{color:var(--dim);padding:40px;text-align:center}
+  @media (max-width:900px){main{grid-template-columns:1fr}.side{position:static;height:auto}.grid{grid-template-columns:repeat(2,minmax(120px,1fr))}}
+</style>
+</head>
+<body>
+<header>
+  <h1>标签调参</h1>
+  <div class="path" id="path">读取中…</div>
+  <span class="status" id="status"></span>
+  <button class="primary" id="save">保存全部</button>
+  <button class="danger" id="reset">恢复默认</button>
+</header>
+<main>
+  <aside class="side">
+    <input class="search" id="search" placeholder="搜索标签名 / id / 分组…">
+    <div id="list"></div>
+  </aside>
+  <section class="editor" id="editor"><div class="empty">选择一个标签开始调参</div></section>
+</main>
+<script>
+'use strict';
+const state = { rules: [], metrics: {}, overrides: {}, selected: null, dirty: false, path: "" };
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const clones = (v) => JSON.parse(JSON.stringify(v));
+const familyNames = {damage:'输出', kills:'人头', tank:'坦克/承伤', support:'辅助/团队', death:'死亡/存在感', economy:'经济/出装', pool:'英雄池', session:'心态/节奏', mayhem:'海克斯', other:'其他'};
+const kindNames = {behavior:'行为', stable:'稳定', extreme:'极端', session:'节奏', augment:'海克斯'};
+
+async function load() {
+  const res = await fetch('/api/rules', {cache:'no-store'});
+  const data = await res.json();
+  const previous = state.selected;
+  state.rules = data.rules || [];
+  state.metrics = data.metrics || {};
+  state.overrides = data.overrides || {};
+  state.path = data.path || '';
+  $('#path').textContent = state.path;
+  state.selected = state.rules.some(r => r.id === previous)
+    ? previous
+    : (state.rules.find(r => r.id === 'carry')?.id || state.rules[0]?.id || null);
+  renderList(); renderEditor();
+  setStatus(data.updatedAt ? '上次保存 ' + data.updatedAt : '当前使用默认规则');
+}
+
+function setStatus(text, bad) {
+  const el = $('#status');
+  el.textContent = text;
+  el.className = 'status' + (bad ? ' bad' : (text.includes('已保存') ? ' ok' : ''));
+}
+
+function renderList() {
+  const q = $('#search').value.trim().toLowerCase();
+  const list = $('#list'); list.innerHTML = '';
+  const groups = {};
+  for (const rule of state.rules) {
+    const hay = JSON.stringify(rule.name || {}) + ' ' + rule.id + ' ' + (rule.family || '');
+    if (q && !hay.toLowerCase().includes(q)) continue;
+    (groups[rule.family || 'other'] ||= []).push(rule);
+  }
+  for (const [family, rows] of Object.entries(groups)) {
+    const h = document.createElement('div'); h.className = 'family'; h.textContent = familyNames[family] || family; list.appendChild(h);
+    for (const rule of rows) {
+      const row = document.createElement('div');
+      row.className = 'tagrow' + (rule.id === state.selected ? ' active' : '') + (rule.enabled === false ? ' off' : '');
+      row.innerHTML = `<span>${esc(rule.name?.roast || rule.id)}</span><span class="id">${esc(rule.id)}</span>`;
+      row.onclick = () => { state.selected = rule.id; renderList(); renderEditor(); };
+      list.appendChild(row);
+    }
+  }
+  if (!list.children.length) list.innerHTML = '<div class="note">没有匹配的标签</div>';
+}
+
+function metricKind(metric) { return state.metrics[metric]?.kind || 'number'; }
+function metricLabel(metric) { return state.metrics[metric]?.label || metric; }
+
+function numberInput(value, onChange, step = 'any') {
+  const el = document.createElement('input'); el.type = 'number'; el.step = step; el.value = value ?? 0;
+  el.oninput = () => { const n = Number(el.value); if (Number.isFinite(n)) onChange(n); markDirty(); };
+  return el;
+}
+
+function valueInput(metric, value, onChange) {
+  const kind = metricKind(metric);
+  if (kind === 'bool') {
+    const el = document.createElement('select');
+    el.innerHTML = '<option value="true">是</option><option value="false">否</option>';
+    el.value = value ? 'true' : 'false';
+    el.onchange = () => { onChange(el.value === 'true'); markDirty(); };
+    return el;
+  }
+  if (kind === 'percent') {
+    const el = document.createElement('input'); el.type = 'number'; el.step = '0.1';
+    el.value = Math.round(Number(value || 0) * 1000) / 10;
+    el.oninput = () => { const n = Number(el.value); if (Number.isFinite(n)) onChange(n / 100); markDirty(); };
+    return el;
+  }
+  return numberInput(value, onChange);
+}
+
+function conditionEditor(node, onChange) {
+  const box = document.createElement('div');
+  if (!node || typeof node !== 'object') { box.className = 'note'; box.textContent = '无额外条件'; return box; }
+  if (node.metric) {
+    const row = document.createElement('div'); row.className = 'cond';
+    const label = document.createElement('div'); label.className = 'metric'; label.textContent = metricLabel(node.metric);
+    const op = document.createElement('select');
+    for (const value of ['>=','<=','>','<','==','!=']) {
+      const o = document.createElement('option'); o.value = value; o.textContent = value; op.appendChild(o);
+    }
+    op.value = node.op || '>=';
+    op.onchange = () => { node.op = op.value; markDirty(); };
+    const value = valueInput(node.metric, node.value, (v) => { node.value = v; });
+    row.append(label, op, value); box.appendChild(row); return box;
+  }
+  for (const group of ['all', 'any']) {
+    if (Array.isArray(node[group])) {
+      const wrap = document.createElement('div'); wrap.className = 'group';
+      const title = document.createElement('div'); title.className = 'grouptitle';
+      title.textContent = group === 'all' ? '全部满足' : '任一满足';
+      wrap.appendChild(title);
+      for (const child of node[group]) wrap.appendChild(conditionEditor(child, onChange));
+      box.appendChild(wrap);
+    }
+  }
+  if (node.not && typeof node.not === 'object') {
+    const wrap = document.createElement('div'); wrap.className = 'group';
+    const title = document.createElement('div'); title.className = 'grouptitle'; title.textContent = '不满足';
+    wrap.appendChild(title); wrap.appendChild(conditionEditor(node.not, onChange)); box.appendChild(wrap);
+  }
+  if (!box.children.length) { box.className = 'note'; box.textContent = '无额外条件'; }
+  return box;
+}
+
+function field(label, child) {
+  const wrap = document.createElement('div'); wrap.className = 'field';
+  const l = document.createElement('label'); l.textContent = label;
+  wrap.append(l, child); return wrap;
+}
+
+function markDirty() { state.dirty = true; setStatus('有未保存修改'); }
+
+function renderEditor() {
+  const rule = state.rules.find(r => r.id === state.selected);
+  const host = $('#editor');
+  if (!rule) { host.innerHTML = '<div class="empty">选择一个标签开始调参</div>'; return; }
+  host.innerHTML = '';
+  const title = document.createElement('h2'); title.textContent = rule.name?.roast || rule.id;
+  const sub = document.createElement('div'); sub.className = 'sub';
+  sub.textContent = `${rule.id} · ${familyNames[rule.family] || rule.family} · ${kindNames[rule.kind] || rule.kind} · 优先级 ${rule.priority ?? '—'}`;
+  host.append(title, sub);
+
+  const grid = document.createElement('div'); grid.className = 'grid';
+  const enabled = document.createElement('select');
+  enabled.innerHTML = '<option value="true">启用</option><option value="false">停用</option>';
+  enabled.value = rule.enabled === false ? 'false' : 'true';
+  enabled.onchange = () => { rule.enabled = enabled.value === 'true'; markDirty(); renderList(); };
+  grid.appendChild(field('状态', enabled));
+
+  const tone = document.createElement('select');
+  for (const [value, label] of [['positive','正面'],['neutral','中性'],['roast','调侃']]) {
+    const o = document.createElement('option'); o.value = value; o.textContent = label; tone.appendChild(o);
+  }
+  tone.value = rule.tone || 'neutral';
+  tone.onchange = () => { rule.tone = tone.value; markDirty(); };
+  grid.appendChild(field('语气', tone));
+
+  const games = numberInput(rule.min_games ?? 0, (v) => { rule.min_games = v; }, '1');
+  grid.appendChild(field('最少场次', games));
+
+  const hit = document.createElement('input'); hit.type = 'number'; hit.step = '1';
+  hit.value = Math.round(Number(rule.min_hit_rate || 0) * 100);
+  hit.oninput = () => { const n = Number(hit.value); if (Number.isFinite(n)) { rule.min_hit_rate = n / 100; markDirty(); } };
+  grid.appendChild(field('逐局命中率 (%)', hit));
+
+  const priority = numberInput(rule.priority ?? 0, (v) => { rule.priority = v; }, '1');
+  grid.appendChild(field('优先级', priority));
+
+  const roast = document.createElement('input'); roast.value = rule.name?.roast || '';
+  roast.oninput = () => { rule.name = rule.name || {}; rule.name.roast = roast.value; markDirty(); };
+  grid.appendChild(field('标签名（调侃/主名）', roast));
+
+  const neutral = document.createElement('input'); neutral.value = rule.name?.neutral || '';
+  neutral.oninput = () => { rule.name = rule.name || {}; rule.name.neutral = neutral.value; markDirty(); };
+  grid.appendChild(field('中性名', neutral));
+
+  const kind = document.createElement('div'); kind.className = 'note';
+  kind.textContent = `类型 ${rule.kind || 'behavior'}（在代码中固定，不由本页修改）`;
+  grid.appendChild(field('说明', kind));
+  host.appendChild(grid);
+
+  for (const [key, label] of [['when','聚合条件'],['per_game','逐局条件']]) {
+    const section = document.createElement('div'); section.className = 'section';
+    const h = document.createElement('h3'); h.textContent = label; section.appendChild(h);
+    if (rule[key] === 'same') {
+      const p = document.createElement('div'); p.className = 'note'; p.textContent = '沿用聚合条件（same）'; section.appendChild(p);
+    } else {
+      section.appendChild(conditionEditor(rule[key], markDirty));
+    }
+    host.appendChild(section);
+  }
+
+  const hint = document.createElement('div'); hint.className = 'note';
+  hint.style.marginTop = '16px';
+  hint.textContent = '百分比按 0–100% 填写；保存后，下一次队友分析生效。选人预取快照需要重新进一次选人。';
+  host.appendChild(hint);
+}
+
+async function save() {
+  const btn = $('#save'); btn.disabled = true; setStatus('保存中…');
+  try {
+    const payload = {rules: Object.fromEntries(state.rules.map(r => [r.id, r]))};
+    const res = await fetch('/api/rules', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)});
+    const data = await res.json();
+    if (!res.ok || !data.ok) throw new Error(data.error || ('HTTP ' + res.status));
+    state.dirty = false; setStatus('已保存 ' + (data.updatedAt || ''));
+    await load();
+  } catch (e) { setStatus('保存失败：' + e.message, true); }
+  finally { btn.disabled = false; }
+}
+
+async function reset() {
+  if (!confirm('恢复全部默认？本地覆盖文件会被清空。')) return;
+  const btn = $('#reset'); btn.disabled = true; setStatus('恢复中…');
+  try {
+    const res = await fetch('/api/reset', {method:'POST', headers:{'Content-Type':'application/json'}, body:'{}'});
+    const data = await res.json();
+    if (!res.ok || !data.ok) throw new Error(data.error || ('HTTP ' + res.status));
+    state.dirty = false; setStatus('已恢复默认'); await load();
+  } catch (e) { setStatus('恢复失败：' + e.message, true); }
+  finally { btn.disabled = false; }
+}
+
+$('#search').addEventListener('input', renderList);
+$('#save').addEventListener('click', save);
+$('#reset').addEventListener('click', reset);
+window.addEventListener('beforeunload', (e) => { if (state.dirty) { e.preventDefault(); e.returnValue = ''; } });
+load().catch(e => setStatus('加载失败：' + e.message, true));
+</script>
+</body>
+</html>

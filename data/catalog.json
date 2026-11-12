@@ -1,0 +1,4047 @@
+{
+ "patch": "16.22",
+ "source": "op.gg",
+ "generatedAt": "2026-11-11T13:24:41.563Z",
+ "champions": [
+  {
+   "slug": "aatrox",
+   "name": "Aatrox",
+   "championId": 266,
+   "tier": 2,
+   "rank": 134
+  },
+  {
+   "slug": "ahri",
+   "name": "Ahri",
+   "championId": 103,
+   "tier": 1,
+   "rank": 14
+  },
+  {
+   "slug": "akali",
+   "name": "Akali",
+   "championId": 84,
+   "tier": 2,
+   "rank": 146
+  },
+  {
+   "slug": "akshan",
+   "name": "Akshan",
+   "championId": 166,
+   "tier": 2,
+   "rank": 145
+  },
+  {
+   "slug": "alistar",
+   "name": "Alistar",
+   "championId": 12,
+   "tier": 1,
+   "rank": 5
+  },
+  {
+   "slug": "ambessa",
+   "name": "Ambessa",
+   "championId": 799,
+   "tier": 2,
+   "rank": 46
+  },
+  {
+   "slug": "amumu",
+   "name": "Amumu",
+   "championId": 32,
+   "tier": 2,
+   "rank": 89
+  },
+  {
+   "slug": "anivia",
+   "name": "Anivia",
+   "championId": 34,
+   "tier": 3,
+   "rank": 151
+  },
+  {
+   "slug": "annie",
+   "name": "Annie",
+   "championId": 1,
+   "tier": 2,
+   "rank": 84
+  },
+  {
+   "slug": "aphelios",
+   "name": "Aphelios",
+   "championId": 523,
+   "tier": 2,
+   "rank": 66
+  },
+  {
+   "slug": "ashe",
+   "name": "Ashe",
+   "championId": 22,
+   "tier": 5,
+   "rank": 173
+  },
+  {
+   "slug": "aurelionsol",
+   "name": "Aurelion Sol",
+   "championId": 136,
+   "tier": 2,
+   "rank": 38
+  },
+  {
+   "slug": "aurora",
+   "name": "Aurora",
+   "championId": 893,
+   "tier": 2,
+   "rank": 56
+  },
+  {
+   "slug": "azir",
+   "name": "Azir",
+   "championId": 268,
+   "tier": 2,
+   "rank": 102
+  },
+  {
+   "slug": "bard",
+   "name": "Bard",
+   "championId": 432,
+   "tier": 2,
+   "rank": 101
+  },
+  {
+   "slug": "belveth",
+   "name": "Bel'Veth",
+   "championId": 200,
+   "tier": 2,
+   "rank": 53
+  },
+  {
+   "slug": "blitzcrank",
+   "name": "Blitzcrank",
+   "championId": 53,
+   "tier": 4,
+   "rank": 170
+  },
+  {
+   "slug": "brand",
+   "name": "Brand",
+   "championId": 63,
+   "tier": 3,
+   "rank": 168
+  },
+  {
+   "slug": "braum",
+   "name": "Braum",
+   "championId": 201,
+   "tier": 2,
+   "rank": 112
+  },
+  {
+   "slug": "briar",
+   "name": "Briar",
+   "championId": 233,
+   "tier": 2,
+   "rank": 90
+  },
+  {
+   "slug": "caitlyn",
+   "name": "Caitlyn",
+   "championId": 51,
+   "tier": 2,
+   "rank": 115
+  },
+  {
+   "slug": "camille",
+   "name": "Camille",
+   "championId": 164,
+   "tier": 2,
+   "rank": 85
+  },
+  {
+   "slug": "cassiopeia",
+   "name": "Cassiopeia",
+   "championId": 69,
+   "tier": 2,
+   "rank": 126
+  },
+  {
+   "slug": "chogath",
+   "name": "Cho'Gath",
+   "championId": 31,
+   "tier": 3,
+   "rank": 162
+  },
+  {
+   "slug": "corki",
+   "name": "Corki",
+   "championId": 42,
+   "tier": 2,
+   "rank": 63
+  },
+  {
+   "slug": "darius",
+   "name": "Darius",
+   "championId": 122,
+   "tier": 2,
+   "rank": 81
+  },
+  {
+   "slug": "diana",
+   "name": "Diana",
+   "championId": 131,
+   "tier": 2,
+   "rank": 108
+  },
+  {
+   "slug": "drmundo",
+   "name": "Dr. Mundo",
+   "championId": 36,
+   "tier": 1,
+   "rank": 19
+  },
+  {
+   "slug": "draven",
+   "name": "Draven",
+   "championId": 119,
+   "tier": 2,
+   "rank": 75
+  },
+  {
+   "slug": "ekko",
+   "name": "Ekko",
+   "championId": 245,
+   "tier": 1,
+   "rank": 8
+  },
+  {
+   "slug": "elise",
+   "name": "Elise",
+   "championId": 60,
+   "tier": 2,
+   "rank": 88
+  },
+  {
+   "slug": "evelynn",
+   "name": "Evelynn",
+   "championId": 28,
+   "tier": 2,
+   "rank": 91
+  },
+  {
+   "slug": "ezreal",
+   "name": "Ezreal",
+   "championId": 81,
+   "tier": 4,
+   "rank": 171
+  },
+  {
+   "slug": "fiddlesticks",
+   "name": "Fiddlesticks",
+   "championId": 9,
+   "tier": 2,
+   "rank": 124
+  },
+  {
+   "slug": "fiora",
+   "name": "Fiora",
+   "championId": 114,
+   "tier": 2,
+   "rank": 26
+  },
+  {
+   "slug": "fizz",
+   "name": "Fizz",
+   "championId": 105,
+   "tier": 2,
+   "rank": 70
+  },
+  {
+   "slug": "galio",
+   "name": "Galio",
+   "championId": 3,
+   "tier": 2,
+   "rank": 29
+  },
+  {
+   "slug": "gangplank",
+   "name": "Gangplank",
+   "championId": 41,
+   "tier": 2,
+   "rank": 39
+  },
+  {
+   "slug": "garen",
+   "name": "Garen",
+   "championId": 86,
+   "tier": 3,
+   "rank": 155
+  },
+  {
+   "slug": "gnar",
+   "name": "Gnar",
+   "championId": 150,
+   "tier": 2,
+   "rank": 129
+  },
+  {
+   "slug": "gragas",
+   "name": "Gragas",
+   "championId": 79,
+   "tier": 2,
+   "rank": 118
+  },
+  {
+   "slug": "graves",
+   "name": "Graves",
+   "championId": 104,
+   "tier": 2,
+   "rank": 32
+  },
+  {
+   "slug": "gwen",
+   "name": "Gwen",
+   "championId": 887,
+   "tier": 2,
+   "rank": 30
+  },
+  {
+   "slug": "hecarim",
+   "name": "Hecarim",
+   "championId": 120,
+   "tier": 2,
+   "rank": 87
+  },
+  {
+   "slug": "heimerdinger",
+   "name": "Heimerdinger",
+   "championId": 74,
+   "tier": 2,
+   "rank": 61
+  },
+  {
+   "slug": "hwei",
+   "name": "Hwei",
+   "championId": 910,
+   "tier": 2,
+   "rank": 28
+  },
+  {
+   "slug": "illaoi",
+   "name": "Illaoi",
+   "championId": 420,
+   "tier": 2,
+   "rank": 106
+  },
+  {
+   "slug": "irelia",
+   "name": "Irelia",
+   "championId": 39,
+   "tier": 2,
+   "rank": 69
+  },
+  {
+   "slug": "ivern",
+   "name": "Ivern",
+   "championId": 427,
+   "tier": 2,
+   "rank": 72
+  },
+  {
+   "slug": "janna",
+   "name": "Janna",
+   "championId": 40,
+   "tier": 2,
+   "rank": 40
+  },
+  {
+   "slug": "jarvaniv",
+   "name": "Jarvan IV",
+   "championId": 59,
+   "tier": 3,
+   "rank": 163
+  },
+  {
+   "slug": "jax",
+   "name": "Jax",
+   "championId": 24,
+   "tier": 2,
+   "rank": 21
+  },
+  {
+   "slug": "jayce",
+   "name": "Jayce",
+   "championId": 126,
+   "tier": 3,
+   "rank": 159
+  },
+  {
+   "slug": "jhin",
+   "name": "Jhin",
+   "championId": 202,
+   "tier": 3,
+   "rank": 161
+  },
+  {
+   "slug": "jinx",
+   "name": "Jinx",
+   "championId": 222,
+   "tier": 2,
+   "rank": 45
+  },
+  {
+   "slug": "ksante",
+   "name": "K'Sante",
+   "championId": 897,
+   "tier": 2,
+   "rank": 137
+  },
+  {
+   "slug": "kaisa",
+   "name": "Kai'Sa",
+   "championId": 145,
+   "tier": 4,
+   "rank": 172
+  },
+  {
+   "slug": "kalista",
+   "name": "Kalista",
+   "championId": 429,
+   "tier": 2,
+   "rank": 67
+  },
+  {
+   "slug": "karma",
+   "name": "Karma",
+   "championId": 43,
+   "tier": 2,
+   "rank": 138
+  },
+  {
+   "slug": "karthus",
+   "name": "Karthus",
+   "championId": 30,
+   "tier": 3,
+   "rank": 160
+  },
+  {
+   "slug": "kassadin",
+   "name": "Kassadin",
+   "championId": 38,
+   "tier": 2,
+   "rank": 33
+  },
+  {
+   "slug": "katarina",
+   "name": "Katarina",
+   "championId": 55,
+   "tier": 2,
+   "rank": 116
+  },
+  {
+   "slug": "kayle",
+   "name": "Kayle",
+   "championId": 10,
+   "tier": 1,
+   "rank": 11
+  },
+  {
+   "slug": "kayn",
+   "name": "Kayn",
+   "championId": 141,
+   "tier": 2,
+   "rank": 86
+  },
+  {
+   "slug": "kennen",
+   "name": "Kennen",
+   "championId": 85,
+   "tier": 2,
+   "rank": 142
+  },
+  {
+   "slug": "khazix",
+   "name": "Kha'Zix",
+   "championId": 121,
+   "tier": 2,
+   "rank": 117
+  },
+  {
+   "slug": "kindred",
+   "name": "Kindred",
+   "championId": 203,
+   "tier": 2,
+   "rank": 121
+  },
+  {
+   "slug": "kled",
+   "name": "Kled",
+   "championId": 240,
+   "tier": 2,
+   "rank": 78
+  },
+  {
+   "slug": "kogmaw",
+   "name": "Kog'Maw",
+   "championId": 96,
+   "tier": 2,
+   "rank": 111
+  },
+  {
+   "slug": "leblanc",
+   "name": "LeBlanc",
+   "championId": 7,
+   "tier": 3,
+   "rank": 154
+  },
+  {
+   "slug": "leesin",
+   "name": "Lee Sin",
+   "championId": 64,
+   "tier": 3,
+   "rank": 164
+  },
+  {
+   "slug": "leona",
+   "name": "Leona",
+   "championId": 89,
+   "tier": 2,
+   "rank": 23
+  },
+  {
+   "slug": "lillia",
+   "name": "Lillia",
+   "championId": 876,
+   "tier": 1,
+   "rank": 12
+  },
+  {
+   "slug": "lissandra",
+   "name": "Lissandra",
+   "championId": 127,
+   "tier": 2,
+   "rank": 100
+  },
+  {
+   "slug": "locke",
+   "name": "Locke",
+   "championId": 805,
+   "tier": 2,
+   "rank": 143
+  },
+  {
+   "slug": "lucian",
+   "name": "Lucian",
+   "championId": 236,
+   "tier": 3,
+   "rank": 148
+  },
+  {
+   "slug": "lulu",
+   "name": "Lulu",
+   "championId": 117,
+   "tier": 2,
+   "rank": 139
+  },
+  {
+   "slug": "lux",
+   "name": "Lux",
+   "championId": 99,
+   "tier": 4,
+   "rank": 169
+  },
+  {
+   "slug": "malphite",
+   "name": "Malphite",
+   "championId": 54,
+   "tier": 3,
+   "rank": 156
+  },
+  {
+   "slug": "malzahar",
+   "name": "Malzahar",
+   "championId": 90,
+   "tier": 2,
+   "rank": 49
+  },
+  {
+   "slug": "maokai",
+   "name": "Maokai",
+   "championId": 57,
+   "tier": 2,
+   "rank": 35
+  },
+  {
+   "slug": "masteryi",
+   "name": "Master Yi",
+   "championId": 11,
+   "tier": 1,
+   "rank": 3
+  },
+  {
+   "slug": "mel",
+   "name": "Mel",
+   "championId": 800,
+   "tier": 3,
+   "rank": 157
+  },
+  {
+   "slug": "milio",
+   "name": "Milio",
+   "championId": 902,
+   "tier": 2,
+   "rank": 68
+  },
+  {
+   "slug": "missfortune",
+   "name": "Miss Fortune",
+   "championId": 21,
+   "tier": 2,
+   "rank": 110
+  },
+  {
+   "slug": "mordekaiser",
+   "name": "Mordekaiser",
+   "championId": 82,
+   "tier": 2,
+   "rank": 132
+  },
+  {
+   "slug": "morgana",
+   "name": "Morgana",
+   "championId": 25,
+   "tier": 1,
+   "rank": 4
+  },
+  {
+   "slug": "naafiri",
+   "name": "Naafiri",
+   "championId": 950,
+   "tier": 2,
+   "rank": 127
+  },
+  {
+   "slug": "nami",
+   "name": "Nami",
+   "championId": 267,
+   "tier": 2,
+   "rank": 103
+  },
+  {
+   "slug": "nasus",
+   "name": "Nasus",
+   "championId": 75,
+   "tier": 2,
+   "rank": 37
+  },
+  {
+   "slug": "nautilus",
+   "name": "Nautilus",
+   "championId": 111,
+   "tier": 2,
+   "rank": 60
+  },
+  {
+   "slug": "neeko",
+   "name": "Neeko",
+   "championId": 518,
+   "tier": 3,
+   "rank": 152
+  },
+  {
+   "slug": "nidalee",
+   "name": "Nidalee",
+   "championId": 76,
+   "tier": 3,
+   "rank": 167
+  },
+  {
+   "slug": "nilah",
+   "name": "Nilah",
+   "championId": 895,
+   "tier": 2,
+   "rank": 73
+  },
+  {
+   "slug": "nocturne",
+   "name": "Nocturne",
+   "championId": 56,
+   "tier": 2,
+   "rank": 104
+  },
+  {
+   "slug": "nunu",
+   "name": "Nunu & Willump",
+   "championId": 20,
+   "tier": 2,
+   "rank": 144
+  },
+  {
+   "slug": "olaf",
+   "name": "Olaf",
+   "championId": 2,
+   "tier": 2,
+   "rank": 80
+  },
+  {
+   "slug": "orianna",
+   "name": "Orianna",
+   "championId": 61,
+   "tier": 2,
+   "rank": 97
+  },
+  {
+   "slug": "ornn",
+   "name": "Ornn",
+   "championId": 516,
+   "tier": 2,
+   "rank": 136
+  },
+  {
+   "slug": "pantheon",
+   "name": "Pantheon",
+   "championId": 80,
+   "tier": 2,
+   "rank": 43
+  },
+  {
+   "slug": "poppy",
+   "name": "Poppy",
+   "championId": 78,
+   "tier": 2,
+   "rank": 44
+  },
+  {
+   "slug": "pyke",
+   "name": "Pyke",
+   "championId": 555,
+   "tier": 2,
+   "rank": 147
+  },
+  {
+   "slug": "qiyana",
+   "name": "Qiyana",
+   "championId": 246,
+   "tier": 2,
+   "rank": 130
+  },
+  {
+   "slug": "quinn",
+   "name": "Quinn",
+   "championId": 133,
+   "tier": 2,
+   "rank": 122
+  },
+  {
+   "slug": "rakan",
+   "name": "Rakan",
+   "championId": 497,
+   "tier": 2,
+   "rank": 107
+  },
+  {
+   "slug": "rammus",
+   "name": "Rammus",
+   "championId": 33,
+   "tier": 2,
+   "rank": 105
+  },
+  {
+   "slug": "reksai",
+   "name": "Rek'Sai",
+   "championId": 421,
+   "tier": 2,
+   "rank": 79
+  },
+  {
+   "slug": "rell",
+   "name": "Rell",
+   "championId": 526,
+   "tier": 2,
+   "rank": 34
+  },
+  {
+   "slug": "renata",
+   "name": "Renata Glasc",
+   "championId": 888,
+   "tier": 2,
+   "rank": 94
+  },
+  {
+   "slug": "renekton",
+   "name": "Renekton",
+   "championId": 58,
+   "tier": 2,
+   "rank": 109
+  },
+  {
+   "slug": "rengar",
+   "name": "Rengar",
+   "championId": 107,
+   "tier": 2,
+   "rank": 59
+  },
+  {
+   "slug": "riven",
+   "name": "Riven",
+   "championId": 92,
+   "tier": 2,
+   "rank": 96
+  },
+  {
+   "slug": "rumble",
+   "name": "Rumble",
+   "championId": 68,
+   "tier": 2,
+   "rank": 65
+  },
+  {
+   "slug": "ryze",
+   "name": "Ryze",
+   "championId": 13,
+   "tier": 1,
+   "rank": 10
+  },
+  {
+   "slug": "samira",
+   "name": "Samira",
+   "championId": 360,
+   "tier": 2,
+   "rank": 131
+  },
+  {
+   "slug": "sejuani",
+   "name": "Sejuani",
+   "championId": 113,
+   "tier": 2,
+   "rank": 99
+  },
+  {
+   "slug": "senna",
+   "name": "Senna",
+   "championId": 235,
+   "tier": 3,
+   "rank": 165
+  },
+  {
+   "slug": "seraphine",
+   "name": "Seraphine",
+   "championId": 147,
+   "tier": 1,
+   "rank": 16
+  },
+  {
+   "slug": "sett",
+   "name": "Sett",
+   "championId": 875,
+   "tier": 1,
+   "rank": 18
+  },
+  {
+   "slug": "shaco",
+   "name": "Shaco",
+   "championId": 35,
+   "tier": 3,
+   "rank": 166
+  },
+  {
+   "slug": "shen",
+   "name": "Shen",
+   "championId": 98,
+   "tier": 2,
+   "rank": 50
+  },
+  {
+   "slug": "shyvana",
+   "name": "Shyvana",
+   "championId": 102,
+   "tier": 2,
+   "rank": 52
+  },
+  {
+   "slug": "singed",
+   "name": "Singed",
+   "championId": 27,
+   "tier": 2,
+   "rank": 20
+  },
+  {
+   "slug": "sion",
+   "name": "Sion",
+   "championId": 14,
+   "tier": 2,
+   "rank": 57
+  },
+  {
+   "slug": "sivir",
+   "name": "Sivir",
+   "championId": 15,
+   "tier": 2,
+   "rank": 141
+  },
+  {
+   "slug": "skarner",
+   "name": "Skarner",
+   "championId": 72,
+   "tier": 2,
+   "rank": 92
+  },
+  {
+   "slug": "smolder",
+   "name": "Smolder",
+   "championId": 901,
+   "tier": 3,
+   "rank": 153
+  },
+  {
+   "slug": "sona",
+   "name": "Sona",
+   "championId": 37,
+   "tier": 1,
+   "rank": 15
+  },
+  {
+   "slug": "soraka",
+   "name": "Soraka",
+   "championId": 16,
+   "tier": 2,
+   "rank": 133
+  },
+  {
+   "slug": "swain",
+   "name": "Swain",
+   "championId": 50,
+   "tier": 2,
+   "rank": 47
+  },
+  {
+   "slug": "sylas",
+   "name": "Sylas",
+   "championId": 517,
+   "tier": 2,
+   "rank": 27
+  },
+  {
+   "slug": "syndra",
+   "name": "Syndra",
+   "championId": 134,
+   "tier": 2,
+   "rank": 58
+  },
+  {
+   "slug": "tahmkench",
+   "name": "Tahm Kench",
+   "championId": 223,
+   "tier": 1,
+   "rank": 6
+  },
+  {
+   "slug": "taliyah",
+   "name": "Taliyah",
+   "championId": 163,
+   "tier": 2,
+   "rank": 82
+  },
+  {
+   "slug": "talon",
+   "name": "Talon",
+   "championId": 91,
+   "tier": 2,
+   "rank": 71
+  },
+  {
+   "slug": "taric",
+   "name": "Taric",
+   "championId": 44,
+   "tier": 2,
+   "rank": 64
+  },
+  {
+   "slug": "teemo",
+   "name": "Teemo",
+   "championId": 17,
+   "tier": 1,
+   "rank": 1
+  },
+  {
+   "slug": "thresh",
+   "name": "Thresh",
+   "championId": 412,
+   "tier": 2,
+   "rank": 55
+  },
+  {
+   "slug": "tristana",
+   "name": "Tristana",
+   "championId": 18,
+   "tier": 3,
+   "rank": 158
+  },
+  {
+   "slug": "trundle",
+   "name": "Trundle",
+   "championId": 48,
+   "tier": 1,
+   "rank": 17
+  },
+  {
+   "slug": "tryndamere",
+   "name": "Tryndamere",
+   "championId": 23,
+   "tier": 2,
+   "rank": 54
+  },
+  {
+   "slug": "twistedfate",
+   "name": "Twisted Fate",
+   "championId": 4,
+   "tier": 1,
+   "rank": 2
+  },
+  {
+   "slug": "twitch",
+   "name": "Twitch",
+   "championId": 29,
+   "tier": 3,
+   "rank": 149
+  },
+  {
+   "slug": "udyr",
+   "name": "Udyr",
+   "championId": 77,
+   "tier": 2,
+   "rank": 98
+  },
+  {
+   "slug": "urgot",
+   "name": "Urgot",
+   "championId": 6,
+   "tier": 2,
+   "rank": 125
+  },
+  {
+   "slug": "varus",
+   "name": "Varus",
+   "championId": 110,
+   "tier": 2,
+   "rank": 135
+  },
+  {
+   "slug": "vayne",
+   "name": "Vayne",
+   "championId": 67,
+   "tier": 2,
+   "rank": 25
+  },
+  {
+   "slug": "veigar",
+   "name": "Veigar",
+   "championId": 45,
+   "tier": 2,
+   "rank": 140
+  },
+  {
+   "slug": "velkoz",
+   "name": "Vel'Koz",
+   "championId": 161,
+   "tier": 2,
+   "rank": 42
+  },
+  {
+   "slug": "vex",
+   "name": "Vex",
+   "championId": 711,
+   "tier": 2,
+   "rank": 93
+  },
+  {
+   "slug": "vi",
+   "name": "Vi",
+   "championId": 254,
+   "tier": 2,
+   "rank": 119
+  },
+  {
+   "slug": "viego",
+   "name": "Viego",
+   "championId": 234,
+   "tier": 2,
+   "rank": 31
+  },
+  {
+   "slug": "viktor",
+   "name": "Viktor",
+   "championId": 112,
+   "tier": 2,
+   "rank": 24
+  },
+  {
+   "slug": "vladimir",
+   "name": "Vladimir",
+   "championId": 8,
+   "tier": 2,
+   "rank": 113
+  },
+  {
+   "slug": "volibear",
+   "name": "Volibear",
+   "championId": 106,
+   "tier": 2,
+   "rank": 48
+  },
+  {
+   "slug": "warwick",
+   "name": "Warwick",
+   "championId": 19,
+   "tier": 2,
+   "rank": 76
+  },
+  {
+   "slug": "monkeyking",
+   "name": "Wukong",
+   "championId": 62,
+   "tier": 2,
+   "rank": 51
+  },
+  {
+   "slug": "xayah",
+   "name": "Xayah",
+   "championId": 498,
+   "tier": 2,
+   "rank": 123
+  },
+  {
+   "slug": "xerath",
+   "name": "Xerath",
+   "championId": 101,
+   "tier": 2,
+   "rank": 120
+  },
+  {
+   "slug": "xinzhao",
+   "name": "Xin Zhao",
+   "championId": 5,
+   "tier": 1,
+   "rank": 13
+  },
+  {
+   "slug": "yasuo",
+   "name": "Yasuo",
+   "championId": 157,
+   "tier": 1,
+   "rank": 9
+  },
+  {
+   "slug": "yone",
+   "name": "Yone",
+   "championId": 777,
+   "tier": 1,
+   "rank": 7
+  },
+  {
+   "slug": "yorick",
+   "name": "Yorick",
+   "championId": 83,
+   "tier": 2,
+   "rank": 95
+  },
+  {
+   "slug": "yunara",
+   "name": "Yunara",
+   "championId": 804,
+   "tier": 2,
+   "rank": 22
+  },
+  {
+   "slug": "yuumi",
+   "name": "Yuumi",
+   "championId": 350,
+   "tier": 2,
+   "rank": 62
+  },
+  {
+   "slug": "zaahen",
+   "name": "Zaahen",
+   "championId": 904,
+   "tier": 2,
+   "rank": 36
+  },
+  {
+   "slug": "zac",
+   "name": "Zac",
+   "championId": 154,
+   "tier": 2,
+   "rank": 114
+  },
+  {
+   "slug": "zed",
+   "name": "Zed",
+   "championId": 238,
+   "tier": 2,
+   "rank": 83
+  },
+  {
+   "slug": "zeri",
+   "name": "Zeri",
+   "championId": 221,
+   "tier": 2,
+   "rank": 74
+  },
+  {
+   "slug": "ziggs",
+   "name": "Ziggs",
+   "championId": 115,
+   "tier": 3,
+   "rank": 150
+  },
+  {
+   "slug": "zilean",
+   "name": "Zilean",
+   "championId": 26,
+   "tier": 2,
+   "rank": 77
+  },
+  {
+   "slug": "zoe",
+   "name": "Zoe",
+   "championId": 142,
+   "tier": 2,
+   "rank": 128
+  },
+  {
+   "slug": "zyra",
+   "name": "Zyra",
+   "championId": 143,
+   "tier": 2,
+   "rank": 41
+  }
+ ],
+ "augments": [
+  {
+   "id": 1001,
+   "key": "ARAM_ImTheJuggernaut",
+   "name": "Titan's Resolve",
+   "rarity": 8,
+   "desc": "Gain stacks when taking or dealing damage. For every 7 stacks, gain <scaleAF>Adaptive Force</scaleAF>, <scaleArmor>Armor</scaleArmor>, <scaleMR>Magic Resist</scaleMR>, <attention>Size</attention>, and <status>Tenacity</status>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/IAmTheJuggernaut_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/IAmTheJuggernaut_small.png",
+   "nameZh": "泰坦的坚决",
+   "descZh": "在承受或造成伤害时获得层数。每7层，获得<scaleAF>适应之力</scaleAF>、<scaleArmor>护甲</scaleArmor>、<scaleMR>魔法抗性</scaleMR>、<attention>体型</attention>和<status>韧性</status>。"
+  },
+  {
+   "id": 1002,
+   "key": "ARAM_ApexInventor",
+   "name": "Apex Inventor",
+   "rarity": 4,
+   "desc": "Gain <strong>100 Item Haste</strong> (equivalent to 50% Item CDR).<br /><br /><strong>Item Haste reduces the cooldown of all Item Abilities. </strong>",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ApexInventor_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ApexInventor_small.png",
+   "nameZh": "尖端发明家",
+   "descZh": "获得<strong>100装备急速</strong>(相当于50%装备冷却缩减)。<br /><br /><strong>装备急速可缩减所有装备技能的冷却时间。</strong>"
+  },
+  {
+   "id": 1004,
+   "key": "ARAM_BacktoBasics",
+   "name": "Back To Basics",
+   "rarity": 8,
+   "desc": "Gain increased Ability Damage, <healing>Healing</healing>, <shield>Shielding</shield>, and <scaleAbilityHaste>Ability Haste</scaleAbilityHaste>, but you <keywordMajor>cannot use your Ultimate Ability</keywordMajor>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BackToBasics_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BackToBasics_small.png",
+   "nameZh": "回归基本功",
+   "descZh": "获得提升过的技能伤害、<healing>治疗效果</healing>、<shield>护盾</shield>和<scaleAbilityHaste>技能急速</scaleAbilityHaste>，但你<keywordMajor>不能使用你的终极技能</keywordMajor>。"
+  },
+  {
+   "id": 1005,
+   "key": "ARAM_WeeWooWeeWoo",
+   "name": "Wee Woo Wee Woo",
+   "rarity": 4,
+   "desc": "When moving towards allies with <scaleHealing>low Health</scaleHealing>, gain <speed>Movement Speed</speed>. Your <healing>Healing</healing> and <shield>Shielding</shield> are greater based on how low your target's Health is.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/WeeWooWeeWoo_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/WeeWooWeeWoo_small.png",
+   "nameZh": "喂呜喂呜",
+   "descZh": "在朝着<scaleHealing>低生命值</scaleHealing>的友军移动时，获得<speed>移动速度</speed>。你的<healing>治疗</healing>和<shield>护盾</shield>获得提升，基于你目标的低生命值程度。"
+  },
+  {
+   "id": 1006,
+   "key": "ARAM_BladeWaltz",
+   "name": "Blade Waltz",
+   "rarity": 8,
+   "desc": "Gain <spellName>Blade Waltz</spellName> as a Summoner Spell.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BladeWaltz_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BladeWaltz_small.png",
+   "nameZh": "利刃华尔兹",
+   "descZh": "获得<spellName>利刃华尔兹</spellName>作为一个召唤师技能。"
+  },
+  {
+   "id": 1007,
+   "key": "ARAM_BluntForce",
+   "name": "Blunt Force",
+   "rarity": 1,
+   "desc": "Gain <scaleAD>20% Attack Damage</scaleAD>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BluntForce_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BluntForce_small.png",
+   "nameZh": "大力",
+   "descZh": "获得<scaleAD>20%攻击力</scaleAD>。"
+  },
+  {
+   "id": 1011,
+   "key": "ARAM_CantTouchThis",
+   "name": "Can't Touch This",
+   "rarity": 8,
+   "desc": "Casting your <attention>Ultimate</attention> makes you <keywordMajor>Invulnerable</keywordMajor> for a short duration.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CantTouchThis_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CantTouchThis_small.png",
+   "nameZh": "你摸不到",
+   "descZh": "施放你的<attention>终极技能</attention>会使你进入短时间的<keywordMajor>免疫伤害</keywordMajor>状态。"
+  },
+  {
+   "id": 1013,
+   "key": "ARAM_CelestialBody",
+   "name": "Celestial Body",
+   "rarity": 4,
+   "desc": "Gain <scaleHealth>1500 Health</scaleHealth>, but you deal 10% less damage.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CelestialBody_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CelestialBody_small.png",
+   "nameZh": "星界躯体",
+   "descZh": "获得<scaleHealth>1500生命值</scaleHealth>，但你造成的伤害降低10%。"
+  },
+  {
+   "id": 1015,
+   "key": "ARAM_CircleofDeath",
+   "name": "Circle of Death",
+   "rarity": 8,
+   "desc": "<healing>Healing</healing> and <healing>Health Regen</healing> also deals <magicDamage>magic damage</magicDamage> to the nearest enemy champion.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CircleOfDeath_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CircleOfDeath_small.png",
+   "nameZh": "死亡之环",
+   "descZh": "<healing>治疗效果</healing>和<healing>生命回复效果</healing>还会对相距最近的那个敌方英雄造成<magicDamage>魔法伤害</magicDamage>。"
+  },
+  {
+   "id": 1018,
+   "key": "ARAM_CourageoftheColossus",
+   "name": "Courage of the Colossus",
+   "rarity": 8,
+   "desc": "Gain <shield>? Shield</shield> after <status>Immobilizing</status> or <status>Grounding</status> an enemy champion.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CourageOfTheColossus_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CourageOfTheColossus_small.png",
+   "nameZh": "巨像的勇气",
+   "descZh": "<status>定身</status>或<status>缚地</status>一个敌方英雄后获得<shield>?护盾值</shield>。"
+  },
+  {
+   "id": 1019,
+   "key": "ARAM_Dashing",
+   "name": "Dashing",
+   "rarity": 8,
+   "desc": "Your dash, leap, blink, or teleport Abilities gain <scaleAbilityHaste>175 Ability Haste</scaleAbilityHaste>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Dashing_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Dashing_small.png",
+   "nameZh": "全凭身法",
+   "descZh": "你的冲刺、跳跃、闪烁或传送类技能获得<scaleAbilityHaste>175技能急速</scaleAbilityHaste>。"
+  },
+  {
+   "id": 1020,
+   "key": "ARAM_DawnbringersResolve",
+   "name": "Dawnbringer's Resolve",
+   "rarity": 4,
+   "desc": "When dropping below <scaleHealth>50% Health</scaleHealth>, <healing>heal for 35% max Health over 3 seconds</healing>.<br />Resets on death or every 45 seconds.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DawnbringersResolve_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DawnbringersResolve_small.png",
+   "nameZh": "黎明使者的坚决",
+   "descZh": "在跌到<scaleHealth>50%生命值</scaleHealth>以下时，<healing>在3秒里持续回复共35%最大生命值</healing>。<br />阵亡时或每45秒重置。"
+  },
+  {
+   "id": 1022,
+   "key": "ARAM_Deft",
+   "name": "Deft",
+   "rarity": 1,
+   "desc": "Gain 60% <speed>Attack Speed</speed>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Deft_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Deft_small.png",
+   "nameZh": "灵巧",
+   "descZh": "获得 60%<speed>攻击速度</speed>。"
+  },
+  {
+   "id": 1025,
+   "key": "ARAM_DiveBomber",
+   "name": "Dive Bomber",
+   "rarity": 1,
+   "desc": "Explodes when you die, dealing <trueDamage>massive true damage</trueDamage>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DiveBomber_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DiveBomber_small.png",
+   "nameZh": "俯冲轰炸",
+   "descZh": "在你阵亡时爆炸，造成<trueDamage>巨量真实伤害</trueDamage>。"
+  },
+  {
+   "id": 1026,
+   "key": "ARAM_DontBlink",
+   "name": "Don't Blink",
+   "rarity": 1,
+   "desc": "Gain 1% bonus damage per <speed>10 Move Speed</speed> you have more than the target.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DontBlink_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DontBlink_small.png",
+   "nameZh": "唯快不破",
+   "descZh": "你每比目标多<speed>10移动速度</speed>，则对其多造成1%额外伤害。"
+  },
+  {
+   "id": 1027,
+   "key": "ARAM_Earthwake",
+   "name": "Earthwake",
+   "rarity": 8,
+   "desc": "Your dash, blink, or teleport Abilities leave behind a trail that detonates after 0.75 second.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Earthwake_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Earthwake_small.png",
+   "nameZh": "大地苏醒",
+   "descZh": "你的冲刺、闪烁或传送类技能会留下一条在0.75秒后爆炸的轨迹。"
+  },
+  {
+   "id": 1028,
+   "key": "ARAM_Erosion",
+   "name": "Erosion",
+   "rarity": 1,
+   "desc": "Damaging enemies adds a stacking <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR> shred for 4s.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Erosion_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Erosion_small.png",
+   "nameZh": "侵蚀",
+   "descZh": "对敌人造成伤害时会施加一层持续4秒且可叠加的<scaleArmor>护甲</scaleArmor>和<scaleMR>魔法抗性</scaleMR>击碎效果。"
+  },
+  {
+   "id": 1029,
+   "key": "ARAM_EtherealWeapon",
+   "name": "Ethereal Weapon",
+   "rarity": 4,
+   "desc": "Your Abilities apply <OnHit>On-Hit</OnHit> effects. 1 second Cooldown per target.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/EtherealWeapon_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/EtherealWeapon_small.png",
+   "nameZh": "虚幻武器",
+   "descZh": "你的技能可施加<OnHit>攻击特效</OnHit>。每个目标有1秒冷却时间。"
+  },
+  {
+   "id": 1030,
+   "key": "ARAM_Eureka",
+   "name": "Eureka",
+   "rarity": 8,
+   "desc": "Gain <scaleAbilityHaste>Ability Haste</scaleAbilityHaste> equal to <scaleAP>30% Ability Power</scaleAP>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Eureka_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Eureka_small.png",
+   "nameZh": "尤里卡",
+   "descZh": "获得相当于<scaleAP>30%法术强度</scaleAP>的<scaleAbilityHaste>技能急速</scaleAbilityHaste>。"
+  },
+  {
+   "id": 1034,
+   "key": "VeilOfWarding",
+   "name": "Veil of Warding",
+   "rarity": 1,
+   "desc": "Gain a <attention>Spell Shield</attention> every 30 seconds that blocks the next enemy Ability.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Poltergeist_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Poltergeist_small.png",
+   "nameZh": "防护面纱",
+   "descZh": "每30秒获得一层<attention>法术护盾</attention>来格挡下一个敌方技能。"
+  },
+  {
+   "id": 1036,
+   "key": "ARAM_Firebrand",
+   "name": "Firebrand",
+   "rarity": 4,
+   "desc": "Your Attacks apply an infinitely stacking <keywordMajor>Burn</keywordMajor> <OnHit>On-Hit</OnHit>, dealing damage over time.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Firebrand_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Firebrand_small.png",
+   "nameZh": "火上浇油",
+   "descZh": "你的攻击会施加一个可无限叠加的<keywordMajor>灼烧</keywordMajor><OnHit>攻击特效</OnHit>，持续造成伤害。"
+  },
+  {
+   "id": 1037,
+   "key": "ARAM_FirstAidKit",
+   "name": "First-Aid Kit",
+   "rarity": 1,
+   "desc": "Gain <healing>20% Heal and Shield Power</healing>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/FirstAidKit_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/FirstAidKit_small.png",
+   "nameZh": "急救用具",
+   "descZh": "获得<healing>20%治疗和护盾强度</healing>。"
+  },
+  {
+   "id": 1038,
+   "key": "ARAM_FromBeginningToEnd",
+   "name": "From Beginning To End",
+   "rarity": 4,
+   "desc": "Gain the <spellName>First Strike</spellName> and <spellName>Dark Harvest</spellName> Keystone Runes.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/FromBeginningToEnd_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/FromBeginningToEnd_small.png",
+   "nameZh": "有始有终",
+   "descZh": "获得<spellName>先攻</spellName>和<spellName>黑暗收割</spellName>基石符文。"
+  },
+  {
+   "id": 1041,
+   "key": "ARAM_Goliath",
+   "name": "Goliath",
+   "rarity": 8,
+   "desc": "Become large, gaining <scaleHealth>35% Health</scaleHealth> and <scaleAF>15% Adaptive Force</scaleAF>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Goliath_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Goliath_small.png",
+   "nameZh": "歌利亚巨人",
+   "descZh": "体型变大，获得<scaleHealth>35%生命值</scaleHealth>和<scaleAF>15%适应之力</scaleAF>。"
+  },
+  {
+   "id": 1044,
+   "key": "ARAM_IceCold",
+   "name": "Ice Cold",
+   "rarity": 1,
+   "desc": "Your <status>Slowing</status> effects reduce <speed>Movement Speed</speed> by an extra 75.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/IceCold_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/IceCold_small.png",
+   "nameZh": "冰寒",
+   "descZh": "你的<status>减速</status>效果可使<speed>移动速度</speed>降低额外的75。"
+  },
+  {
+   "id": 1045,
+   "key": "ARAM_InfernalConduit",
+   "name": "Infernal Conduit",
+   "rarity": 8,
+   "desc": "Your Abilities apply stacking <keywordMajor>Burn</keywordMajor> that deals damage over time.<br /><br />Your <keywordMajor>Burn</keywordMajor> effects reduce your basic Ability Cooldowns.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/InfernalConduit_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/InfernalConduit_small.png",
+   "nameZh": "炼狱导管",
+   "descZh": "你的技能会施加一层可叠加的<keywordMajor>灼烧</keywordMajor>，持续造成魔法伤害。<br /><br />你的<keywordMajor>灼烧</keywordMajor>效果会降低你各基础技能的冷却时间。"
+  },
+  {
+   "id": 1046,
+   "key": "ARAM_InfernalSoul",
+   "name": "Infernal Soul",
+   "rarity": 1,
+   "desc": "You gain the Infernal Dragon Soul, dealing bonus damage when you hit enemies with Abilities or Attacks.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/InfernalSoul_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/InfernalSoul_small.png",
+   "nameZh": "炼狱龙魂",
+   "descZh": "你获得炼狱龙魂，使用技能或攻击命中敌人时造成额外伤害。"
+  },
+  {
+   "id": 1047,
+   "key": "ARAM_ItsCritical",
+   "name": "It's Critical",
+   "rarity": 4,
+   "desc": "Gain <crit> 50% Crit chance</crit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ItsCritical_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ItsCritical_small.png",
+   "nameZh": "关键暴击",
+   "descZh": "获得<crit>50%暴击几率</crit>。"
+  },
+  {
+   "id": 1048,
+   "key": "ARAM_JeweledGauntlet",
+   "name": "Jeweled Gauntlet",
+   "rarity": 8,
+   "desc": "Your Abilities can <crit>Critically Strike</crit>.<br /><br />Gain <crit> ? Crit Chance</crit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/JeweledGauntlet_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/JeweledGauntlet_small.png",
+   "nameZh": "珠光护手",
+   "descZh": "你的技能可以造成<crit>暴击</crit>。<br /><br />获得<crit>?%暴击几率</crit>。"
+  },
+  {
+   "id": 1051,
+   "key": "ARAM_LightemUp",
+   "name": "Light 'Em Up!",
+   "rarity": 1,
+   "desc": "Every 4th Attack shoots 4 missiles dealing <magicDamage>magic damage</magicDamage> <OnHit>On-Hit</OnHit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/LightEmUp_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/LightEmUp_small.png",
+   "nameZh": "点亮他们！",
+   "descZh": "每第4次攻击发射4个飞弹以造成<magicDamage>魔法伤害</magicDamage><OnHit>攻击特效</OnHit>。"
+  },
+  {
+   "id": 1053,
+   "key": "ARAM_MadScientist",
+   "name": "Mad Scientist",
+   "rarity": 8,
+   "desc": "On each Revive, you grow large (gaining <font color = '#8347ff'>Adaptive Force</font> and <scaleHealth>Health</scaleHealth>) or tiny (gaining Ability Haste and <speed>Movement Speed</speed>).",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MadScientist_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MadScientist_small.png",
+   "nameZh": "科学狂人",
+   "descZh": "每次重生时，你的体型要么变大(获得<font color = '#8347ff'>适应之力</font>和<scaleHealth>生命值</scaleHealth>)，要么变小(获得技能急速和<speed>移动速度</speed>)。"
+  },
+  {
+   "id": 1054,
+   "key": "ARAM_MasterofDuality",
+   "name": "Master of Duality",
+   "rarity": 8,
+   "desc": "Your Attacks grant you stacking <scaleAP>Ability Power</scaleAP> and your Abilities that damage enemies grant you <scaleAD>Attack Damage</scaleAD>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MasterOfDuality_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MasterOfDuality_small.png",
+   "nameZh": "物法皆修",
+   "descZh": "你的每次攻击为你提供可叠加的<scaleAP>法术强度</scaleAP>，并且你的每次技能在伤害敌人时为你提供可叠加的<scaleAD>攻击力</scaleAD>。"
+  },
+  {
+   "id": 1056,
+   "key": "ARAM_MindtoMatter",
+   "name": "Mind to Matter",
+   "rarity": 1,
+   "desc": "Increase <scaleHealth>max Health</scaleHealth> by half of your <scaleMana>Mana</scaleMana>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MindToMatter_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MindToMatter_small.png",
+   "nameZh": "由心及物",
+   "descZh": "使你的<scaleHealth>最大生命值</scaleHealth>提升，数额相当于你一半的<scaleMana>法力值</scaleMana>。"
+  },
+  {
+   "id": 1057,
+   "key": "ARAM_MountainSoul",
+   "name": "Mountain Soul",
+   "rarity": 1,
+   "desc": "You gain the Mountain Soul, gaining a <shield>Shield</shield> after being out of combat for a short time.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MountainSoul_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MountainSoul_small.png",
+   "nameZh": "山脉龙魂",
+   "descZh": "你获得山脉龙魂，在脱离战斗之后获得一个持续一小段时间的<shield>护盾</shield>。"
+  },
+  {
+   "id": 1058,
+   "key": "ARAM_MysticPunch",
+   "name": "Mystic Punch",
+   "rarity": 8,
+   "desc": "<OnHit>On-Hit</OnHit> reduce the cooldown of your abilities by 1.25 seconds .",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MysticPunch_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MysticPunch_small.png",
+   "nameZh": "秘术冲拳",
+   "descZh": "<OnHit>攻击特效</OnHit>使你的各个技能的冷却时间缩减1.25秒。"
+  },
+  {
+   "id": 1060,
+   "key": "ARAM_OceanSoul",
+   "name": "Ocean Soul",
+   "rarity": 1,
+   "desc": "Gain the Ocean Soul, granting high <healing>Health</healing> and <scaleMana>Mana</scaleMana> regen after damaging enemies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/OceanSoul_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/OceanSoul_small.png",
+   "nameZh": "海洋龙魂",
+   "descZh": "获得【海洋龙魂】，在对敌方英雄造成伤害后提供高额的<healing>生命</healing>和<scaleMana>法力</scaleMana>回复。"
+  },
+  {
+   "id": 1061,
+   "key": "ARAM_OkBoomerang",
+   "name": "Ok Boomerang",
+   "rarity": 4,
+   "desc": "<keywordMajor>Autocast</keywordMajor> throw a boomerang at a nearby enemy every ?s.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/OKBoomerang_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/OKBoomerang_small.png",
+   "nameZh": "回力OK镖",
+   "descZh": "每?秒朝着一个附近的敌人<keywordMajor>自动施放</keywordMajor>投掷一个回力镖。"
+  },
+  {
+   "id": 1062,
+   "key": "ARAM_OmniSoul",
+   "name": "Omni Soul",
+   "rarity": 8,
+   "desc": "Gain 3 random <attention>Dragon Souls</attention>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/OmniSoul_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/OmniSoul_small.png",
+   "nameZh": "全能龙魂",
+   "descZh": "获得3个随机<attention>龙魂</attention>。"
+  },
+  {
+   "id": 1063,
+   "key": "ARAM_OutlawsGrit",
+   "name": "Outlaw's Grit",
+   "rarity": 4,
+   "desc": "After using a Dash, Blink, or Teleport Ability you gain <scaleArmor>12 Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR> up to 5 stacks.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/OutlawsGrit_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/OutlawsGrit_small.png",
+   "nameZh": "狂徒豪气",
+   "descZh": "在使用一次冲刺、闪烁或传送之后，你获得<scaleArmor>12护甲</scaleArmor>和<scaleMR>魔法抗性</scaleMR>，这个效果至多可叠加至5层。"
+  },
+  {
+   "id": 1067,
+   "key": "ARAM_RabbleRousing",
+   "name": "Rejuvenation",
+   "rarity": 4,
+   "desc": "Using <font color='#F0C200'>?</font> restores <healing>Health</healing>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/RabbleRousing_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/RabbleRousing_small.png",
+   "nameZh": "活力焕发",
+   "descZh": "使用【<font color='#F0C200'>?</font>】技能时回复<healing>生命值</healing>。"
+  },
+  {
+   "id": 1068,
+   "key": "ARAM_Recursion",
+   "name": "Recursion",
+   "rarity": 4,
+   "desc": "Gain 60 Ability Haste.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Recursion_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Recursion_small.png",
+   "nameZh": "循环往复",
+   "descZh": "获得60技能急速。"
+  },
+  {
+   "id": 1071,
+   "key": "ARAM_ScopierWeapons",
+   "name": "Scopier Weapons",
+   "rarity": 4,
+   "desc": "Gain ? Attack Range.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ScopierWeapons_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ScopierWeapons_small.png",
+   "nameZh": "更万用的瞄准镜",
+   "descZh": "获得?攻击距离。"
+  },
+  {
+   "id": 1072,
+   "key": "ARAM_SearingDawn",
+   "name": "Searing Dawn",
+   "rarity": 4,
+   "desc": "Your Abilities mark enemies, causing them to take additional <magicDamage>magic damage</magicDamage> from your ally's next Attack or Ability.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SearingDawn_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SearingDawn_small.png",
+   "nameZh": "炽烈黎明",
+   "descZh": "你的技能会标记敌人，使其在被你的友军的下一个攻击或技能命中时会受到额外<magicDamage>魔法伤害</magicDamage>。"
+  },
+  {
+   "id": 1073,
+   "key": "ARAM_ShadowRunner",
+   "name": "Shadow Runner",
+   "rarity": 1,
+   "desc": "After using a Dash, Blink, or Teleport Ability or exiting <stealth>Stealth</stealth>, gain <speed>Movement Speed</speed>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ShadowRunner_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ShadowRunner_small.png",
+   "nameZh": "暗影疾奔",
+   "descZh": "在使用一个冲刺、闪烁或传送类技能或离开<stealth>潜行</stealth>状态之后，获得<speed>移动速度</speed>。"
+  },
+  {
+   "id": 1074,
+   "key": "ARAM_ShrinkRay",
+   "name": "Shrink Ray",
+   "rarity": 4,
+   "desc": "Your Attacks reduce the target's damage and size by 15% <OnHit>On-Hit</OnHit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ShrinkRay_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ShrinkRay_small.png",
+   "nameZh": "缩小射线",
+   "descZh": "你的攻击会将目标的伤害与体型削减15%<OnHit>攻击特效</OnHit>。"
+  },
+  {
+   "id": 1076,
+   "key": "ARAM_SonicBoom",
+   "name": "Sonic Boom",
+   "rarity": 1,
+   "desc": "Buffing, <healing>Healing</healing>, or <shield>Shielding</shield> your ally deals damage and <status>Slows</status> enemies surrounding them.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SonicBoom_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SonicBoom_small.png",
+   "nameZh": "天音爆",
+   "descZh": "在为你的友军提供增益效果、<healing>治疗效果</healing>或<shield>护盾效果</shield>时，会对其附近的敌人们造成伤害和<status>减速</status>。"
+  },
+  {
+   "id": 1077,
+   "key": "ARAM_SoulSiphon",
+   "name": "Soul Siphon",
+   "rarity": 4,
+   "desc": "<lifeSteal>Heal for 12% of damage done</lifeSteal> by <crit>Critical Strikes</crit>.<br /><br />Gain <crit> 25% Crit chance</crit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SoulSiphon_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SoulSiphon_small.png",
+   "nameZh": "灵魂虹吸",
+   "descZh": "<crit>暴击</crit><lifeSteal>造成伤害的12%会等额治疗你自身</lifeSteal>。<br /><br />获得<crit> 25%暴击几率</crit>。"
+  },
+  {
+   "id": 1079,
+   "key": "ARAM_SymphonyofWar",
+   "name": "Symphony of War",
+   "rarity": 8,
+   "desc": "Gain the <spellName>Lethal Tempo</spellName> and <spellName>Conqueror</spellName> Keystone Runes.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SymphonyOfWar_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SymphonyOfWar_small.png",
+   "nameZh": "战争交响乐",
+   "descZh": "获得<spellName>致命节奏</spellName>和<spellName>征服者</spellName>基石符文。"
+  },
+  {
+   "id": 1080,
+   "key": "ARAM_TankItOrLeaveIt",
+   "name": "Tank It Or Leave It",
+   "rarity": 1,
+   "desc": "You can <crit>Critically Defend</crit> using your <crit>Crit Chance (max 50% chance)</crit>, giving you a chance to reduce damage.<br /><br />Gain <crit> 25% Crit Chance</crit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/TankItOrLeaveIt_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/TankItOrLeaveIt_small.png",
+   "nameZh": "会心防御",
+   "descZh": "你可以使用你的<crit>暴击几率(最大50%几率)</crit>来进行<crit>会心防御</crit>，使你有一定几率来使所受伤害降低。<br /><br />获得<crit>25%暴击几率</crit>。"
+  },
+  {
+   "id": 1081,
+   "key": "ARAM_TapDancer",
+   "name": "Tap Dancer",
+   "rarity": 8,
+   "desc": "Your Attacks grant you <speed>Movement Speed</speed>. Gain <attackSpeed>Attack Speed</attackSpeed> based on your Movement Speed.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/TapDancer_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/TapDancer_small.png",
+   "nameZh": "踢踏舞",
+   "descZh": "你的攻击会为你提供<speed>移动速度</speed>。基于你的移动速度获得<attackSpeed>攻击速度</attackSpeed>。"
+  },
+  {
+   "id": 1084,
+   "key": "ARAM_ThreadtheNeedle",
+   "name": "Thread the Needle",
+   "rarity": 4,
+   "desc": "Gain 18% <armorPen> Armor Penetration</armorPen> and <magicPen> Magic Penetration</magicPen>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ThreadTheNeedle_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ThreadTheNeedle_small.png",
+   "nameZh": "穿针引线",
+   "descZh": "获得18%<armorPen>护甲穿透</armorPen>和<magicPen>法术穿透</magicPen>。"
+  },
+  {
+   "id": 1087,
+   "key": "ARAM_Typhoon",
+   "name": "Typhoon",
+   "rarity": 1,
+   "desc": "Your Attacks shoot a missile at an additional target, dealing reduced damage and applying <OnHit>On-Hit</OnHit> effects.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Typhoon_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Typhoon_small.png",
+   "nameZh": "台风",
+   "descZh": "你的攻击会对一个额外目标发射一个飞弹，从而造成削减过的伤害并施加<OnHit>攻击特效</OnHit>。"
+  },
+  {
+   "id": 1088,
+   "key": "ARAM_UltimateRevolution",
+   "name": "Ultimate Revolution",
+   "rarity": 8,
+   "desc": "Refresh your <attention>Ultimate</attention> after casting it (75 seconds Cooldown or reset on death).",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UltimateRevolution_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UltimateRevolution_small.png",
+   "nameZh": "终极刷新",
+   "descZh": "在施放<attention>终极技能</attention>后刷新你的终极技能(75秒冷却时间或阵亡时重置)。"
+  },
+  {
+   "id": 1092,
+   "key": "ARAM_Vulnerability",
+   "name": "Vulnerability",
+   "rarity": 4,
+   "desc": "Your Item and damage over time effects can <crit>Critically Strike</crit>.<br /><br />Gain <crit> 25% Crit chance</crit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Vulnerability_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Vulnerability_small.png",
+   "nameZh": "易损",
+   "descZh": "你的装备效果和持续伤害效果可以<crit>暴击</crit>。<br /><br />获得<crit> 25%暴击几率</crit>。"
+  },
+  {
+   "id": 1095,
+   "key": "ARAM_WindspeakersBlessing",
+   "name": "Windspeaker's Blessing",
+   "rarity": 8,
+   "desc": "Your <healing>Healing</healing> and <shield>Shielding</shield> also increases the target's <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR> for 3 seconds.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/WindspeakersBlessing_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/WindspeakersBlessing_small.png",
+   "nameZh": "风语者的祝福",
+   "descZh": "你的<healing>治疗效果</healing>和<shield>护盾效果</shield>还会提升目标的<scaleArmor>护甲</scaleArmor>和<scaleMR>魔法抗性</scaleMR>，这些加成持续3秒。"
+  },
+  {
+   "id": 1097,
+   "key": "ARAM_WitchfulThinking",
+   "name": "Witchful Thinking",
+   "rarity": 1,
+   "desc": "Gain <scaleAP>20 - 80 Ability Power</scaleAP>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/WitchfulThinking_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/WitchfulThinking_small.png",
+   "nameZh": "巫师式思考",
+   "descZh": "获得<scaleAP>20 - 80法术强度</scaleAP>。"
+  },
+  {
+   "id": 1098,
+   "key": "ARAM_WithHaste",
+   "name": "With Haste",
+   "rarity": 4,
+   "desc": "Gain <speed>Move Speed</speed> equal to 70% of your Ability Haste.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/WithHaste_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/WithHaste_small.png",
+   "nameZh": "急急小子",
+   "descZh": "获得<speed>移动速度</speed>，相当于你的70%技能急速。"
+  },
+  {
+   "id": 1103,
+   "key": "ARAM_BreadAndButter",
+   "name": "Bread And Butter",
+   "rarity": 4,
+   "desc": "Your <font color='#F0C200'>?</font> gains 100 Ability Haste.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "面包和黄油",
+   "descZh": "你的【<font color='#F0C200'>?</font>】技能获得100技能急速。"
+  },
+  {
+   "id": 1104,
+   "key": "ARAM_Minionmancer",
+   "name": "Minionmancer",
+   "rarity": 4,
+   "desc": "Your summons gain 40% increased size, health, and damage.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Minionmancer_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Minionmancer_small.png",
+   "nameZh": "仆从大师",
+   "descZh": "你的召唤物获得40%体型提升、生命值和伤害。"
+  },
+  {
+   "id": 1105,
+   "key": "ARAM_Homeguard",
+   "name": "Homeguard",
+   "rarity": 1,
+   "desc": "Gain <speed>100% Movement Speed</speed>, disabled for 6 seconds after taking damage.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Homeguard_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Homeguard_small.png",
+   "nameZh": "家园卫士",
+   "descZh": "获得<speed>100%移动速度</speed>，在受到伤害后失效6秒。"
+  },
+  {
+   "id": 1112,
+   "key": "ARAM_UltimateUnstoppable",
+   "name": "Ultimate Unstoppable",
+   "rarity": 1,
+   "desc": "After using your Ultimate, you become immune to <status>crowd control</status> for 3 seconds. (8 second Cooldown).",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UltimateUnstoppable_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UltimateUnstoppable_small.png",
+   "nameZh": "终极不可阻挡",
+   "descZh": "在你使用你的终极技能后，你获得持续3秒的<status>控制免疫</status>。 (8秒冷却时间)。"
+  },
+  {
+   "id": 1113,
+   "key": "ARAM_SkilledSniper",
+   "name": "Skilled Sniper",
+   "rarity": 4,
+   "desc": "<keywordMajor>Snipe</keywordMajor> an enemy with a non-Ultimate Ability refunds 80% Cooldown (65% for periodic Abilities).",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SkilledSniper_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SkilledSniper_small.png",
+   "nameZh": "老练狙神",
+   "descZh": "用一个非终极技能<keywordMajor>狙击</keywordMajor>一个敌人时，返还该技能80%冷却时间(周期性技能返还65%)。"
+  },
+  {
+   "id": 1115,
+   "key": "ARAM_ScopiestWeapons",
+   "name": "Scopiest Weapons",
+   "rarity": 8,
+   "desc": "Gain ? Attack Range.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ScopiestWeapons_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ScopiestWeapons_small.png",
+   "nameZh": "最万用的瞄准镜",
+   "descZh": "获得?攻击距离。"
+  },
+  {
+   "id": 1116,
+   "key": "ARAM_Flashy",
+   "name": "Flashy",
+   "rarity": 4,
+   "desc": "Your Flash has 3 charges. After 120 seconds, regain all charges.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Flashy_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Flashy_small.png",
+   "nameZh": "闪现向前",
+   "descZh": "你的闪现有3层充能。在120秒后，再次获得所有充能。"
+  },
+  {
+   "id": 1118,
+   "key": "ARAM_CriticalHealing",
+   "name": "Critical Healing",
+   "rarity": 4,
+   "desc": "Your <healing>healing</healing> and <shield>Shields</shield> can Critically Strike for 40% bonus amount. Gain 25% Crit Chance.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CriticalHealing_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CriticalHealing_small.png",
+   "nameZh": "会心治疗",
+   "descZh": "你的<healing>治疗</healing>和<shield>护盾</shield>可以暴击，造成40%额外数额的效果。获得 25%暴击几率。"
+  },
+  {
+   "id": 1129,
+   "key": "ARAM_Marksmage",
+   "name": "Marksmage",
+   "rarity": 4,
+   "desc": "Your Attacks deal additional <physicalDamage>physical damage</physicalDamage> equal to <scaleAP>75% Ability Power</scaleAP>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Marksmage_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Marksmage_small.png",
+   "nameZh": "神射法师",
+   "descZh": "你的攻击造成相当于你<scaleAP>75%法术强度</scaleAP>的额外<physicalDamage>物理伤害</physicalDamage>。"
+  },
+  {
+   "id": 1133,
+   "key": "ARAM_MagicMissile",
+   "name": "Magic Missile",
+   "rarity": 4,
+   "desc": "Dealing Ability damage fires 3 missiles, each dealing <trueDamage>percent max Health true damage</trueDamage> based on distance traveled.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MagicMissile_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MagicMissile_small.png",
+   "nameZh": "魔法飞弹",
+   "descZh": "造成技能伤害会发射3个飞弹，每个造成基于飞行距离的<trueDamage>百分比最大生命值的真实伤害</trueDamage>。"
+  },
+  {
+   "id": 1134,
+   "key": "ARAM_DrawYourSword",
+   "name": "Draw Your Sword",
+   "rarity": 8,
+   "desc": "Become melee and gain <physicalDamage>Attack Damage</physicalDamage>, <healing>Health</healing>, <attackSpeed>Attack Speed</attackSpeed>, <lifesteal>Lifesteal</lifesteal>, and <speed>Movement Speed</speed> (scaling with the range you give up).",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DrawYourSword_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DrawYourSword_small.png",
+   "nameZh": "亮出你的剑",
+   "descZh": "变为近战状态，并且获得<physicalDamage>攻击力</physicalDamage>、<healing>生命值</healing>、<attackSpeed>攻击速度</attackSpeed>、<lifesteal>生命偷取</lifesteal>和<speed>移动速度</speed> (每个属性都基于舍弃的攻击距离而进一步提升)。"
+  },
+  {
+   "id": 1136,
+   "key": "ARAM_SlapAround",
+   "name": "Slap Around",
+   "rarity": 1,
+   "desc": "Gain 10 Adaptive Force when you <status>Immobilize</status> or <status>Ground</status> an enemy. Lose 50% on death.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SlapAround_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SlapAround_small.png",
+   "nameZh": "扇巴掌",
+   "descZh": "每当你<status>定身</status>或<status>缚地</status>一个敌人时，获得10适应之力。阵亡时损失50%。"
+  },
+  {
+   "id": 1138,
+   "key": "ARAM_Goredrink",
+   "name": "Goredrink",
+   "rarity": 1,
+   "desc": "Gain <lifeSteal>15% Omnivamp</lifeSteal>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GoreDrink_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GoreDrink_small.png",
+   "nameZh": "渴血",
+   "descZh": "获得<lifeSteal>15%全能吸血</lifeSteal>。"
+  },
+  {
+   "id": 1141,
+   "key": "ARAM_AllForYou",
+   "name": "All For You",
+   "rarity": 4,
+   "desc": "Your <healing>Heals</healing> and <shield>Shields</shield> are stronger when used on an ally.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/AllForYou_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/AllForYou_small.png",
+   "nameZh": "全心为你",
+   "descZh": "你的<healing>治疗</healing>和<shield>护盾</shield>在用在一个友军身上时会变强。"
+  },
+  {
+   "id": 1149,
+   "key": "ARAM_Impassable",
+   "name": "Impassable",
+   "rarity": 4,
+   "desc": "Gain the <spellName>Aftershock</spellName> and <spellName>Glacial Augment</spellName> Keystone Runes.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Impassable_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Impassable_small.png",
+   "nameZh": "不动如山",
+   "descZh": "获得<spellName>余震</spellName>和<spellName>冰川增幅</spellName>基石符文。"
+  },
+  {
+   "id": 1150,
+   "key": "ARAM_BreadAndJam",
+   "name": "Bread And Jam",
+   "rarity": 4,
+   "desc": "Your <font color='#F0C200'>?</font> gains 100 Ability Haste.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "面包和果酱",
+   "descZh": "你的【<font color='#F0C200'>?</font>】技能获得100技能急速。"
+  },
+  {
+   "id": 1151,
+   "key": "ARAM_BreadAndCheese",
+   "name": "Bread and Cheese",
+   "rarity": 4,
+   "desc": "Your <font color='#F0C200'>?</font> gains 100 Ability Haste.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "面包和奶酪",
+   "descZh": "你的【<font color='#F0C200'>?</font>】技能获得100技能急速。"
+  },
+  {
+   "id": 1152,
+   "key": "ARAM_Quest_SteelYourHeart",
+   "name": "Steel Your Heart",
+   "rarity": 4,
+   "desc": "<font color='#F0C200'>QUEST:</font> Possess Heartsteel with 300+ stacks.<br /><br />REWARD: Multiply your Heartsteel stacks by 3.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Quest_SteelYourHeart_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Quest_SteelYourHeart_small.png",
+   "nameZh": "钢化你心",
+   "descZh": "<font color='#F0C200'>任务：</font>需求：持有【心之钢】且层数在300层或以上。<br /><br />奖励：将你的心之钢层数乘以3。"
+  },
+  {
+   "id": 1154,
+   "key": "ARAM_Quest_UrfsChampion",
+   "name": "Urf's Champion",
+   "rarity": 8,
+   "desc": "<font color='#F0C200'>QUEST:</font> Score ? takedowns.<br /><br />REWARD: Golden Spatula",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Quest_UrfsChampion_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Quest_UrfsChampion_small.png",
+   "nameZh": "海牛阿福的勇士",
+   "descZh": "<font color='#F0C200'>任务：</font>需求：参与击杀?次。<br /><br />奖励：【金铲铲】"
+  },
+  {
+   "id": 1156,
+   "key": "ARAM_Quest_WoogletsWitchcap",
+   "name": "Wooglet's Witchcap",
+   "rarity": 8,
+   "desc": "Immediately gain a <attention>Needlessly Large Rod</attention>.<br /><br /><font color='#F0C200'>QUEST:</font> Possess <attention>Rabadon's Deathcap</attention> and <attention>Zhonya's Hourglass</attention>.<br /><br /><font color='#F0C200'>REWARD:</font> Gain <attention>Wooglet's Witchcap</attention>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Quest_WoogletsWitchcap_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Quest_WoogletsWitchcap_small.png",
+   "nameZh": "沃格勒特的巫师帽",
+   "descZh": "立刻获得一个<attention>无用大棒</attention>。<br /><br /><font color='#F0C200'>任务：</font>持有<attention>灭世者的死亡之帽</attention>和<attention>中娅沙漏</attention>。<br /><br /><font color='#F0C200'>奖励：</font>获得<attention>沃格勒特的巫师帽</attention>。"
+  },
+  {
+   "id": 1170,
+   "key": "ARAM_ScopedWeapons",
+   "name": "Scoped Weapons",
+   "rarity": 1,
+   "desc": "Gain ? Attack Range.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ScopedWeapons_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ScopedWeapons_small.png",
+   "nameZh": "万用瞄准镜",
+   "descZh": "获得?攻击距离。"
+  },
+  {
+   "id": 1180,
+   "key": "ARAM_BigBrain",
+   "name": "Big Brain",
+   "rarity": 4,
+   "desc": "Gain<shield> 3 Shield </shield>for every <scaleAP> 1 Ability Power</scaleAP>. Resets on death or 70 seconds after depletion.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BigBrain_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BigBrain_small.png",
+   "nameZh": "超强大脑",
+   "descZh": "每拥有<scaleAP>1法术强度</scaleAP>就会获得<shield>3护盾值</shield>。阵亡时或耗尽后70秒重置。"
+  },
+  {
+   "id": 1181,
+   "key": "ARAM_HeavyHitter",
+   "name": "Heavy Hitter",
+   "rarity": 1,
+   "desc": "Your Attacks deal additional <physicalDamage>physical damage</physicalDamage> equal to 3.5% of your <scaleHealth>max Health. </scaleHealth>",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/HeavyHitter_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/HeavyHitter_small.png",
+   "nameZh": "重量级打击手",
+   "descZh": "你的攻击造成相当于你3.5%<scaleHealth>最大生命值</scaleHealth>的额外<physicalDamage>物理伤害</physicalDamage>。"
+  },
+  {
+   "id": 1187,
+   "key": "ARAM_Flashbang",
+   "name": "Flashbang",
+   "rarity": 1,
+   "desc": "Your Flash causes an explosion that damages and <status>Slows</status> (resets on death).",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Flashbang_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Flashbang_small.png",
+   "nameZh": "闪光弹",
+   "descZh": "你的【闪现】会引发一次爆炸，造成伤害和<status>减速</status>（阵亡时重置）。"
+  },
+  {
+   "id": 1194,
+   "key": "ARAM_FeyMagic",
+   "name": "Fey Magic",
+   "rarity": 8,
+   "desc": "Damaging with your <attention>Ultimate</attention> <status>Polymorphs</status> enemies for a few seconds.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/FeyMagic_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/FeyMagic_small.png",
+   "nameZh": "精怪魔法",
+   "descZh": "你的<attention>终极技能</attention>的伤害会对敌人造成持续若干秒的<status>变形</status>效果。"
+  },
+  {
+   "id": 1195,
+   "key": "ARAM_GiantSlayer",
+   "name": "Giant Slayer",
+   "rarity": 8,
+   "desc": "Become tiny, gain <speed>Movement Speed</speed>, and gain bonus damage to champions based on how much larger they are than you.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GiantSlayer_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GiantSlayer_small.png",
+   "nameZh": "巨人杀手",
+   "descZh": "体型变小，获得<speed>移动速度</speed>，并基于敌方英雄体型大于你的程度获得额外伤害。"
+  },
+  {
+   "id": 1204,
+   "key": "ARAM_StackosaurusRex",
+   "name": "Stackosaurus Rex",
+   "rarity": 1,
+   "desc": "When you gain permanent <keywordMajor>Stacks</keywordMajor> of an Ability, gain 100% more!",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/StackosaurusRex_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/StackosaurusRex_small.png",
+   "nameZh": "叠角龙",
+   "descZh": "在你获得一个技能的永久<keywordMajor>层数</keywordMajor>时，多获得100%！"
+  },
+  {
+   "id": 1205,
+   "key": "ARAM_ADAPt",
+   "name": "ADAPt",
+   "rarity": 1,
+   "desc": "Convert <scaleAD>Bonus Attack Damage</scaleAD> to <scaleAP>Ability Power</scaleAP>. Gain <scaleAP>15% Ability Power</scaleAP>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ADAPt_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ADAPt_small.png",
+   "nameZh": "物理转魔法",
+   "descZh": "将<scaleAD>额外攻击力</scaleAD>转化为<scaleAP>法术强度</scaleAP>。获得<scaleAP>15%法术强度</scaleAP>。"
+  },
+  {
+   "id": 1206,
+   "key": "ARAM_escAPADe",
+   "name": "escAPADe",
+   "rarity": 1,
+   "desc": "Convert <scaleAP>Ability Power</scaleAP> to <scaleAD>Bonus Attack Damage</scaleAD>. Gain <scaleAD>15% Attack Damage</scaleAD>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Escapade_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Escapade_small.png",
+   "nameZh": "魔法转物理",
+   "descZh": "将<scaleAP>法术强度</scaleAP>转化为<scaleAD>额外攻击力</scaleAD>。获得<scaleAD>15%攻击力</scaleAD>。"
+  },
+  {
+   "id": 1211,
+   "key": "ARAM_ItsKillingTime",
+   "name": "It's Killing Time",
+   "rarity": 4,
+   "desc": "After casting your Ultimate, mark all enemies and store up damage you deal to them. When it ends, detonate the damage.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ItsKillingTime_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ItsKillingTime_small.png",
+   "nameZh": "杀戮时间到了",
+   "descZh": "在施放你的终极技能后，标记所有敌人并存储你对他们造成的伤害。当它结束时，引爆该伤害。"
+  },
+  {
+   "id": 1214,
+   "key": "ARAM_SpinToWin",
+   "name": "Spin To Win",
+   "rarity": 1,
+   "desc": "Your spin Abilities gain 30 Ability Haste and deal 30% more damage, increase to 50% for Ultimates<br />",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SpinToWin_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SpinToWin_small.png",
+   "nameZh": "旋转至胜",
+   "descZh": "你的旋转类技能获得30技能急速并且造成30%额外伤害，对于终极技能，该额外伤害提升至50%。<br />"
+  },
+  {
+   "id": 1220,
+   "key": "ARAM_FanTheHammer",
+   "name": "Fan The Hammer",
+   "rarity": 8,
+   "desc": "Attacks against enemy champions fire 5 missiles that deal more damage with distance. Each direction has its own Cooldown.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/FanTheHammer_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/FanTheHammer_small.png",
+   "nameZh": "连拨击锤",
+   "descZh": "对敌方英雄的攻击会发射5个飞弹，造成随距离提升的额外伤害。每个方向的冷却时间独立计算。"
+  },
+  {
+   "id": 1225,
+   "key": "ARAM_DualWield",
+   "name": "Dual Wield",
+   "rarity": 8,
+   "desc": "Attacks fire a bolt that applies <OnHit>On-Hit</OnHit> effects at reduced strength. Gain <attackSpeed>10% total Attack Speed</attackSpeed>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DualWield_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DualWield_small.png",
+   "nameZh": "双刀流",
+   "descZh": "在攻击时，发射一个箭矢，它施加效能削减的<OnHit>攻击特效</OnHit>。获得<attackSpeed>10%总攻击速度</attackSpeed>。"
+  },
+  {
+   "id": 1237,
+   "key": "ARAM_TransmuteGold",
+   "name": "Transmute: Gold",
+   "rarity": 1,
+   "desc": "Gain a random <keywordMajor> Gold Augment</keywordMajor>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/TransmuteGold_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/TransmuteGold_small.png",
+   "nameZh": "质变：黄金阶",
+   "descZh": "获得1个随机<keywordMajor>黄金阶强化符文</keywordMajor>。"
+  },
+  {
+   "id": 1238,
+   "key": "ARAM_TransmutePrismatic",
+   "name": "Transmute: Prismatic",
+   "rarity": 4,
+   "desc": "Gain a random <keywordMajor> Prismatic Augment</keywordMajor>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/TransmutePrismatic_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/TransmutePrismatic_small.png",
+   "nameZh": "质变：棱彩阶",
+   "descZh": "获得1个随机<keywordMajor>棱彩阶强化符文</keywordMajor>。"
+  },
+  {
+   "id": 1243,
+   "key": "ARAM_TransmuteChaos",
+   "name": "Transmute: Chaos",
+   "rarity": 8,
+   "desc": "Gain <keywordMajor>2 random Augments</keywordMajor>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/TransmuteChaos_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/TransmuteChaos_small.png",
+   "nameZh": "质变：混沌",
+   "descZh": "获得<keywordMajor>2个随机强化符文</keywordMajor>。"
+  },
+  {
+   "id": 1301,
+   "key": "ARAM_DivineIntervention",
+   "name": "Divine Intervention",
+   "rarity": 4,
+   "desc": "Every 35 seconds, <keywordMajor>Autocast</keywordMajor> a protective star. Upon its landing, you and nearby allies become <keywordMajor>Invulnerable</keywordMajor> for a few seconds.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SlowActingPainkillers_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SlowActingPainkillers_small.png",
+   "nameZh": "神圣干预",
+   "descZh": "每35秒，<keywordMajor>自动施放</keywordMajor>一颗护体星星。在它着陆时，你和附近的友军们进入持续若干秒的<keywordMajor>免疫伤害</keywordMajor>状态。"
+  },
+  {
+   "id": 1305,
+   "key": "ARAM_LegDay",
+   "name": "Leg Day",
+   "rarity": 1,
+   "desc": "Gain <speed>50 Movement Speed</speed> and <speed>50% Slow Resist</speed>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/LegDay_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/LegDay_small.png",
+   "nameZh": "练腿日",
+   "descZh": "获得<speed>50移动速度</speed>和<speed>50%减速抗性</speed>。"
+  },
+  {
+   "id": 1308,
+   "key": "ARAM_Firefox",
+   "name": "FireFox",
+   "rarity": 1,
+   "desc": "<keywordMajor>Autocast</keywordMajor><br />Gain <speed>Movement Speed</speed> and conjure three flames that orbit you, targetting the closest visible enemy in range and dealing <magicDamage>magic damage</magicDamage>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Firfox_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Firfox_small.png",
+   "nameZh": "火狐",
+   "descZh": "<keywordMajor>自动施放</keywordMajor><br />获得<speed>移动速度</speed>并召唤3道烈焰环绕于你，瞄准距离内相距最近的那个可见英雄并造成<magicDamage>魔法伤害</magicDamage>。"
+  },
+  {
+   "id": 1310,
+   "key": "ARAM_ClownCollege",
+   "name": "Clown College",
+   "rarity": 8,
+   "desc": "Gain <spellName>Deceive</spellName> Summoner Spell.<br />Gain <spellName>Backstab</spellName> Passive.<br /><br />When you die, deal a large amount of <trueDamage>true damage</trueDamage> and <status>Fear</status> nearby enemies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ClownCollege_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ClownCollege_small.png",
+   "nameZh": "小丑学院",
+   "descZh": "获得召唤师技能<spellName>欺诈魔术</spellName>。<br />获得<spellName>背刺</spellName>被动。<br /><br />在你阵亡时，对附近的敌人们造成大量<trueDamage>真实伤害</trueDamage>和<status>恐惧</status>。"
+  },
+  {
+   "id": 1311,
+   "key": "ARAM_Overflow",
+   "name": "Overflow",
+   "rarity": 4,
+   "desc": "Your <scaleMana>Mana</scaleMana> costs are doubled.<br /><br />Your Ability <healing>Heals</healing>, <shield>Shields</shield>, and damage are increased based on your <scaleMana>max Mana</scaleMana>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Overflow_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Overflow_small.png",
+   "nameZh": "溢流",
+   "descZh": "你的<scaleMana>法力</scaleMana>消耗翻倍。<br /><br />你的技能的<healing>治疗效果</healing>、<shield>护盾效果</shield>和伤害获得提升，提升幅度基于你的<scaleMana>最大法力值</scaleMana>。"
+  },
+  {
+   "id": 1314,
+   "key": "MightyShield",
+   "name": "Mighty Shield",
+   "rarity": 1,
+   "desc": "Gain <font color = '#8347ff'>40 - 100 Adaptive Force</font> for 3 seconds when you gain a Shield (5 seconds Cooldown).",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MightyShield_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MightyShield_small.png",
+   "nameZh": "强力护盾",
+   "descZh": "当你获得护盾时，获得<font color = '#8347ff'>40 - 100适应之力</font>，持续3秒。(5秒冷却时间)"
+  },
+  {
+   "id": 1315,
+   "key": "SwiftAndSafe",
+   "name": "Swift and Safe",
+   "rarity": 1,
+   "desc": "Gain a <shield>Shield</shield> after a Dash or Blink.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SwiftandSafe_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SwiftandSafe_small.png",
+   "nameZh": "快中求稳",
+   "descZh": "在冲刺或闪烁后，获得<shield>护盾值</shield>。"
+  },
+  {
+   "id": 1318,
+   "key": "ARAM_Upgrade_ZH",
+   "name": "Upgrade Zhonya's",
+   "rarity": 1,
+   "desc": "Reduce <attention>Zhonya's Hourglass</attention> Cooldown to 45 seconds. You can now move and gain <speed>Movement Speed</speed> when in <attention>Zhonya's Hourglass, Seeker's Armguard,</attention> or <attention>Wooglet's Witchcap</attention> stasis.<br /><br />Gain <gold>250 Gold</gold>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeZH_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeZH_small.png",
+   "nameZh": "升级：中娅",
+   "descZh": "<attention>【中娅沙漏】</attention>的冷却时间降低至45秒。你现在可以在<attention>【中娅沙漏】、【探索者的护臂】</attention>或<attention>【沃格勒特的巫师帽】</attention>凝滞状态持续期间移动并获得<speed>移动速度</speed>。<br /><br />获得<gold>250金币</gold>。"
+  },
+  {
+   "id": 1319,
+   "key": "ARAM_Upgrade_Immolate",
+   "name": "Upgrade Immolate",
+   "rarity": 1,
+   "desc": "<attention>Hollow Radiance</attention> and <attention>Sunfire Aegis</attention> grant <gold>12 Gold</gold> per target affected with Immolate. Gain <gold>250 Gold</gold>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeImmolate_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeImmolate_small.png",
+   "nameZh": "升级：献祭",
+   "descZh": "<attention>【璀璨回响】</attention>和<attention>【日炎圣盾】</attention>每当有目标受到【献祭】效果影响时，提供<gold>12 金币</gold> 。获得<gold>250金币</gold>。"
+  },
+  {
+   "id": 1320,
+   "key": "ARAM_Upgrade_Collector",
+   "name": "Upgrade Collector",
+   "rarity": 1,
+   "desc": "Executing enemies with The Collector's Passive increases its execute threshold and grants bonus Gold.<br />Gain <gold>250 Gold</gold>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeCollector_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeCollector_small.png",
+   "nameZh": "升级：收集者",
+   "descZh": "在每次使用【收集者】的被动处决敌人时，会提升处决阈值，并且提供额外金币。<br />获得<gold>250金币</gold>。"
+  },
+  {
+   "id": 1322,
+   "key": "ARAM_GetExcited",
+   "name": "Get Excited!",
+   "rarity": 4,
+   "desc": "Increase <speed>Movement Speed</speed> and <attackSpeed>Attack Speed</attackSpeed> for 4 seconds on takedown.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GetExcited_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GetExcited_small.png",
+   "nameZh": "罪恶快感",
+   "descZh": "参与击杀后，在4秒内提升<speed>移动速度</speed>和<attackSpeed>攻击速度</attackSpeed>。"
+  },
+  {
+   "id": 1323,
+   "key": "ARAM_Cruelty",
+   "name": "Cruelty",
+   "rarity": 8,
+   "desc": "On <status>Immobilizing</status> or <status>Grounding</status> a champion, summon a comet that lands after a delay, dealing <magicDamage>magic damage</magicDamage> to nearby enemies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Cruelty_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Cruelty_small.png",
+   "nameZh": "残忍",
+   "descZh": "<status>定身</status>或<status>缚地</status>一个英雄时，召唤一颗会在短暂延迟后着陆的彗星，对附近的敌人们造成<magicDamage>魔法伤害</magicDamage>。"
+  },
+  {
+   "id": 1324,
+   "key": "ARAM_ProteinShake",
+   "name": "Protein Shake",
+   "rarity": 8,
+   "desc": "Gain <healing>?% Heal and Shield Power</healing> based on bonus <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ProteinShake_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ProteinShake_small.png",
+   "nameZh": "蛋白粉奶昔",
+   "descZh": "获得<healing>?%治疗和护盾强度</healing>，基于额外<scaleArmor>护甲</scaleArmor>和<scaleMR>魔抗</scaleMR>。"
+  },
+  {
+   "id": 1325,
+   "key": "GlassCannon",
+   "name": "Glass Cannon",
+   "rarity": 8,
+   "desc": "Reduce <scaleHealth>max Health by 30%</scaleHealth>. Deal an extra ? damage as <trueDamage>true damage</trueDamage>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GlassCannon_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GlassCannon_small.png",
+   "nameZh": "玻璃大炮",
+   "descZh": "减少<scaleHealth>30%最大生命值</scaleHealth>。造成额外的?伤害作为<trueDamage>真实伤害</trueDamage>。"
+  },
+  {
+   "id": 1326,
+   "key": "Nightstalking",
+   "name": "Nightstalking",
+   "rarity": 4,
+   "desc": "Takedowns against enemy champions within 3 seconds of damaging them grants you <speed>Movement Speed</speed> and renders you invisible.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Nightstalking_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Nightstalking_small.png",
+   "nameZh": "夜狩",
+   "descZh": "在对敌人造成伤害的3秒内参与击杀该敌人会为你提供<speed>移动速度</speed>并使你进入隐身状态。"
+  },
+  {
+   "id": 1328,
+   "key": "CriticalRhythm",
+   "name": "Critical Rhythm",
+   "rarity": 4,
+   "desc": "Your basic Attack stacks <attackSpeed>Attack Speed</attackSpeed> on <crit>Critical Strikes</crit>.<br /><br />Gain <attention> 25% Crit chance</attention>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CriticalRhythm_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CriticalRhythm_small.png",
+   "nameZh": "暴击律动",
+   "descZh": "你的普攻在<crit>暴击</crit>时获得可叠加的<attackSpeed>攻击速度</attackSpeed>。<br /><br />获得<attention> 25%暴击几率</attention>。"
+  },
+  {
+   "id": 1329,
+   "key": "BiggestSnowballEver",
+   "name": "Biggest Snowball Ever",
+   "rarity": 8,
+   "desc": "Gain 100 Ability Haste on <spellName>Snowball</spellName>.<br /><br />Your snowball is <attention>BIG</attention> and will pass through minions. It <status>Slows</status>, <status>Knocks Up</status> champions, and deals additional <magicDamage>damage</magicDamage>.<br /><br /><strong>If you don't have one, gain a <spellName>Snowball</spellName>. </strong>",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BiggestSnowballEver_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BiggestSnowballEver_small.png",
+   "nameZh": "史上最大雪球",
+   "descZh": "你的<spellName>雪球</spellName>获得100技能急速。<br /><br />你的雪球现在变得<attention>非常大</attention>，并且可以穿过小兵。它会<status>减速</status>， <status>击飞</status>英雄，并造成额外<magicDamage>伤害</magicDamage>。<br /><br /><strong>如果你没有雪球，则获得一个<spellName>雪球</spellName>。</strong>"
+  },
+  {
+   "id": 1331,
+   "key": "EmpyreanPromise",
+   "name": "Empyrean Promise",
+   "rarity": 8,
+   "desc": "Gain 15% Heal and Shield power. Gain <spellName>Empyrean Promise</spellName> as a Summoner Spell.<br /><br /><strong><active>Vigilance</active><br />Teleport to an ally and grant <shield>? Shield</shield> for 3 seconds after landing. </strong>",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/EmpyreamPromise_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/EmpyreamPromise_small.png",
+   "nameZh": "至高天诺言",
+   "descZh": "获得15%治疗和护盾强度。获得<spellName>至高天诺言</spellName>作为一个召唤师技能。<br /><br /><strong><active>警惕</active><br />传送至你的友军并在着陆时提供持续3秒的<shield>?护盾值</shield>。</strong>"
+  },
+  {
+   "id": 1332,
+   "key": "OminousPact",
+   "name": "Ominous Pact",
+   "rarity": 8,
+   "desc": "Gain <scaleAP>Ability Power</scaleAP>, <speed>Movement Speed</speed>, and <omnivamp>Omnivamp</omnivamp> based on <scaleHealth>missing Health</scaleHealth>, taking damage each time you cast.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/WisdomOfAges_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/WisdomOfAges_small.png",
+   "nameZh": "不祥契约",
+   "descZh": "基于<scaleHealth>已损失生命值</scaleHealth>，获得<scaleAP>法术强度</scaleAP>、<speed>移动速度</speed>和<omnivamp>全能吸血</omnivamp>，每次你施放技能时会对自身造成伤害。"
+  },
+  {
+   "id": 1333,
+   "key": "EscapePlan",
+   "name": "Escape Plan",
+   "rarity": 1,
+   "desc": "Gain a massive <shield>decaying Shield</shield>, decaying <speed>Movement Speed</speed>, and a decaying shrink effect upon reaching <scaleHealth>35% Health</scaleHealth>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/EscapePlan_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/EscapePlan_small.png",
+   "nameZh": "逃跑计划",
+   "descZh": "在降至<scaleHealth>35%生命值</scaleHealth>时，获得巨量<shield>持续衰减的护盾</shield>、持续衰减的<speed>移动速度</speed>和持续衰减的缩小效果。"
+  },
+  {
+   "id": 1335,
+   "key": "Goldrend",
+   "name": "Goldrend",
+   "rarity": 8,
+   "desc": "Damaging a champion with Attacks or Abilities deals additional <magicDamage>magic damage</magicDamage>, and grants you <gold>Gold</gold> and <speed>Movement Speed</speed>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Goldrend_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Goldrend_small.png",
+   "nameZh": "夺金",
+   "descZh": "用攻击或技能对一个英雄造成伤害时会造成额外<magicDamage>魔法伤害</magicDamage>，并为你提供<gold>金币</gold>和 <speed>移动速度</speed>。"
+  },
+  {
+   "id": 1336,
+   "key": "ARAM_Upgrade_IE",
+   "name": "Upgrade Infinity Edge",
+   "rarity": 4,
+   "desc": "Gain <gold>500 Gold</gold>.<br />Having <attention>Infinity Edge</attention> allows your Critical Strike Chance to grant random Critical Strike Damage each Attack.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeIE_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeIE_small.png",
+   "nameZh": "升级：无尽之刃",
+   "descZh": "获得<gold>500金币</gold>。<br />装备<attention>无尽之刃</attention>后，可使你的暴击几率在每次攻击都会提供随机的暴击伤害。"
+  },
+  {
+   "id": 1337,
+   "key": "KingMe",
+   "name": "King Me",
+   "rarity": 8,
+   "desc": "The first time you take the enemy transport <attention>with a Legendary Item</attention> you become <font color = '#d158f9'>Kinged</font>, upgrading your item and gaining a random Prismatic Augment.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/KingMe_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/KingMe_small.png",
+   "nameZh": "尊我为王",
+   "descZh": "当你第一次<attention>携带一件传说级装备</attention>并乘坐敌人的传送门时，你会<font color = '#d158f9'>加冕为王</font>，升级你的装备并获得一个随机棱彩阶强化符文。"
+  },
+  {
+   "id": 1339,
+   "key": "LaserHeal",
+   "name": "Laser Heal",
+   "rarity": 8,
+   "desc": "Cast a laser for 2.5 seconds that <scaleHealth>heals allies</scaleHealth>, and <status>Slows</status> and deals <scaleAP>magic damage</scaleAP> to enemies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/LaseHeal_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/LaseHeal_small.png",
+   "nameZh": "激光治疗",
+   "descZh": "施放一个持续2.5秒的治疗激光，<scaleHealth>治疗友军</scaleHealth>，使敌人<status>减速</status>并对其造成<scaleAP>魔法伤害</scaleAP>。"
+  },
+  {
+   "id": 1342,
+   "key": "SnowballRoulette",
+   "name": "Snowball Roulette",
+   "rarity": 4,
+   "desc": "Gain 100 Ability Haste on <spellName>Snowball</spellName>. Hitting an enemy casts a random beneficial Summoner Spell on you and a harmful one on them. Following up recast the beneficial one on yourself.<br /><br /><strong>If you don't have one, gain a <spellName>Snowball</spellName>. </strong>",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SnowballUpgrade_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SnowballUpgrade_small.png",
+   "nameZh": "雪球扭蛋机",
+   "descZh": "<spellName>雪球</spellName>获得100技能急速。命中敌人时，随机对你自身施放一个增益型的召唤师技能并对你的目标施放一个减益型的召唤师技能。接第二段时会为你再次施放该增益型召唤师技能。<br /><br /><strong>如果你没有雪球，则获得一个<spellName>雪球</spellName>。</strong>"
+  },
+  {
+   "id": 1343,
+   "key": "Quest_Sneakerhead",
+   "name": "Sneakerhead",
+   "rarity": 8,
+   "desc": "Immediate: Gain a random pair of upgraded boots.<br /><br />Requirement: Complete its quest to swap for another.<br /><br />Reward: Jarvan I's Boot",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Sneakerhead_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Sneakerhead_small.png",
+   "nameZh": "王中王，靴中靴",
+   "descZh": "即刻：随机获得一双升级后的靴子。<br /><br />需求：完成其任务，以更换为另一双。<br /><br />奖励：嘉文一世之靴"
+  },
+  {
+   "id": 1344,
+   "key": "FinalForm",
+   "name": "Final Form",
+   "rarity": 8,
+   "desc": "After casting your <attention>Ultimate</attention>, gain a <shield>max Health Shield</shield>, <lifeSteal>Omnivamp</lifeSteal> and <speed>Movement Speed</speed> for 10 seconds.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/FinalForm_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/FinalForm_small.png",
+   "nameZh": "最终形态",
+   "descZh": "在施放你的<attention>终极技能</attention>时，获得持续10秒的<shield>最大生命值护盾</shield>、<lifeSteal>全能吸血</lifeSteal>和<speed>移动速度</speed>。"
+  },
+  {
+   "id": 1345,
+   "key": "ARAM_SpiritualPurification",
+   "name": "Spiritual Purification",
+   "rarity": 4,
+   "desc": "On takedown, creates an explosion that <status>slows</status> other nearby enemies by 60%, and deals damage based on their <scaleHealth>current Health</scaleHealth>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SpiritualPurification_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SpiritualPurification_small.png",
+   "nameZh": "心灵净化",
+   "descZh": "参与击杀时，产生一次爆炸，对附近其它敌人们造成60%<status>减速</status>，并且造成基于他们<scaleHealth>当前生命值</scaleHealth>的伤害。"
+  },
+  {
+   "id": 1347,
+   "key": "Poltergeist",
+   "name": "Poltergeist",
+   "rarity": 1,
+   "desc": "Gain Poltergeist as a Summoner Spell.<br /><br />Poltergeist casts both Barrier and Ghost.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Poltergeist_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Poltergeist_small.png",
+   "nameZh": "吵闹鬼",
+   "descZh": "获得【吵闹鬼】作为一个召唤师技能。<br /><br />吵闹鬼会同时施放召唤师技能【屏障】和【幽灵疾步】。"
+  },
+  {
+   "id": 1348,
+   "key": "Flash2",
+   "name": "Flash 2",
+   "rarity": 1,
+   "desc": "Gain a second Flash Summoner Spell and 70 Summoner Haste.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Flash2_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Flash2_small.png",
+   "nameZh": "闪闪现现",
+   "descZh": "获得第二个【闪现】召唤师技能和70召唤师技能急速。"
+  },
+  {
+   "id": 1349,
+   "key": "UltimateAwakening",
+   "name": "Ultimate Awakening",
+   "rarity": 8,
+   "desc": "Gain 30 Ultimate Ability Haste.<br />After using your <keyword>Ultimate</keyword>, refresh your basic abilities and gain 300 basic ability haste for 15s. (20s Cooldown)",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ZeroHour_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ZeroHour_small.png",
+   "nameZh": "终极唤醒",
+   "descZh": "获得30终极技能急速。<br />在施放你的<keyword>终极技能</keyword>后，刷新你的所有基础技能并获得持续15秒的300基础技能急速。(20秒冷却时间)"
+  },
+  {
+   "id": 1353,
+   "key": "ARAM_TankEngine",
+   "name": "Tank Engine",
+   "rarity": 4,
+   "desc": "On takedown, gain a stack that increases your size and <scaleHealth>max Health</scaleHealth>. Lose stacks on death.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Tank_Engine_Large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Tank_Engine_Small.png",
+   "nameZh": "坦克引擎",
+   "descZh": "参与击杀时，获得一个层数，使你的体型增大并提升<scaleHealth>最大生命值</scaleHealth>。阵亡时损失层数。"
+  },
+  {
+   "id": 1356,
+   "key": "CriticalMissile",
+   "name": "Critical Missile",
+   "rarity": 4,
+   "desc": "When you <crit>Critically Strike</crit>, fire missiles dealing <magicDamage>magic damage</magicDamage>.<br /><br />Gain <crit> 25% Crit chance</crit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CriticalMissile_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/CriticalMissile_small.png",
+   "nameZh": "暴击飞弹",
+   "descZh": "当你<crit>暴击</crit>时，发射飞弹造成<magicDamage>魔法伤害</magicDamage>。<br /><br />获得<crit> 25%暴击几率</crit>。"
+  },
+  {
+   "id": 1358,
+   "key": "PinballSnowball",
+   "name": "Pinball",
+   "rarity": 4,
+   "desc": "Your <spellName>Snowball</spellName> gains <speed>Ability Haste</speed> and deals extra <trueDamage>True Damage</trueDamage>.<br /><br />When the <spellName>Snowball</spellName> bounces off walls, it increases in size and damage and has a reduced Cooldown.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PinballSnowball_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PinballSnowball_small.png",
+   "nameZh": "弹球",
+   "descZh": "你的<spellName>雪球</spellName>获得<speed>技能急速</speed>并且造成额外的<trueDamage>真实伤害</trueDamage>。<br /><br />当<spellName>雪球</spellName>从墙体上反弹时，它的体型和伤害获得提升，并缩短它的冷却时间。"
+  },
+  {
+   "id": 1361,
+   "key": "ARAM_Quest_VoidImmolation",
+   "name": "Icathia's Fall",
+   "rarity": 8,
+   "desc": "Immediately: Gain a Bami's Cinder.<br /><br /><font color='#F0C200'>QUEST:</font> Possess <keywordMajor>Sunfire Aegis</keywordMajor> and <keywordMajor>Hollow Radiance</keywordMajor>.<br /><br /><font color='#F0C200'>REWARD:</font> These Items combine into <keywordMajor>Void Immolation</keywordMajor>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Quest_VoidImmolation_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Quest_VoidImmolation_small.png",
+   "nameZh": "艾卡西亚的陷落",
+   "descZh": "即刻：获得1个【斑比的熔渣】。<br /><br /><font color='#F0C200'>任务：</font>持有<keywordMajor>日炎圣盾</keywordMajor>和<keywordMajor>璀璨回响</keywordMajor>。<br /><br /><font color='#F0C200'>奖励：</font>将这些装备合成为<keywordMajor>虚空献祭</keywordMajor>。"
+  },
+  {
+   "id": 1372,
+   "key": "BabyKitty",
+   "name": "I'm a Baby Kitty Where is Mama",
+   "rarity": 8,
+   "desc": "Standing next to an ally marks them as your mama.<br />Gain <speed>Movement Speed</speed> when moving towards Mama. Gain <speed>Movement Speed</speed> and <healing>heal</healing> and <shield>Shield Power</shield> when close to your mama.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BabyKitty_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BabyKitty_small.png",
+   "nameZh": "小猫咪找妈妈",
+   "descZh": "站在一个友军的附近并将其标记为你的妈妈。<br />当朝着妈妈移动时，获得<speed>移动速度</speed>。当靠近你的妈妈时，获得<speed>移动速度</speed>、<healing>治疗</healing>和<shield>护盾强度</shield>。"
+  },
+  {
+   "id": 1373,
+   "key": "ShrinkEngine",
+   "name": "Shrink Engine",
+   "rarity": 4,
+   "desc": "Takedowns makes you smaller and grant Ability Haste and <speed>Movement Speed</speed>.<br /><br />Lose 65% stacks on death.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ShrinkEngine_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ShrinkEngine_small.png",
+   "nameZh": "缩小引擎",
+   "descZh": "参与击杀后会让你变小并且获得技能急速和<speed>移动速度</speed>。<br /><br />阵亡时损失65%层数。"
+  },
+  {
+   "id": 1375,
+   "key": "SoulEater",
+   "name": "Soul Eater",
+   "rarity": 4,
+   "desc": "<status>Immobilizing</status> an enemy champion grants <scaleHealth>30 max Health</scaleHealth>.<br /><br />If taken as your second Augment, starts with <scaleHealth>300 Health</scaleHealth>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SoulEater_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SoulEater_small.png",
+   "nameZh": "吞噬灵魂",
+   "descZh": "<status>定身</status>一个敌方英雄时会提供<scaleHealth>30最大生命值</scaleHealth>。<br /><br />如果是你的第二个强化符文，会自带<scaleHealth>300生命值</scaleHealth>。"
+  },
+  {
+   "id": 1379,
+   "key": "Upgrade_SwordOfBlossom",
+   "name": "Upgrade Sword of Blossoming Dawn",
+   "rarity": 8,
+   "desc": "Gain <speed>100% Attack Speed</speed>.<br /><br />Increase Sword of Blossoming Dawn's healing to <scaleHealth>250%</scaleHealth> when you attack enemy champions.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeMikaelsBlessing_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeMikaelsBlessing_small.png",
+   "nameZh": "升级：花晓之剑",
+   "descZh": "获得<speed>100%攻击速度</speed>。<br /><br />你对英雄的攻击会使来自【花晓之剑】的治疗效果提升<scaleHealth>250%</scaleHealth>。"
+  },
+  {
+   "id": 1384,
+   "key": "Donation",
+   "name": "Donation",
+   "rarity": 4,
+   "desc": "Get <font color=\"#ffd138\">1750</font> Gold. No questions asked.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Donation_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Donation_small.png",
+   "nameZh": "捐赠",
+   "descZh": "获得<font color=\"#ffd138\">1750</font>金币。无需多问。"
+  },
+  {
+   "id": 1386,
+   "key": "YouSpinMeRightRound",
+   "name": "Spin Me Right Round",
+   "rarity": 1,
+   "desc": "Replace a Summoner Spell with <spellName>Heroic Swing</spellName>.<br /><br /><strong><spellName>Heroic Swing</spellName> fires a grappling hook, sticking into terrain, after which you can <recast>Recast</recast> to swing around it. While swinging, automatically Attack the nearest enemy. Colliding with an enemy champion or <recast>Recasting</recast> ends the swing. </strong>",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/YouSpinMeRightRound_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/YouSpinMeRightRound_small.png",
+   "nameZh": "转得我眩晕了",
+   "descZh": "将一个召唤师技能替换为<spellName>骄行荡寇</spellName>。<br /><br /><strong><spellName>骄行荡寇</spellName>发射一根钩爪，吸附在地形上，在此之后，你可以<recast>再次施放</recast>来绕着它摆荡。在摆荡状态下，自动攻击相距最近的那个敌人。在与一个敌方英雄碰撞或<recast>再次施放</recast>时结束摆荡。</strong>"
+  },
+  {
+   "id": 1388,
+   "key": "InfiniteRecursion",
+   "name": "Infinite Recursion",
+   "rarity": 8,
+   "desc": "Gain 60 Ability Haste, plus 3 Ability Haste per takedown.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/InfiniteRecursion_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/InfiniteRecursion_small.png",
+   "nameZh": "无限循环往复",
+   "descZh": "获得60技能急速，外加每次参与击杀3技能急速。"
+  },
+  {
+   "id": 1389,
+   "key": "HandOfBaron",
+   "name": "Hand of Baron",
+   "rarity": 8,
+   "desc": "Gain <scaleAP>25% Adaptive Force</scaleAP>. Nearby allied minions are greatly empowered.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/HandofBaron_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/HandofBaron_small.png",
+   "nameZh": "男爵之手",
+   "descZh": "获得<scaleAP>25%适应之力</scaleAP>。附近友方小兵都获得极大增强。"
+  },
+  {
+   "id": 1390,
+   "key": "ARAM_PhenomenalEvil",
+   "name": "Phenomenal Evil",
+   "rarity": 4,
+   "desc": "Permanently gain <scaleAP>1 Ability Power</scaleAP> when you damage enemy champions with Abilities.<br /><br />If taken as your second Augment, starts with <scaleAP>40 Ability Power</scaleAP>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ARAM_PhenomenalEvil_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ARAM_PhenomenalEvil_small.png",
+   "nameZh": "超凡邪恶",
+   "descZh": "在你用技能对敌人造成伤害时永久获得<scaleAP>1法术强度</scaleAP>。<br /><br />如果是作为你的第二个强化符文，则自带<scaleAP>40法术强度</scaleAP>。"
+  },
+  {
+   "id": 1392,
+   "key": "GoldenSnowball",
+   "name": "Holy Snowball",
+   "rarity": 8,
+   "desc": "Gain 100 Ability Haste on <spellName>Snowball</spellName>.<br /><br />You are briefly <keywordMajor>Invulnerable</keywordMajor> when you dash with Snowball.<br /><br /><strong>If you don't have one, gain a <spellName>Snowball</spellName>. </strong><br />",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GoldenSnowball_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GoldenSnowball_small.png",
+   "nameZh": "神圣雪球",
+   "descZh": "<spellName>雪球</spellName>获得100技能急速。<br /><br />你在用【雪球】冲刺后短暂<keywordMajor>免疫伤害</keywordMajor>。<br /><br /><strong>如果你没有雪球，获得一个<spellName>雪球</spellName>。</strong><br />"
+  },
+  {
+   "id": 1400,
+   "key": "TrainOfTheDead",
+   "name": "Final City Transit",
+   "rarity": 4,
+   "desc": "When you die, launch a train towards your killer, dealing <physicalDamage>? physical damage</physicalDamage> to enemies it hits. The train does not stop.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Nightstalking_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Nightstalking_small.png",
+   "nameZh": "最终都市列车",
+   "descZh": "在你阵亡时，朝击杀你的敌人发动一辆列车，对它命中的每个敌人造成<physicalDamage>?物理伤害</physicalDamage>。这个列车不会停下。"
+  },
+  {
+   "id": 1401,
+   "key": "GrowthSpurt",
+   "name": "Growth Spurt",
+   "rarity": 4,
+   "desc": "Gain <active>Growth Spurt</active> as a Summoner Spell.<br /><br />Growth Spurt suddenly increases your size, <status>Knocking Up</status> nearby enemies and granting <scaleHealth>max Health</scaleHealth>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GrowthSpurt_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GrowthSpurt_small.png",
+   "nameZh": "生机迸发",
+   "descZh": "获得<active>生机迸发</active>作为一个召唤师技能。<br /><br />生机迸发会猛然提升你的体型，<status>击飞</status>附近的敌人们并提供<scaleHealth>最大生命值</scaleHealth>。"
+  },
+  {
+   "id": 1402,
+   "key": "ARAM_StatsOnStatsOnStats",
+   "name": "Stats on Stats on Stats!",
+   "rarity": 8,
+   "desc": "Gain 4 Stat Anvils, with a higher chance of Gold and Prismatic Anvils!<br /><br />On your next Augment selection, gain one additional reroll per slot.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/StatsOnStatsOnStats_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/StatsOnStatsOnStats_small.png",
+   "nameZh": "属性叠属性叠属性！",
+   "descZh": "获得4个【属性锻造器】，有更高几率出现黄金阶和棱彩阶锻造器！<br /><br />在你的下一次强化符文选取时，每个栏位获得一次额外的刷新。"
+  },
+  {
+   "id": 1403,
+   "key": "ARAM_StatsOnStats",
+   "name": "Stats on Stats!",
+   "rarity": 4,
+   "desc": "Gain 3 Stat Anvils, with a higher chance of Gold and Prismatic Anvils!",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/StatsOnStats_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/StatsOnStats_small.png",
+   "nameZh": "属性叠属性！",
+   "descZh": "获得3个【属性锻造器】，有更高几率出现黄金阶和棱彩阶锻造器！"
+  },
+  {
+   "id": 1404,
+   "key": "ARAM_Stats",
+   "name": "Stats!",
+   "rarity": 1,
+   "desc": "Gain 2 Stat Anvils!",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Stats_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Stats_small.png",
+   "nameZh": "属性！",
+   "descZh": "获得2个【属性锻造器】！"
+  },
+  {
+   "id": 1406,
+   "key": "GrandmasChiliOil",
+   "name": "Grandma's Chili Oil",
+   "rarity": 4,
+   "desc": "Basic attacks and ability hits against enemies inflicts them with a <keywordMajor>Burn</keywordMajor> that drops a pool of <keywordMajor>Chili Oil</keywordMajor> nearby. <keywordMajor>Chili Oil</keywordMajor> restores <healing>Health</healing> and <keywordMajor>Burns</keywordMajor> enemies.<br /><br /><keywordMajor>Chili Oil</keywordMajor> effects become stronger for each <keywordMajor>Burn</keywordMajor> you apply.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GrandmasChiliOil_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GrandmasChiliOil_small.png",
+   "nameZh": "祖母的辣椒油",
+   "descZh": "普攻和技能在命中敌人时会对其施加一个<keywordMajor>灼烧</keywordMajor>，这个效果会在附近掉落一滩<keywordMajor>辣椒油</keywordMajor>。<keywordMajor>辣椒油</keywordMajor>会回复<healing>生命值</healing>并<keywordMajor>灼烧</keywordMajor>敌人们。<br /><br />你施加的每个<keywordMajor>灼烧</keywordMajor>都会使<keywordMajor>辣椒油</keywordMajor>效果变得更强。"
+  },
+  {
+   "id": 1409,
+   "key": "ARAM_Poro_Blast",
+   "name": "Poro Blaster",
+   "rarity": 4,
+   "desc": "You gather Poros over time. Damaging an enemy fires all Poros at them, each dealing <trueDamage>max Health true damage</trueDamage>. If you have 5 Poros, they will <status>Knock Back</status> once.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PoroBlast_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PoroBlast_small.png",
+   "nameZh": "魄罗爆破手",
+   "descZh": "你周期性地召集魄罗。伤害一个敌人时会对其发射所有魄罗，每个魄罗造成目标<trueDamage>最大生命值真实伤害</trueDamage>。如果你有5个魄罗，那么它们会进行一次<status>击退</status>。"
+  },
+  {
+   "id": 1413,
+   "key": "ARAM_StuckInHereWithMe",
+   "name": "Stuck In Here With Me",
+   "rarity": 8,
+   "desc": "Using your <keywordMajor>Ultimate</keywordMajor> <status>Taunts</status> nearby enemies and grants you damage reduction.<br /><br />Gain 30 Ultimate Ability Haste.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/StuckInHereWithMe_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/StuckInHereWithMe_small.png",
+   "nameZh": "和我一起困在这里",
+   "descZh": "使用你的<keywordMajor>终极技能</keywordMajor>时会<status>嘲讽</status>附近的敌人们并提供给你伤害减免。<br /><br />获得30终极技能急速。"
+  },
+  {
+   "id": 1414,
+   "key": "Dropybara_Active",
+   "name": "Droppybara",
+   "rarity": 8,
+   "desc": "Gain <spellName>Droppybara</spellName> as a Summoner Spell.<br /><br /><strong>After a delay, call down a capybara that deals <trueDamage>25% max Health true damage</trueDamage>. </strong>",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/OrbitalLaser_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/OrbitalLaser_small.png",
+   "nameZh": "卡皮巴拉空投",
+   "descZh": "获得<spellName>卡皮巴拉空投</spellName>作为一个召唤师技能。<br /><br /><strong>在一阵延迟后，召唤一个卡皮巴拉落下，造成<trueDamage>25%最大生命值的真实伤害</trueDamage>。 </strong>"
+  },
+  {
+   "id": 1415,
+   "key": "Twinfire",
+   "name": "Twin Fire",
+   "rarity": 1,
+   "desc": "On ability damage, fire 1 plus ? missiles that deal <magicDamage>? magic damage</magicDamage> each.<br /><br />Gain <attention> 25% Critical Strike Chance</attention>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/TwinFire_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/TwinFire_small.png",
+   "nameZh": "双生火焰",
+   "descZh": "造成技能伤害时，发射1+?个飞弹，每个造成<magicDamage>?魔法伤害</magicDamage>。<br /><br />此外，获得<attention>25%暴击几率</attention>。"
+  },
+  {
+   "id": 1416,
+   "key": "HextechSoul",
+   "name": "Hextech Soul",
+   "rarity": 1,
+   "desc": "Periodically your next damaging Ability or Attack triggers a lightning blast, chaining through enemies to deal damage and <status>Slow</status>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/InfernalSoul_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/InfernalSoul_small.png",
+   "nameZh": "海克斯科技龙魂",
+   "descZh": "周期性地使你的下一个伤害型技能或攻击触发一道闪电爆裂，连锁穿过敌人以造成伤害和<status>减速</status>。"
+  },
+  {
+   "id": 1420,
+   "key": "Sonata",
+   "name": "Sonata",
+   "rarity": 4,
+   "desc": "Every 10 seconds, <keywordMajor>automatically cast</keywordMajor> the <spellName>Aria of Perseverence</spellName> and <spellName>Song of Celerity</spellName> in an alternating melody.<br /><br /><strong><spellName>Aria of Perseverence</spellName> <healing>heals</healing> nearby allies and grants a temporary <shield>shielding aura</shield>. </strong><br /><br /><strong><spellName>Song of Celerity</spellName> grants a temporary aura that provides <speed>bonus Movement Speed. </speed></strong>",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Sonata_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Sonata_small.png",
+   "nameZh": "咏叹奏鸣",
+   "descZh": "每10秒，以一个不断交替的旋律来<keywordMajor>自动施放</keywordMajor><spellName>坚毅咏叹调</spellName>和<spellName>迅捷奏鸣曲</spellName>。<br /><br /><strong><spellName>坚毅咏叹调</spellName><healing>治疗</healing>附近友军并提供一个临时的<shield>护盾光环</shield>。</strong><br /><br /><strong><spellName>迅捷奏鸣曲</spellName>提供一个临时光环来提供<speed>额外移动速度</speed>。</strong>"
+  },
+  {
+   "id": 1421,
+   "key": "PromQueen",
+   "name": "Prom Queen",
+   "rarity": 8,
+   "desc": "Every 35 seconds, <keywordMajor>Autocast</keywordMajor> a sparkly tiara descends upon you. When it lands, gain Rakan's Ultimate, charming enemies you touch.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PromQueen_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PromQueen_small.png",
+   "nameZh": "舞会女王",
+   "descZh": "每35秒，<keywordMajor>自动施放</keywordMajor>一道闪亮宝冠降临在你头上。当它着陆时，获得洛的终极技能，魅惑你碰到的敌人们。"
+  },
+  {
+   "id": 1424,
+   "key": "ARAM_MissingPingAugment",
+   "name": "???",
+   "rarity": 8,
+   "desc": "Your <passive>Missing Pings</passive> will launch a missile at the pinged location that <magicdamage>damages</magicdamage> enemies and <heal>heals</heal> allies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MissingPing_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MissingPing_small.png",
+   "nameZh": "？？？",
+   "descZh": "你的<passive>敌人消失信号</passive>将发射一个飞弹至被信号标记的位置，这个飞弹会<magicdamage>伤害</magicdamage>敌人并<heal>治疗</heal>友军。"
+  },
+  {
+   "id": 1996,
+   "key": "ARAM_Upgrade_Sheen",
+   "name": "Upgrade Sheen",
+   "rarity": 4,
+   "desc": "Your <passive>Spellblade</passive> effects deal <physical>additional damage</physical> and <heal>heal</heal> you for a percent of the target's health. Additionally, gain <gold>250 Gold</gold>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeSheen_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeSheen_small.png",
+   "nameZh": "升级：耀光",
+   "descZh": "你的<passive>咒刃</passive>效果造成<physical>额外伤害</physical>并<heal>治疗</heal>你自身，治疗量相当于目标生命值的一定百分比。此外，获得<gold>250金币</gold>。"
+  },
+  {
+   "id": 2003,
+   "key": "ARAM_PoroKing",
+   "name": "Bounce of the Poro King",
+   "rarity": 8,
+   "desc": "Gain <spellName>Bounce of the Poro King</spellName>!<br /><br /><strong><spellName>Bounce of the Poro King</spellName>: Transform into the Poro King, bouncing repeatedly, dealing <physicalDamage>physical damage</physicalDamage> and <status>Knocking Back</status> nearby enemies. </strong>",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PoroKing_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PoroKing_small.png",
+   "nameZh": "魄罗之王的弹跳",
+   "descZh": "获得<spellName>魄罗之王的弹跳</spellName>！<br /><br /><strong><spellName>魄罗之王的弹跳</spellName>：变身为【魄罗之王】并反复弹跳，造成<physicalDamage>物理伤害</physicalDamage>并<status>击退</status> 附近的敌人们。</strong>"
+  },
+  {
+   "id": 2004,
+   "key": "ARAM_EmpoweredByTheFaithful",
+   "name": "Empowered By The Faithful",
+   "rarity": 8,
+   "desc": "<healing>Healing</healing> or <shield>Shielding</shield> allies blesses them, causing their damage to fill you with <keyword>devotion</keyword>.<br /><br />When you have enough <keyword>devotion</keyword>, unleash a shockwave dealing <magicDamage>magic damage</magicDamage> and executes low health enemies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/EmpoweredByTheFaithful_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/EmpoweredByTheFaithful_small.png",
+   "nameZh": "信念者的强化",
+   "descZh": "为友军提供<healing>治疗</healing>或<shield>护盾</shield>会赐福他们，使其伤害填充你的<keyword>虔诚</keyword>。<br /><br />当你拥有足够的<keyword>虔诚</keyword>时，释放一道冲击波来造成<magicDamage>魔法伤害</magicDamage>并处决低生命值的敌人们。"
+  },
+  {
+   "id": 2005,
+   "key": "ARAM_InfernoTriggered",
+   "name": "Triggered Inferno",
+   "rarity": 8,
+   "desc": "Gain <spellName>Daredevil Impulse</spellName>. When you reach S <keywordMajor>Style</keywordMajor>, automatically use <spellName>Inferno Trigger</spellName>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MadScientist_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/MadScientist_small.png",
+   "nameZh": "扳机炼狱",
+   "descZh": "获得<spellName>悍勇本色</spellName>。在你达到S<keywordMajor>评价等级</keywordMajor>时，自动使用<spellName>炼狱扳机</spellName>。"
+  },
+  {
+   "id": 2006,
+   "key": "ARAM_Dropkick",
+   "name": "Dropkick",
+   "rarity": 8,
+   "desc": "Your Attacks and Abilities execute low Health enemy champions, Knocking Back and causing an explosion while healing you.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Dropkick_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Dropkick_small.png",
+   "nameZh": "飞身踢",
+   "descZh": "你的攻击和技能会处决低生命值的敌方英雄，从而击退并引发一次爆炸，同时治疗你自身。"
+  },
+  {
+   "id": 2009,
+   "key": "ARAM_Zealot",
+   "name": "Zealot",
+   "rarity": 1,
+   "desc": "Gain <attention>? Critical Strike Chance</attention> and <attackSpeed>? Attack Speed</attackSpeed>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Zealot_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Zealot_small.png",
+   "nameZh": "狂热者",
+   "descZh": "获得<attention>?暴击几率</attention>和<attackSpeed>?攻击速度</attackSpeed>（随法术强度变化）。"
+  },
+  {
+   "id": 2010,
+   "key": "ARAM_DoubleTap",
+   "name": "Double Tap",
+   "rarity": 8,
+   "desc": "Your <crit>Critical Strikes</crit> apply <OnHit> On-Hit</OnHit> effects an additional time.<br /><br />Gain <crit> 25% Crit chance</crit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DoubleTap_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DoubleTap_small.png",
+   "nameZh": "双发快射",
+   "descZh": "你的<crit>暴击</crit>施加一次额外的<OnHit>攻击特效</OnHit>。<br /><br />获得<crit> 25%暴击几率</crit>。"
+  },
+  {
+   "id": 2016,
+   "key": "ARAM_Juiced",
+   "name": "Juiced",
+   "rarity": 1,
+   "desc": "<OnHit> On-Hit</OnHit> deal <magicDamage>? magic damage</magicDamage>, this damage can <crit>Critically Strike</crit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Juiced_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Juiced_small.png",
+   "nameZh": "注魔",
+   "descZh": "<OnHit>攻击特效</OnHit>造成<magicDamage>?魔法伤害</magicDamage>，这个伤害可以<crit>暴击</crit>。"
+  },
+  {
+   "id": 2018,
+   "key": "ARAM_Purist_Caster",
+   "name": "Purist - Caster",
+   "rarity": 1,
+   "desc": "Gain percent cooldown reduction and convert all of your <attackSpeed>Attack Speed</attackSpeed> into Ability Haste.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PuristCaster_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PuristCaster_small.png",
+   "nameZh": "纯粹主义者 - 术师",
+   "descZh": "获得百分比冷却缩减并将你的所有<attackSpeed>攻击速度</attackSpeed>转化为技能急速。"
+  },
+  {
+   "id": 2026,
+   "key": "KillSecured",
+   "name": "Kill Secured",
+   "rarity": 1,
+   "desc": "Gain increased <speed>Movement Speed</speed> towards enemies at low Health.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/KillSecure_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/KillSecure_small.png",
+   "nameZh": "杀意翻涌",
+   "descZh": "在朝着低生命值的敌人时，获得额外<speed>移动速度</speed>。"
+  },
+  {
+   "id": 2031,
+   "key": "ARAM_DropBear",
+   "name": "DropBear",
+   "rarity": 8,
+   "desc": "On death, a giant Tibbers with all your augments falls from the sky and damages nearby enemies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Drop_Bear.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Drop_Bear_Small.png",
+   "nameZh": "空投熊",
+   "descZh": "阵亡时，一个具有你所有强化符文的巨大提伯斯从天而降并伤害附近的敌人们。"
+  },
+  {
+   "id": 2032,
+   "key": "FishBait",
+   "name": "Shark Bait",
+   "rarity": 4,
+   "desc": "A few seconds after death, a shark chomps all nearby enemies. You can move after death to aim the shark attack.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/FishBait_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/FishBait_small.png",
+   "nameZh": "鲨鱼诱饵",
+   "descZh": "在阵亡之后的若干秒，一头鲨鱼会啃噬所有附近的敌人们。你可以在阵亡后进行移动，以给鲨鱼攻击进行定位。"
+  },
+  {
+   "id": 2034,
+   "key": "SharkTempest",
+   "name": "Shark Tempest",
+   "rarity": 4,
+   "desc": "Sharks circle your Snowball, <status>slowing</status> and damaging nearby enemies. When your Snowball hits a Champion, they become trapped in a shark storm!",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SharkTempest_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SharkTempest_small.png",
+   "nameZh": "鲨鱼暴风",
+   "descZh": "鲨鱼们环绕着你的【雪球】，对附近的敌人们造成伤害和<status>减速</status>。当你的【雪球】命中一个英雄时，其会陷入一阵鲨鱼风暴之中！"
+  },
+  {
+   "id": 2042,
+   "key": "BrushPower",
+   "name": "Hide on Bush",
+   "rarity": 4,
+   "desc": "After entering <keyword>Brush</keyword>, deal <attention>20%</attention> more damage for <attention>2</attention> seconds. Remain in the <keyword>Brush</keyword> to refresh the effect.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BrushPower_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BrushPower_small.png",
+   "nameZh": "藏身草丛",
+   "descZh": "在进入<keyword>草丛</keyword>后，多造成<attention>20%</attention>伤害，持续<attention>2</attention>秒。留在<keyword>草丛</keyword>中会刷新这个效果。"
+  },
+  {
+   "id": 2043,
+   "key": "NatureIsHealing",
+   "name": "Nature is Healing",
+   "rarity": 4,
+   "desc": "Entering <keyword>Brush</keyword> regenerates <healing>a large amount of Health</healing>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/NatureIsHealing_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/NatureIsHealing_small.png",
+   "nameZh": "自然即是治愈",
+   "descZh": "进入<keyword>草丛</keyword>时回复<healing>大量生命值</healing>。"
+  },
+  {
+   "id": 2054,
+   "key": "SpellVolley",
+   "name": "Tripleshot",
+   "rarity": 8,
+   "desc": "Your <font color='#F0C200'>?</font> targets 2 additional enemies in front of you.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Prismatic.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Prismatic.png",
+   "nameZh": "三重射击",
+   "descZh": "你的【<font color='#F0C200'>?</font>】技能会瞄准你前方2个额外的敌人。"
+  },
+  {
+   "id": 2055,
+   "key": "ARAM_Multishot",
+   "name": "Multishot",
+   "rarity": 8,
+   "desc": "<font color='#F0C200'>QUEST:</font> Hit enemy Champions with <font color='#F0C200'>?</font> ? times.<br /><br /><font color='#F0C200'>REWARD:</font> Fire additional missiles per Quest Level.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Prismatic.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Prismatic.png",
+   "nameZh": "多重射击",
+   "descZh": "<font color='#F0C200'>任务：</font>用【<font color='#F0C200'>?</font>】技能命中敌方英雄?次。<br /><br /><font color='#F0C200'>奖励：</font>发射数量基于任务等级的额外飞弹。"
+  },
+  {
+   "id": 2062,
+   "key": "Ability_SelfAOE_DoubleCast",
+   "name": "Echo Cast",
+   "rarity": 8,
+   "desc": "Casting your <font color='#F0C200'>?</font> sends a clone toward your mouse position and recasts it.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Prismatic.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Prismatic.png",
+   "nameZh": "回响施放",
+   "descZh": "施放你的【<font color='#F0C200'>?</font>】技能时会朝你的鼠标位置派出一个复制体并再次施放该技能。"
+  },
+  {
+   "id": 2064,
+   "key": "ARAM_Quickstep",
+   "name": "Quickstep",
+   "rarity": 4,
+   "desc": "When you use <font color='#F0C200'>?</font>, dash towards your cursor.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "快步",
+   "descZh": "当你使用【<font color='#F0C200'>?</font>】技能时，朝你的鼠标指针进行冲刺。"
+  },
+  {
+   "id": 2065,
+   "key": "ARAM_Terror",
+   "name": "Terror",
+   "rarity": 4,
+   "desc": "Whenever you cast <font color='#F0C200'>?</font>, <status>Fear</status> enemies around you.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Desecrator_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Desecrator_large.png",
+   "nameZh": "惊惧",
+   "descZh": "每当你施放【<font color='#F0C200'>?</font>】技能时，<status>恐惧</status>你周围的敌人们."
+  },
+  {
+   "id": 2072,
+   "key": "Missile_Split",
+   "name": "Spell Split",
+   "rarity": 8,
+   "desc": "Your <font color='#F0C200'>?</font> missile splits into two on hit, at max Range, or when <recast>Recast</recast>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Prismatic.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Prismatic.png",
+   "nameZh": "咒语裂变",
+   "descZh": "在命中时、最大距离时或<recast>再次施放</recast>时，你的【<font color='#F0C200'>?</font>】技能的飞弹会分裂为两部分。"
+  },
+  {
+   "id": 2073,
+   "key": "ARAM_SustainingStrike",
+   "name": "Siphon",
+   "rarity": 1,
+   "desc": "Damaging enemy champions with <font color='#F0C200'>?</font> <healing>heals</healing> you.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Silver.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Silver.png",
+   "nameZh": "虹吸",
+   "descZh": "用【<font color='#F0C200'>?</font>】技能伤害敌方英雄时会<healing>治疗</healing>你。"
+  },
+  {
+   "id": 2076,
+   "key": "TitansPulse",
+   "name": "Stay Resolute",
+   "rarity": 1,
+   "desc": "When <font color='#F0C200'>?</font> damages enemy champions, gain ? <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resistance</scaleMR>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Silver.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Silver.png",
+   "nameZh": "保持坚定",
+   "descZh": "当【<font color='#F0C200'>?</font>】技能对敌方英雄造成伤害时，获得?<scaleArmor>护甲</scaleArmor>和<scaleMR>魔法抗性</scaleMR>。"
+  },
+  {
+   "id": 2077,
+   "key": "DarkWind",
+   "name": "Ravenous Bind",
+   "rarity": 4,
+   "desc": "<status>Immobilizing</status> or <status>Grounding</status> enemy champions with <font color='#F0C200'>?</font> deals extra <magicDamage>damage</magicDamage> and <healing>heals you</healing>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeHubris_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeHubris_small.png",
+   "nameZh": "贪欲束缚",
+   "descZh": "用你的【<font color='#F0C200'>?</font>】技能<status>定身</status>或<status>缚地</status>敌方英雄时造成额外<magicDamage>伤害</magicDamage>并<healing>对你进行治疗</healing>。"
+  },
+  {
+   "id": 2078,
+   "key": "ChainReaction",
+   "name": "Chain Reaction",
+   "rarity": 4,
+   "desc": "If a target <status>Knocked Back</status> by <font color='#F0C200'>?</font> hits another champion, they are <status>Knocked Up</status> and dealt <magicDamage>damage</magicDamage>. When colliding with terrain, the <status>Knock Up</status> duration is extended and they are dealt <magicDamage>bonus damage</magicDamage>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "连锁反应",
+   "descZh": "如果一个被【<font color='#F0C200'>?</font>】技能<status>击退</status>的目标命中了另一个英雄，则二者都会被<status>击飞</status>并受到<magicDamage>伤害</magicDamage>。在与地形产生碰撞时，该<status>击飞</status>时长会延长并且他们会受到<magicDamage>额外伤害</magicDamage>。"
+  },
+  {
+   "id": 2080,
+   "key": "Snowbomb",
+   "name": "Snowblast",
+   "rarity": 4,
+   "desc": "Recasting <spellName>Snowball</spellName> deals increased damage, <status>Knocks Up</status> the target, and <status>Knocks Back</status> nearby enemies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Snowbomb_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Snowbomb_small.png",
+   "nameZh": "冰雪爆裂",
+   "descZh": "再次施放<spellName>雪球</spellName>会造成提升<magicDamage>伤害</magicDamage>、<status>击飞</status>该目标、并<status>击退</status>附近的敌人们。"
+  },
+  {
+   "id": 2082,
+   "key": "Equilibrium",
+   "name": "Our Healing",
+   "rarity": 4,
+   "desc": "Whenever someone heals around you, you <healing>heal 15%</healing> of their own healing. Doubled from Enemy healing.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Equillibrium_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Equillibrium_small.png",
+   "nameZh": "我们的治疗",
+   "descZh": "每当你周围的某人进行治疗时，你获得相当于<healing>其15%治疗效果的治疗效果</healing>。从敌方治疗中获得双倍。"
+  },
+  {
+   "id": 2083,
+   "key": "BurstingTeeth",
+   "name": "Tooth Fairy",
+   "rarity": 4,
+   "desc": "Bursting enemies drops <keyword>Teeth</keyword>. Picking up <keyword>Teeth</keyword> grants you permanent <scaleLethality>Lethality</scaleLethality> and <magicPen>Magic Penetration</magicPen>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/QuestBurstingTeeth_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/QuestBurstingTeeth_small.png",
+   "nameZh": "牙仙子",
+   "descZh": "爆裂敌人会掉落<keyword>牙齿</keyword>。拾取<keyword>牙齿</keyword>会提供给你永久的<scaleLethality>穿甲</scaleLethality>和<magicPen>法术穿透</magicPen>。"
+  },
+  {
+   "id": 2087,
+   "key": "ARAM_Archmage",
+   "name": "Archmage",
+   "rarity": 8,
+   "desc": "Casting a spell refunds another random spell's cost by 30% of the original spell's Cooldown.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Eureka_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Eureka_small.png",
+   "nameZh": "大法师",
+   "descZh": "施放一个技能会返还另一个随机技能的花费，数额相当于30%原技能冷却时间。"
+  },
+  {
+   "id": 2088,
+   "key": "ARAM_Snowday",
+   "name": "Snowday",
+   "rarity": 1,
+   "desc": "Gain 100 Ability Haste on your Snowball. It deals additional magic damage when hitting an enemy. If you don't have one, gain a Snowball.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Snowday_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Snowday_small.png",
+   "nameZh": "下雪天",
+   "descZh": "你的【雪球】获得100技能急速。在命中一名敌人时造成额外魔法伤害。如果你没有【雪球】，则获得一个【雪球】。"
+  },
+  {
+   "id": 2091,
+   "key": "EndlessDecimation",
+   "name": "Endless Decimation",
+   "rarity": 4,
+   "desc": "While in combat, <keywordMajor>Autocast</keywordMajor> a circular axe that deals <physicalDamage>physical damage</physicalDamage>. Enemies on the outer edge take additional damage and <healing>heal</healing> you.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/EndlessDecimate_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/EndlessDecimate_small.png",
+   "nameZh": "无尽大杀四方",
+   "descZh": "在战斗状态下，<keywordMajor>自动施放</keywordMajor>一次环形斧头挥舞从而造成<physicalDamage>物理伤害</physicalDamage>。被斧刃命中的敌人们受到额外伤害并<healing>治疗</healing>你。"
+  },
+  {
+   "id": 2096,
+   "key": "LittleExtraHelp",
+   "name": "Lil' Extra Help",
+   "rarity": 4,
+   "desc": "Gain ? Attack Range and ? <attackSpeed>Attack Speed</attackSpeed> during your <font color='#F0C200'>?</font> duration.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "小小的额外帮助",
+   "descZh": "在你的【<font color='#F0C200'>?</font>】技能持续期间获得?攻击距离和?<attackSpeed>攻击速度</attackSpeed>。"
+  },
+  {
+   "id": 2098,
+   "key": "ARAM_EndlessHunt",
+   "name": "En Passant",
+   "rarity": 8,
+   "desc": "Periodically identify <keywordMajor>Vitals</keywordMajor> on enemy champions. Hitting them with Attacks or Abilities deals <trueDamage>max Health true damage</trueDamage>, <healing>restores Health</healing>, and grants <speed>Movement Speed</speed>. These effects can stack.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Dashing_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Dashing_small.png",
+   "nameZh": "吃过路兵",
+   "descZh": "周期性地识别出敌方英雄身上的<keywordMajor>破绽</keywordMajor>。用攻击或技能命中破绽时，会造成<trueDamage>最大生命值真实伤害</trueDamage>、<healing>回复生命值</healing>并提供<speed>移动速度</speed>。这些效果可以叠加。"
+  },
+  {
+   "id": 2099,
+   "key": "ARAM_DivineDomain",
+   "name": "Rite of Ascension",
+   "rarity": 8,
+   "desc": "On takedown, enemy champions leave behind their Essence. Attacking the Essence grants <speed>movement speed</speed> and resets basic ability cooldowns.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GlassCannon_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GlassCannon_small.png",
+   "nameZh": "飞升仪式",
+   "descZh": "参与击杀敌方英雄后会留下其精华。攻击该精华会提供<speed>移动速度</speed>并重置基础技能冷却时间。"
+  },
+  {
+   "id": 2100,
+   "key": "ARAM_SpecializedRecursion",
+   "name": "Pursuit of Haste",
+   "rarity": 4,
+   "desc": "<font color='#F0C200'>QUEST:</font> Hit enemy champions with <font color='#F0C200'>?</font> ? times.<br /><br /><font color='#F0C200'>REWARD:</font> Gain Ability Haste on <font color='#F0C200'>?</font> per Quest Level up to 160.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "急速之追求",
+   "descZh": "<font color='#F0C200'>任务：</font>用【<font color='#F0C200'>?</font>】技能命中敌方英雄?次<br /><br /><font color='#F0C200'>奖励：</font>【<font color='#F0C200'>?</font>】技能获得技能急速，基于任务等级，至多至160。"
+  },
+  {
+   "id": 2102,
+   "key": "PressureCooker",
+   "name": "Pressure Cooker",
+   "rarity": 4,
+   "desc": "Every second, apply a stacking <keywordMajor>Burn</keywordMajor> to nearby enemy champions, scaling with your <scaleHealth>max Health</scaleHealth>.<br /><br /><font color='#F0C200'>QUEST:</font> Deal <keywordMajor>Burn</keywordMajor> damage to enemy Champions.<br /><br /><font color='#F0C200'>REWARD</font>: Size and damage increase per Quest Level.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/QuestPressureCooker_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/QuestPressureCooker_small.png",
+   "nameZh": "高压锅",
+   "descZh": "每一秒，对附近的敌方英雄们施加一层可叠加的<keywordMajor>灼烧</keywordMajor>，这个效果受益于你的<scaleHealth>最大生命值</scaleHealth>。<br /><br /><font color='#F0C200'>任务：</font>对敌方英雄造成<keywordMajor>灼烧</keywordMajor>伤害。<br /><br /><font color='#F0C200'>奖励</font>：每任务等级都会提升体型和伤害。"
+  },
+  {
+   "id": 2103,
+   "key": "ARAM_BangBang",
+   "name": "From Downtown",
+   "rarity": 4,
+   "desc": "<font color='#F0C200'>QUEST:</font> <keywordMajor>Snipe</keywordMajor> ? enemy champions with abilities<br /><br /><font color='#F0C200'>REWARD:</font> Send a meteor at <keywordMajor>Sniped</keywordMajor> enemy champions, dealing <magicDamage>Magic damage</magicDamage> in an area around them",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/QuestBangBang_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/QuestBangBang_small.png",
+   "nameZh": "狙神飞星",
+   "descZh": "<font color='#F0C200'>任务：</font>用技能<keywordMajor>狙击</keywordMajor>?个敌方英雄<br /><br /><font color='#F0C200'>奖励：</font>一颗流星会飞向被<keywordMajor>狙击</keywordMajor>的敌方英雄，在其周围的一个区域内造成<magicDamage>魔法伤害</magicDamage>"
+  },
+  {
+   "id": 2104,
+   "key": "ARAM_SpiritBomb",
+   "name": "Spirit Bomb",
+   "rarity": 8,
+   "desc": "<healing>Healing</healing> and <shield>Shielding</shield> allied champions builds up a Spirit Bomb. At max stacks, toss the bomb onto <scaleHealth>lowest Health ally</scaleHealth> to <healing>heal</healing> and <shield>shield</shield> them and nearby allies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SpiritBomb_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SpiritBomb_small.png",
+   "nameZh": "灵魄炸弹",
+   "descZh": "为友方英雄提供<healing>治疗</healing>和<shield>护盾</shield>时会为你积攒一颗【灵魄炸弹】。在满层时，投掷该炸弹至<scaleHealth>生命值最低的那个友军</scaleHealth>，从而对其和附近友军们提供<healing>治疗</healing>和<shield>护盾</shield>。"
+  },
+  {
+   "id": 2107,
+   "key": "ARAM_Hellbent",
+   "name": "Hellbent",
+   "rarity": 8,
+   "desc": "Damaging enemy champions with Attacks or Abilities grants stacks. At max stacks, you <attention>revive empowered</attention> upon death.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Hellbent_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Hellbent_small.png",
+   "nameZh": "濒死悟道",
+   "descZh": "用攻击或技能伤害敌方英雄时会提供层数。在满层时，你会在阵亡时进行<attention>复活强化</attention>。"
+  },
+  {
+   "id": 2111,
+   "key": "Bonk",
+   "name": "BONK!",
+   "rarity": 4,
+   "desc": "Attacks and Abilities empowered by <font color='#F0C200'>?</font> deal additional damage to the target and nearby enemies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Bonk_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Bonk_large.png",
+   "nameZh": "邦！",
+   "descZh": "被【<font color='#F0C200'>?</font>】技能强化的攻击或技能会对目标和附近的敌人们造成额外伤害。"
+  },
+  {
+   "id": 2115,
+   "key": "SquishySlappyGrab",
+   "name": "Squishy Slappy Grab",
+   "rarity": 8,
+   "desc": "Occasionally send out squishy, slappy hands towards all nearby enemy champions, tethering them. Your next attack will pull in all tethered enemies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SquishySlappyGrab_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SquishySlappyGrab_small.png",
+   "nameZh": "软弹啪叽抓",
+   "descZh": "偶尔对所有附近的敌方英雄放出软弹啪叽的手，然后用灵链系住。你的下次攻击将拉拽所有被系住的敌人。"
+  },
+  {
+   "id": 2116,
+   "key": "SpecializedEmpowerment",
+   "name": "Pursuit of Power",
+   "rarity": 4,
+   "desc": "<font color='#F0C200'>QUEST:</font> Hit enemy champions with <font color='#F0C200'>?</font> ? times.<br /><br /><font color='#F0C200'>REWARD:</font> Permanently increase <font color='#F0C200'>?</font> damage.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Marksmage_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Marksmage_small.png",
+   "nameZh": "威能之追求",
+   "descZh": "<font color='#F0C200'>任务：</font>用【<font color='#F0C200'>?</font>】技能命中敌人?次。<br /><br /><font color='#F0C200'>奖励：</font>永久提升【<font color='#F0C200'>?</font>】技能伤害。"
+  },
+  {
+   "id": 2119,
+   "key": "Overextender",
+   "name": "Overextender",
+   "rarity": 4,
+   "desc": "Recall to enter your Cannon Launcher. It has significantly increased range, travel speed, and damage.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Overextender_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Overextender_small.png",
+   "nameZh": "过量延伸者",
+   "descZh": "回城并进入到你的加农炮发射器。它的距离、飞行速度和伤害已经得到显著提升。"
+  },
+  {
+   "id": 2123,
+   "key": "Overloaded",
+   "name": "Overloaded",
+   "rarity": 8,
+   "desc": "Using another Ability resets the cooldown of <font color='#F0C200'>?</font>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Prismatic.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Prismatic.png",
+   "nameZh": "超负荷",
+   "descZh": "使用另一个技能会重置【<font color='#F0C200'>?</font>】技能的冷却时间。"
+  },
+  {
+   "id": 2125,
+   "key": "ItsGoTime",
+   "name": "It's Go Time",
+   "rarity": 1,
+   "desc": "Activating <font color='#F0C200'>?</font> grants you <speed>Movement Speed</speed> for its duration.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Silver.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Silver.png",
+   "nameZh": "前进时间到",
+   "descZh": "激活【<font color='#F0C200'>?</font>】技能会在其持续期间为你提供<speed>移动速度</speed>。"
+  },
+  {
+   "id": 2127,
+   "key": "ForgedByTheMaster",
+   "name": "Forged By The Master",
+   "rarity": 1,
+   "desc": "Increase your Item and Augment damage by <attention>45%</attention>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ForgedByTheMaster_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ForgedByTheMaster_small.png",
+   "nameZh": "大师铸就",
+   "descZh": "使你的装备和强化符文伤害提升<attention>45%</attention>。"
+  },
+  {
+   "id": 2128,
+   "key": "BloodMoneyBurn",
+   "name": "Combusting Interest",
+   "rarity": 4,
+   "desc": "Burn and damage-over-time on champions generate <gold>gold</gold>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BloodMoney2_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/BloodMoney2_small.png",
+   "nameZh": "炽燃利息",
+   "descZh": "英雄身上的灼烧和持续伤害会生成<gold>金币</gold>。"
+  },
+  {
+   "id": 2129,
+   "key": "Terraind",
+   "name": "Terrain'd",
+   "rarity": 4,
+   "desc": "Your <font color='#F0C200'>?</font> deals damage in an area around it.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/LightningStrikes_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/LightningStrikes_small.png",
+   "nameZh": "地形专家",
+   "descZh": "你的【<font color='#F0C200'>?</font>】技能会在它周围的一个区域内造成伤害。"
+  },
+  {
+   "id": 2131,
+   "key": "DontChangeTheChannel",
+   "name": "Don't Change the Channel",
+   "rarity": 1,
+   "desc": "Gain a <shield>Shield</shield> for every second you spend <attention>Channeling</attention>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DontChangeTheChannel_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/DontChangeTheChannel_small.png",
+   "nameZh": "别停止引导",
+   "descZh": "你每<shield>引导</shield>一秒都会获得<attention>护盾值</attention>。"
+  },
+  {
+   "id": 2132,
+   "key": "WarlockJuicebox",
+   "name": "Warlock Juicebox",
+   "rarity": 4,
+   "desc": "Gain <lifeSteal>? Omnivamp</lifeSteal>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/WarlockJuicebox_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/WarlockJuicebox_small.png",
+   "nameZh": "术士果汁盒",
+   "descZh": "获得<lifeSteal>?全能吸血</lifeSteal>。"
+  },
+  {
+   "id": 2133,
+   "key": "MercysStrike",
+   "name": "Mercy's Strike",
+   "rarity": 4,
+   "desc": "After healing or shielding your ally with <font color='#F0C200'>?</font>, your next basic attack gains <attention>attack range</attention>, <speed>attack speed</speed> and deals bonus <magicDamage>max Health magic damage</magicDamage>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "仁慈打击",
+   "descZh": "在使用【<font color='#F0C200'>?</font>】技能为你的友军提供治疗或护盾之后，你的下一次普攻获得<attention>攻击距离</attention>、<speed>攻击速度</speed>并造成额外<magicDamage>最大生命值魔法伤害</magicDamage>。"
+  },
+  {
+   "id": 2134,
+   "key": "SurgeField",
+   "name": "Surge Field",
+   "rarity": 8,
+   "desc": "On Ultimate cast, spawn a <keywordMajor>Zone</keywordMajor> that grants <scaleAbilityHaste>Ability Haste</scaleAbilityHaste> and <speed>Movement Speed</speed>. While inside, it fires missiles that deal <magicDamage>20% of your damage</magicDamage>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SurgeField_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SurgeField_small.png",
+   "nameZh": "电涌力场",
+   "descZh": "在施放终极技能时，在你周围生成一个<keywordMajor>地带</keywordMajor>来提供<scaleAbilityHaste>技能急速</scaleAbilityHaste>和<speed>移动速度</speed>。在其中时，它会发射飞弹，飞弹造成相当于你造成的<magicDamage>20%伤害</magicDamage>。"
+  },
+  {
+   "id": 2135,
+   "key": "Overkill",
+   "name": "Pin Cushion",
+   "rarity": 8,
+   "desc": "Attacks during <font color='#F0C200'>?</font> gouge your target with <keywordMajor>Nails</keywordMajor>. Nails accumulate damage, execute, and grant <MS>Movement Speed</MS> upon expiration.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SymphonyOfWar_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SymphonyOfWar_small.png",
+   "nameZh": "针插垫",
+   "descZh": "在【<font color='#F0C200'>?</font>】技能期间进行攻击会对你的目标凿下<keywordMajor>大钉</keywordMajor>。大钉会积累伤害、处决、并在到期时提供<MS>移动速度</MS>。"
+  },
+  {
+   "id": 2136,
+   "key": "TrustyWeapon",
+   "name": "Trusty Weapon",
+   "rarity": 1,
+   "desc": "Striking enemy champions with <font color='#F0C200'>?</font> forges a bond of <keyword>Friendship</keyword>.<br /><br /><font color='#F0C200'>?</font> gains temporarily increased damage based on your level of <keyword>Friendship</keyword>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Silver.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Silver.png",
+   "nameZh": "可靠武器",
+   "descZh": "用【<font color='#F0C200'>?</font>】技能打击敌方英雄时会铸造一条<keyword>友谊</keyword>纽带。<br /><br />【<font color='#F0C200'>?</font>】技能基于你的<keyword>友谊</keyword>等级获得到临时提升伤害"
+  },
+  {
+   "id": 2137,
+   "key": "PatOnTheBack",
+   "name": "Pat On The Back",
+   "rarity": 4,
+   "desc": "Allies encourage you when you walk past, granting you a <shield>Shield</shield> and <speed>Movement Speed</speed>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PatOnTheBack_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PatOnTheBack_small.png",
+   "nameZh": "轻拍背部",
+   "descZh": "友军会在你走过时鼓励你，为你提供<shield>护盾</shield>和<speed>移动速度</speed>。"
+  },
+  {
+   "id": 2138,
+   "key": "WardingWeapon",
+   "name": "Adaptive Ward",
+   "rarity": 1,
+   "desc": "Striking an enemy champion with <font color='#F0C200'>?</font> grants you <attention>7 - 12</attention> <scaleArmor>Armor</scaleArmor> or <scaleMR>Magic Resist</scaleMR> based on their damage type for 6 seconds. This effect can stack.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Silver.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Silver.png",
+   "nameZh": "自适应防护",
+   "descZh": "用【<font color='#F0C200'>?</font>】技能打击一个敌方英雄时，为你提供持续6秒的<attention>7 - 12</attention><scaleArmor>护甲</scaleArmor>或<scaleMR>魔法抗性</scaleMR>，基于该技能的伤害类型。这个效果可以叠加。"
+  },
+  {
+   "id": 2139,
+   "key": "PinCushion",
+   "name": "Porcupine",
+   "rarity": 4,
+   "desc": "Taking damage from champions builds up a burst of needles that fly out of you, dealing damage and slowing nearby enemies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PinCushion_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/PinCushion_small.png",
+   "nameZh": "豪猪",
+   "descZh": "承受来自英雄的伤害会积攒一次尖针迸发，这些尖针会从你身上飞出，对附近的敌人们造成伤害和减速。"
+  },
+  {
+   "id": 2140,
+   "key": "Upgrade_Ravenous",
+   "name": "Upgrade Ravenous Hydra",
+   "rarity": 4,
+   "desc": "Your spell hits trigger Cleave against enemies. Increase Ravenous Hydra's Life Steal to 20%<br /><br />Gain <font color=\"#ffd138\"><gold>500 Gold</gold></font>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeSheen_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeSheen_small.png",
+   "nameZh": "升级：贪欲九头蛇",
+   "descZh": "你对敌人的技能命中会触发顺劈。提升【贪欲九头蛇】的生命偷取至20%。<br /><br />获得<font color=\"#ffd138\"><gold>500金币</gold></font>."
+  },
+  {
+   "id": 2141,
+   "key": "Quest_UltraHydra",
+   "name": "Ultra Hydra",
+   "rarity": 8,
+   "desc": "Gain a <attention>Tiamat</attention> when completing a Hydra Item.<br /><br /><font color='#F0C200'>QUEST:</font> Gain Ravenous Hydra, Profane Hydra and Titanic Hydra.<br /><br /><font color='#F0C200'>REWARD:</font> Gain Ultra Hydra.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UltraHydra_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UltraHydra_small.png",
+   "nameZh": "终极九头蛇",
+   "descZh": "在完成一个【九头蛇】装备时，获得一个<attention>提亚马特</attention>。<br /><br /><font color='#F0C200'>任务：</font>拥有【贪欲九头蛇】，【亵渎九头蛇】和【巨型九头蛇】。<br /><br /><font color='#F0C200'>奖励：</font>获得【终极九头蛇】。"
+  },
+  {
+   "id": 2143,
+   "key": "Upgrade_SunderedSky",
+   "name": "Upgrade Sundered Sky",
+   "rarity": 4,
+   "desc": "Reduce Sundered Sky's per target cooldown to 5 seconds and heal you for 9% of missing health.<br /><br />Gain<gold> 500 Gold</gold>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeIE_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeIE_small.png",
+   "nameZh": "升级：焚天",
+   "descZh": "将【焚天】对每个目标的冷却时间缩短至5秒，并且治疗你9%已损失生命值。<br /><br />获得<gold>500金币</gold>。"
+  },
+  {
+   "id": 2144,
+   "key": "DoubleDefense",
+   "name": "Bolstered",
+   "rarity": 1,
+   "desc": "Shields granted from <font color='#F0C200'>?</font> are stronger and scaling with target's missing Health.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Silver.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Silver.png",
+   "nameZh": "加固护盾",
+   "descZh": "来自【<font color='#F0C200'>?</font>】技能的护盾变得更强并且受益于目标的已损失生命值。"
+  },
+  {
+   "id": 2157,
+   "key": "Upgrade_DeathDance",
+   "name": "Upgrade Death's Dance",
+   "rarity": 1,
+   "desc": "Gain <gold> 250</gold>.<br /><br /><keywordMajor>Death's Dance's</keywordMajor> <passive>Ignore Pain</passive> is increased to ? of damage received, and <healing>heals for more</healing> <keywordMajor>instantly</keywordMajor> when scoring a takedown.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeDeathDance_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeDeathDance_small.png",
+   "nameZh": "升级：死亡之舞",
+   "descZh": "获得<gold> 250</gold>。<br /><br /><keywordMajor>死亡之舞</keywordMajor>的<passive>无视痛苦</passive>提升至?所受伤害，并且在参与一次击杀后，<keywordMajor>即刻</keywordMajor><healing>治疗更多</healing>生命值。"
+  },
+  {
+   "id": 3004,
+   "key": "GetJinxed",
+   "name": "Get Jinxed",
+   "rarity": 4,
+   "desc": "Replace a Summoner Spell with <spellName>Get Jinxed!</spellName><br /><br /><spellName>Get Jinxed!</spellName>: Ride a rocket that explodes after hitting an enemy champion, structure, or wall. Enemies within the blast radius take <physicalDamage>physical damage</physicalDamage>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Overextender_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Overextender_small.png",
+   "nameZh": "罪恶快感！",
+   "descZh": "将一个召唤师技能替换为<spellName>罪恶快感！</spellName><br /><br /><spellName>罪恶快感！</spellName>驾驭一枚飞弹，它会在命中敌方英雄、建筑物或墙体后爆炸。爆炸半径内的敌人会受到<physicalDamage>物理伤害</physicalDamage>。"
+  },
+  {
+   "id": 3016,
+   "key": "ThirdTimesTheHarm",
+   "name": "Third Times the Harm",
+   "rarity": 8,
+   "desc": "Every third consecutive Attack against an enemy champion deals <trueDamage>true damage</trueDamage> and permanently increases the damage dealt by this effect.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/7adc28b701aa6c83.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/6682ab3589d39d47.png",
+   "nameZh": "伤不过三",
+   "descZh": "对一个敌方英雄的每第三次连续攻击会造成<trueDamage>真实伤害</trueDamage>并永久提升由这个技能造成的伤害。"
+  },
+  {
+   "id": 3018,
+   "key": "BigShot",
+   "name": "Big Shot",
+   "rarity": 8,
+   "desc": "Gain <crit>35% Critical Strike Damage</crit> and <scaleAD>25% bonus Attack Damage</scaleAD>.<br /><br /><attackSpeed>75% of your Attack Speed</attackSpeed> is converted into <crit>Critical Strike Damage</crit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/2771e88191a9d0ef.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/8653f2331cde606f.png",
+   "nameZh": "大腕",
+   "descZh": "获得<crit>35%暴击伤害</crit>和<scaleAD>25%额外攻击力</scaleAD>。<br /><br /><attackSpeed>你的75%攻击速度</attackSpeed>转化为<crit>暴击伤害</crit>。"
+  },
+  {
+   "id": 3025,
+   "key": "Sound_Barrier",
+   "name": "Sound Barrier",
+   "rarity": 1,
+   "desc": "<shield>Shielding</shield> an ally grants <speed>Move Speed</speed> and <status>Ghost</status> decaying over 1.5 seconds.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SwiftandSafe_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/SwiftandSafe_small.png",
+   "nameZh": "音之屏障",
+   "descZh": "为一名友军提供<shield>护盾</shield>时，会在1.5秒内提供持续衰减的<speed>移动速度</speed>和<status>幽灵</status>状态。"
+  },
+  {
+   "id": 3036,
+   "key": "DoubleTime",
+   "name": "Double Time",
+   "rarity": 4,
+   "desc": "Damaging an enemy champion with 2 separate Abilities in quick succession deals<magicDamage> magic damage</magicDamage> and grants <scaleMana>max Mana</scaleMana>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ARAM_PhenomenalEvil_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ARAM_PhenomenalEvil_large.png",
+   "nameZh": "翻倍时间",
+   "descZh": "在短时间内用2种不同技能对一名敌方英雄造成伤害时，会造成<magicDamage>魔法伤害</magicDamage>并提供<scaleMana>最大法力值</scaleMana>。"
+  },
+  {
+   "id": 3039,
+   "key": "Salvation",
+   "name": "Salvation",
+   "rarity": 4,
+   "desc": "Taking damage that would reduce your Health below <scaleHealth>50%</scaleHealth> releases a shockwave which damages and <Status>Knocks Back</Status> nearby enemies and <healing>restores health to all allied champions</healing> in a large area around you.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/41c90b98da263e47.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/9123561825aa4a9b.png",
+   "nameZh": "拯救",
+   "descZh": "受到伤害导致你的生命值低于<scaleHealth>50%</scaleHealth>时，会释放一道冲击波，对附近敌人造成伤害并将其<Status>击退</Status>，同时为你周围大范围区域内的<healing>所有友方英雄回复生命值</healing>。"
+  },
+  {
+   "id": 3048,
+   "key": "BouncingBees",
+   "name": "Bouncing Bees",
+   "rarity": 8,
+   "desc": "After casting an ability, your next Attack bounces to the nearest enemy<br /><br /><font color='#F0C200'>QUEST:</font> Bounce Attacks onto enemy Champions<br /><br /><font color='#F0C200'>REWARD:</font> Gain <physicalDamage>+30 Attack Damage</physicalDamage> and an extra bounce per Quest Level",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/KingMe_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/KingMe_large.png",
+   "nameZh": "弹跳蜜蜂",
+   "descZh": "施放技能后，你的下一次普攻会弹跳至相距最近的那个敌人<br /><br /><font color='#F0C200'>任务：</font>将普攻弹跳至敌方英雄<br /><br /><font color='#F0C200'>奖励：</font>每任务等级获得<physicalDamage>+30攻击力</physicalDamage>和额外一次弹跳"
+  },
+  {
+   "id": 3049,
+   "key": "ArmoredImpact",
+   "name": "Armored Impact",
+   "rarity": 4,
+   "desc": "After casting an Ability, your next Attack deals ? bonus physical damage to nearby enemies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/a5f7fc50c1b61b38.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/27b5cd5fabcd93db.png",
+   "nameZh": "装甲冲击",
+   "descZh": "施放技能后，你的下一次普通攻击会对附近敌人造成?额外物理伤害。"
+  },
+  {
+   "id": 3051,
+   "key": "BlueBarrier",
+   "name": "Blue Barrier",
+   "rarity": 1,
+   "desc": "Gain 200% - 450% of the <scaleMana> Mana</scaleMana> you spend as a <shield>Shield</shield> for 1.5 seconds.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/3af710d256bc8c50.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/7b08cf11bb124b25.png",
+   "nameZh": "蓝色屏障",
+   "descZh": "获得持续1.5秒的<shield>护盾</shield>，数额相当于你花费的200% - 450%<scaleMana>法力值</scaleMana>。"
+  },
+  {
+   "id": 3052,
+   "key": "HandsOffTheTalent",
+   "name": "Hands off the Talent",
+   "rarity": 1,
+   "desc": "Attacks fired close to your max Attack Range deal bonus <physicalDamage>physical damage</physicalDamage> On-Hit.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Bonk_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Bonk_large.png",
+   "nameZh": "远射天资",
+   "descZh": "在接近最大攻击距离处打出的攻击会附带额外<physicalDamage>物理伤害</physicalDamage>攻击特效。"
+  },
+  {
+   "id": 3053,
+   "key": "MoshMonster",
+   "name": "Mosh Monster",
+   "rarity": 8,
+   "desc": "Casting <font color='#F0C200'>?</font> grants 300 - 750 bonus Health and Slows nearby enemies for the duration of <font color='#F0C200'>?</font><br /><br />Getting a takedown permanently increases this effect.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Prismatic.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Prismatic.png",
+   "nameZh": "热舞怪兽",
+   "descZh": "施放【<font color='#F0C200'>?</font>】技能会获得300 - 750额外生命值，并在<font color='#F0C200'>?</font>持续期间减速附近敌人<br /><br />每次参与击杀都会永久提升该效果。"
+  },
+  {
+   "id": 3055,
+   "key": "UltimateRecursion",
+   "name": "Ultimate Recursion",
+   "rarity": 1,
+   "desc": "Gain 50 Ultimate Ability Haste.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Zealot_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Zealot_large.png",
+   "nameZh": "终极循环往复",
+   "descZh": "获得50终极技能急速。"
+  },
+  {
+   "id": 3058,
+   "key": "TickleMonster",
+   "name": "Tickle Monster",
+   "rarity": 4,
+   "desc": "<scaleAD> Attack Damage</scaleAD> is converted<br />into <attackSpeed> Attack Speed</attackSpeed>.<br /><br />Attacks deal <magicDamage>bonus magic damage</magicDamage> <OnHit> On-Hit</OnHit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/d52e657cb9c396e5.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/aeabf61ae86e3af5.png",
+   "nameZh": "嗡嗡怪兽",
+   "descZh": "<scaleAD>攻击力</scaleAD>转化<br />为<attackSpeed>攻击速度</attackSpeed>。<br /><br />普攻附带<magicDamage>额外魔法伤害</magicDamage><OnHit>攻击特效</OnHit>。"
+  },
+  {
+   "id": 3059,
+   "key": "NoManaNoProblem",
+   "name": "No Mana, No Problem",
+   "rarity": 1,
+   "desc": "<scaleMana> Mana</scaleMana> from your items is converted<br />into <scaleAP> Ability Power</scaleAP>.<br /><br />Increase your total <scaleAP>Ability Power by 15%</scaleAP>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/0f84fb27f6686386.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ba7152438c9fb27d.png",
+   "nameZh": "没法力，没问题",
+   "descZh": "来自你的装备的<scaleMana>法力值</scaleMana>转化<br />为<scaleAP>法术强度</scaleAP>。<br /><br />使你的总<scaleAP>法术强度提升15%</scaleAP>。"
+  },
+  {
+   "id": 3060,
+   "key": "OneHitWonder",
+   "name": "One Hit Wonder",
+   "rarity": 4,
+   "desc": "<font color='#F0C200'>?</font>'s damage is increased by 75% per <scaleAbilityHaste> 100 Ability Haste</scaleAbilityHaste>, but no longer benefits from <scaleAbilityHaste> Ability Haste</scaleAbilityHaste>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "单曲红人",
+   "descZh": "每拥有<scaleAbilityHaste>100技能急速</scaleAbilityHaste>，【<font color='#F0C200'>?</font>】技能的伤害就会提升75%，但它不再受益于<scaleAbilityHaste>技能急速</scaleAbilityHaste>。"
+  },
+  {
+   "id": 3063,
+   "key": "GiftoftheDrowned",
+   "name": "Gift of the Drowned",
+   "rarity": 1,
+   "desc": "<scaleHealth> Bonus Health</scaleHealth> is converted<br />into <scaleLethality> Lethality</scaleLethality>.<br /><br />Gain <scaleLethality>10 - 25 Lethality</scaleLethality>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/511310c3b2fd7cc2.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/b3135c76f9ab9789.png",
+   "nameZh": "溺水之赠礼",
+   "descZh": "<scaleHealth>额外生命值</scaleHealth>转化为<br /><scaleLethality>穿甲</scaleLethality>。<br /><br />获得<scaleLethality>10 - 25穿甲</scaleLethality>。"
+  },
+  {
+   "id": 3071,
+   "key": "BrassBlast",
+   "name": "Brass Blast",
+   "rarity": 4,
+   "desc": "Replace a Summoner Spell with <spellName>Brass Blast</spellName>.<br /><br /><spellName>Brass Blast</spellName>: Charge up a large trumpet, <status>Knocking Back</status> and dealing <magicDamage>magic damage</magicDamage> to enemies.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/db90914543cd3838.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/db90914543cd3838.png",
+   "nameZh": "黄铜爆音",
+   "descZh": "将一个召唤师技能替换为<spellName>黄铜爆音</spellName>。<br /><br /><spellName>黄铜爆音</spellName>：蓄力吹响大喇叭，<status>击退</status>并对敌人造成<magicDamage>魔法伤害</magicDamage>。"
+  },
+  {
+   "id": 3075,
+   "key": "Recoil",
+   "name": "Recoil",
+   "rarity": 4,
+   "desc": "Your <font color='#F0C200'>?</font> deals increased damage and knocks you backward.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "反冲",
+   "descZh": "你的【<font color='#F0C200'>?</font>】技能造成额外伤害并且你因反冲力而后退。"
+  },
+  {
+   "id": 3078,
+   "key": "TheBoomAndTheBass",
+   "name": "The Boom and the Bass",
+   "rarity": 4,
+   "desc": "After casting an Ability, your next Attack is faster, deals <magicDamage>bonus magic damage</magicDamage>, and grants you <speed>decaying Move Speed</speed>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ab977e3177569cce.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/50374f865d59d010.png",
+   "nameZh": "鼓声暴起 低音轰鸣",
+   "descZh": "施放技能后，你的下一次攻击变得更快，造成<magicDamage>额外魔法伤害</magicDamage>并为你提供<speed>持续衰减的移动速度</speed>。"
+  },
+  {
+   "id": 3079,
+   "key": "Totentanz",
+   "name": "Totentanz",
+   "rarity": 8,
+   "desc": "Replace a Summoner Spell with <spellName>A Dance with Death</spellName>.<br /><br /><spellName>A Dance with Death</spellName>: Blink forward and become <attention>Unkillable</attention>. Get a takedown within 5 seconds or else<br /><danger>YOU DIE</danger>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/8aa75478c52a8dbe.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/9973ee24da4b01e9.png",
+   "nameZh": "死之舞",
+   "descZh": "将一个召唤师技能替换为<spellName>与死亡共舞一曲</spellName>。<br /><br /><spellName>与死亡共舞一曲</spellName>：向前闪烁并进入<attention>不可被击杀</attention>状态。在5秒内参与击杀一个英雄，否则<br /><danger>你会直接阵亡</danger>。"
+  },
+  {
+   "id": 3081,
+   "key": "WeaponOfDestiny",
+   "name": "Weapon of Destiny",
+   "rarity": 4,
+   "desc": "Your first Legendary Item becomes the <prismatic>Weapon of Destiny</prismatic>, gaining increased stats for every earned champion takedown.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/22e777fb39a79261.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/29446ad9ce861714.png",
+   "nameZh": "命运之武器",
+   "descZh": "你的第一件传说级装备成为<prismatic>命运之武器</prismatic>，属性基于参与击杀英雄数提升。"
+  },
+  {
+   "id": 3085,
+   "key": "FlowOfSpirit",
+   "name": "Flow of Spirit",
+   "rarity": 1,
+   "desc": "Casting <font color='#F0C200'>?</font> grants you <attackSpeed> Attack Speed</attackSpeed> for a duration.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "灵魂乐流",
+   "descZh": "施放【<font color='#F0C200'>?</font>】技能会为你提供持续一段时间的<attackSpeed>攻击速度</attackSpeed>。"
+  },
+  {
+   "id": 3086,
+   "key": "BEES",
+   "name": "BEES!!!",
+   "rarity": 4,
+   "desc": "Periodically, your next Ability hit against an enemy champion launches a hive of <keyword>Bees</keyword> that explodes, <status>Slowing</status> and dealing <magicDamage>magic damage</magicDamage> over a short duration.<br /><br /><keyword>Bees</keyword> apply <OnHit> On-Hit</OnHit> effects.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/a6608343a68ebf86.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/65ed630abf6d349d.png",
+   "nameZh": "小蜜蜂！！！",
+   "descZh": "每过一段时间，你的下一个命中敌方英雄的技能会发射一个会爆炸的<keyword>小蜜蜂</keyword>巢穴，在一段短时间里造成<magicDamage>魔法伤害</magicDamage>和<status>减速</status>。<br /><br /><keyword>小蜜蜂</keyword>附带<OnHit>攻击特效</OnHit>。"
+  },
+  {
+   "id": 3088,
+   "key": "CrimsonCobalt",
+   "name": "CRIMSON COBALT",
+   "rarity": 4,
+   "desc": "Enemy champions damaged by <font color='#F0C200'>?</font> are marked. Attacking a marked enemy deals <magicDamage>bonus magic damage</magicDamage> and reduces the cooldown of <font color='#F0C200'>?</font>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "深红钴蓝闪光",
+   "descZh": "被【<font color='#F0C200'>?</font>】技能伤害过的敌方英雄会被标记。攻击带标记的敌人会造成<magicDamage>额外魔法伤害</magicDamage>并缩减【<font color='#F0C200'>?</font>】技能的冷却时间。"
+  },
+  {
+   "id": 3094,
+   "key": "LichBrain",
+   "name": "Lich Brain",
+   "rarity": 1,
+   "desc": "Gain <scaleAP>? Ability Power</scaleAP>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/fbfeecc57a777b0d.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/6b32d2047ca6252c.png",
+   "nameZh": "巫妖大脑",
+   "descZh": "获得<scaleAP>?法术强度</scaleAP>。"
+  },
+  {
+   "id": 3116,
+   "key": "TakeemDownDownDown",
+   "name": "Take'em Down Down Down",
+   "rarity": 4,
+   "desc": "Attacks and Abilities deal <magicDamage>bonus magic damage</magicDamage> and apply stacks to enemy champions.<br /><br />At max stacks, consume them to deal <magicDamage>missing Health magic damage</magicDamage> and you <healing>restore Health</healing> based on the damage dealt.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/02352f66caf65576.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/586dc22aa2950b15.png",
+   "nameZh": "将他们放倒倒倒",
+   "descZh": "普攻和技能在命中时造成<magicDamage>额外魔法伤害</magicDamage>并对敌方英雄施加层数。<br /><br />在满层时，消耗所有层数，<magicDamage>基于已损失生命值造成魔法伤害</magicDamage>，并基于造成的伤害<healing>回复生命值</healing>。"
+  },
+  {
+   "id": 3118,
+   "key": "ArcaneAxiom",
+   "name": "Arcane Axiom",
+   "rarity": 4,
+   "desc": "When a champion that you damaged within 3 seconds dies, refund a portion of your Ultimate Ability's total cooldown.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/33e5afaf13a9be8e.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/7b5211005f518565.png",
+   "nameZh": "奥术公理",
+   "descZh": "在你对一名敌方英雄造成伤害后，如果该英雄在3秒内阵亡，则会返还你终极技能的部分总冷却时间。"
+  },
+  {
+   "id": 3121,
+   "key": "Fruitify",
+   "name": "Fruitify",
+   "rarity": 1,
+   "desc": "Takedowns create explosions of <keyword>Fruit</keyword>.<br /><br /><keyword>Fruit</keyword> restores <healing>Health</healing> and <scaleMana>Mana</scaleMana>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/b7f05581dc015fe1.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/629ad3bb58bdaf37.png",
+   "nameZh": "水果化",
+   "descZh": "参与击杀会引发<keyword>水果</keyword>爆炸。<br /><br /><keyword>水果</keyword>可回复<healing>生命值</healing>和<scaleMana>法力值</scaleMana>。"
+  },
+  {
+   "id": 3123,
+   "key": "JeweledBracelet",
+   "name": "Jeweled Bracelet",
+   "rarity": 4,
+   "desc": "<font color='#F0C200'>?</font> can <crit>Critically Strike</crit>.<br /><br />Gain <crit>25% Critical Strike Chance</crit>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/GenericAbilityAugmentIcon_Gold.png",
+   "nameZh": "珠光手镯",
+   "descZh": "【<font color='#F0C200'>?</font>】技能可以<crit>暴击</crit>。<br /><br />获得<crit>25%暴击几率</crit>。"
+  },
+  {
+   "id": 3129,
+   "key": "SapMagic",
+   "name": "Sap Magic",
+   "rarity": 4,
+   "desc": "Every 20 seconds, your next Attack deals <physicalDamage>bonus physical damage</physicalDamage> and restores <healing>Health</healing> <OnHit>On-Hit</OnHit>.<br /><br />Casting an Ability reduces this effect's cooldown.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/95f30f90506d6bda.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/002f3984dc2c6ad5.png",
+   "nameZh": "吸元秘术",
+   "descZh": "每20秒，你的下次攻击造成<physicalDamage>额外物理伤害</physicalDamage>，并为你回复<healing>生命值</healing><OnHit>攻击特效</OnHit>。<br /><br />施放技能会缩减该效果的冷却时间。"
+  },
+  {
+   "id": 3131,
+   "key": "StillHere",
+   "name": "Still Here",
+   "rarity": 4,
+   "desc": "Gain <attackSpeed> Attack Speed</attackSpeed> and <lifeSteal> Lifesteal</lifeSteal> based on your missing <scaleHealth> Health</scaleHealth>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/dd999552367027e8.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/a4b135496639e9d0.png",
+   "nameZh": "屹立不倒",
+   "descZh": "基于你的已损失<scaleHealth>生命值</scaleHealth>获得<attackSpeed>攻击速度</attackSpeed>和<lifeSteal>生命偷取</lifeSteal>。"
+  },
+  {
+   "id": 3132,
+   "key": "HeavyIsTheCrown",
+   "name": "Heavy Is The Crown",
+   "rarity": 4,
+   "desc": "Gain <scaleAD> Attack Damage</scaleAD>, <scaleAP> Ability Power</scaleAP>, and <attackSpeed> Attack Speed</attackSpeed> but<danger> decreased</danger> <speed>Move Speed</speed>.<br /><br />Getting a takedown grants you a stack of Burden that increases this effect. Lose half your stacks on death",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ffbc9ba8b14e62d2.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/a57969a4c38365a1.png",
+   "nameZh": "王冠之重",
+   "descZh": "获得<scaleAD>攻击力</scaleAD>、<scaleAP>法术强度</scaleAP>和<attackSpeed>攻击速度</attackSpeed>，但<speed>移动速度</speed><danger>降低</danger>。<br /><br />每次参与击杀都会获得一层【背负】以提升该效果。阵亡时失去一半层数"
+  },
+  {
+   "id": 3134,
+   "key": "LonelyWarrior",
+   "name": "Lonely Warrior",
+   "rarity": 1,
+   "desc": "Gain <attackSpeed> Attack Speed</attackSpeed>, <scaleArmor> Armor</scaleArmor>, and <scaleMR> Magic Resist</scaleMR> for each nearby enemy champion.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Adamant_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Adamant_small.png",
+   "nameZh": "孤勇者",
+   "descZh": "附近每有一个敌方英雄，你就会获得<attackSpeed>攻击速度</attackSpeed>、<scaleArmor>护甲</scaleArmor>和<scaleMR>魔法抗性</scaleMR>。"
+  },
+  {
+   "id": 3149,
+   "key": "GroupHug",
+   "name": "Group Hug",
+   "rarity": 8,
+   "desc": "<healing>Healing</healing> or <shield>Shielding</shield> an allied champion with <font color='#F0C200'>?</font> casts that spell again on 2 other nearby allied champions.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/EmpyreamPromise_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/EmpyreamPromise_small.png",
+   "nameZh": "一起抱抱",
+   "descZh": "用【<font color='#F0C200'>?</font>】技能 为友方英雄提供<healing>治疗</healing>或<shield>护盾</shield>时，会对2名其他附近友方英雄再次施放该技能。"
+  },
+  {
+   "id": 3150,
+   "key": "Upgrade_Stormsurge",
+   "name": "Upgrade Stormsurge",
+   "rarity": 4,
+   "desc": "<passive>Stormsurge's Squall</passive> now always detonates in an area, dealing max Health <magicDamage>magic damage</magicDamage>.<br /><br />Enemy champions caught in the initial blast are marked by <passive>Squall</passive>.<br /><br />Gain<gold> 500 Gold</gold>.<br /><br />",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeHubris_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/UpgradeHubris_small.png",
+   "nameZh": "升级：风暴狂涌",
+   "descZh": "<passive>风暴狂涌 - 风啸</passive>现在总会在一个区域内引爆，基于最大生命值造成<magicDamage>魔法伤害</magicDamage>。<br /><br />被初段引爆命中的敌方英雄会被<passive>风啸</passive>标记。<br /><br />获得<gold>500金币</gold>。<br /><br />"
+  },
+  {
+   "id": 3159,
+   "key": "RISE",
+   "name": "RISE",
+   "rarity": 8,
+   "desc": "If you use <font color='#F0C200'>?</font> to kill an enemy champion, you may <recast>Recast</recast> it.<br />Each subsequent<recast>Recast</recast><br />deals additional damage.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ZeroHour_large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/ZeroHour_large.png",
+   "nameZh": "登峰造极境",
+   "descZh": "如果你使用【<font color='#F0C200'>?</font>】技能击杀了一个敌方英雄，则可以<recast>再次施放</recast>一次该技能。<br />后续每次<recast>再次施放</recast><br />都会造成额外伤害。"
+  },
+  {
+   "id": 3163,
+   "key": "EnchantingButterflies",
+   "name": "Enchanting Butterflies",
+   "rarity": 4,
+   "desc": "<healing>Healing</healing> or <shield>Shielding</shield> allied champions gathers <keyword>Butterflies</keyword>.<br /><br />After collecting 7 <keyword>Butterflies</keyword>, damaging an enemy champion fires all of them to deal <magicDamage>Magic damage</magicDamage>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/2e5904549f5f9f49.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/517c87b15b3316e5.png",
+   "nameZh": "迷人蝴蝶",
+   "descZh": "为友方英雄提供<healing>治疗</healing>或<shield>护盾</shield>时，会聚集<keyword>蝴蝶</keyword>。<br /><br />在收集7只<keyword>蝴蝶</keyword>之后，对一个敌方英雄造成伤害时会将它们发射出去以造成<magicDamage>魔法伤害</magicDamage>。"
+  },
+  {
+   "id": 3170,
+   "key": "GoH_PentakillAug_Q",
+   "name": "HEAVY",
+   "rarity": 4,
+   "desc": "<evolve>Empower</evolve> <font color='#F0C200'>?</font>!<br /><br /><evolve>Empowered</evolve> <font color='#F0C200'>?</font> gains <scaleAbilityHaste>20 Ability Haste</scaleAbilityHaste>, 10% increased <silver>damage</silver>, and 10% increased <healing>healing</healing> and <shield>shielding</shield>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/545598f858b42c9d.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/a8946f68dfd6ca99.png",
+   "nameZh": "重型",
+   "descZh": "<evolve>强化</evolve>【<font color='#F0C200'>?</font>】技能!<br /><br /><evolve>强化版</evolve>技能获得<font color='#F0C200'>?</font><scaleAbilityHaste>20技能急速</scaleAbilityHaste>、10%额外<silver>伤害</silver>、以及10%<healing>治疗</healing>和<shield>护盾</shield>效果。"
+  },
+  {
+   "id": 3171,
+   "key": "GoH_PentakillAug_W",
+   "name": "POWER",
+   "rarity": 4,
+   "desc": "<evolve>Empower</evolve> <font color='#F0C200'>?</font>!<br /><br /><evolve>Empowered</evolve> <font color='#F0C200'>?</font> gains <scaleAbilityHaste>20 Ability Haste</scaleAbilityHaste>, 10% increased <silver>damage</silver>, and 10% increased <healing>healing</healing> and <shield>shielding</shield>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/545598f858b42c9d.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/a8946f68dfd6ca99.png",
+   "nameZh": "力量",
+   "descZh": "<evolve>强化</evolve>【<font color='#F0C200'>?</font>】技能!<br /><br /><evolve>强化版</evolve>技能获得<font color='#F0C200'>?</font><scaleAbilityHaste>20技能急速</scaleAbilityHaste>、10%额外<silver>伤害</silver>、以及10%<healing>治疗</healing>和<shield>护盾</shield>效果。"
+  },
+  {
+   "id": 3172,
+   "key": "GoH_PentakillAug_E",
+   "name": "THRASH",
+   "rarity": 4,
+   "desc": "<evolve>Empower</evolve> <font color='#F0C200'>?</font>!<br /><br /><evolve>Empowered</evolve> <font color='#F0C200'>?</font> gains <scaleAbilityHaste>20 Ability Haste</scaleAbilityHaste>, 10% increased <silver>damage</silver>, and 10% increased <healing>healing</healing> and <shield>shielding</shield>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/545598f858b42c9d.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/a8946f68dfd6ca99.png",
+   "nameZh": "鞭挞",
+   "descZh": "<evolve>强化</evolve>【<font color='#F0C200'>?</font>】技能!<br /><br /><evolve>强化版</evolve>技能获得<font color='#F0C200'>?</font><scaleAbilityHaste>20技能急速</scaleAbilityHaste>、10%额外<silver>伤害</silver>、以及10%<healing>治疗</healing>和<shield>护盾</shield>效果。"
+  },
+  {
+   "id": 3173,
+   "key": "GoH_PentakillAug_R",
+   "name": "DOOM",
+   "rarity": 4,
+   "desc": "<evolve>Empower</evolve> <font color='#F0C200'>?</font>!<br /><br /><evolve>Empowered</evolve> <font color='#F0C200'>?</font> gains <scaleAbilityHaste>20 Ability Haste</scaleAbilityHaste>, 10% increased <silver>damage</silver>, and 10% increased <healing>healing</healing> and <shield>shielding</shield>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/545598f858b42c9d.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/a8946f68dfd6ca99.png",
+   "nameZh": "厄运",
+   "descZh": "<evolve>强化</evolve>【<font color='#F0C200'>?</font>】技能!<br /><br /><evolve>强化版</evolve>技能获得<font color='#F0C200'>?</font><scaleAbilityHaste>20技能急速</scaleAbilityHaste>、10%额外<silver>伤害</silver>、以及10%<healing>治疗</healing>和<shield>护盾</shield>效果。"
+  },
+  {
+   "id": 3176,
+   "key": "GoH_PentakillAug_Generic",
+   "name": "Empower!",
+   "rarity": 4,
+   "desc": "<evolve>Empower</evolve> <font color='#F0C200'>?</font>!<br /><br /><evolve>Empowered</evolve> <font color='#F0C200'>?</font> gains <scaleAbilityHaste>20 Ability Haste</scaleAbilityHaste>, 10% increased <silver>damage</silver>, and 10% increased <healing>healing</healing> and <shield>shielding</shield>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/545598f858b42c9d.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/a8946f68dfd6ca99.png",
+   "nameZh": "强化!",
+   "descZh": "<evolve>强化</evolve>【<font color='#F0C200'>?</font>】技能!<br /><br /><evolve>强化版</evolve>技能获得<font color='#F0C200'>?</font><scaleAbilityHaste>20技能急速</scaleAbilityHaste>、10%额外<silver>伤害</silver>、以及10%<healing>治疗</healing>和<shield>护盾</shield>效果。"
+  },
+  {
+   "id": 12317,
+   "key": "ARAM_PandorasBox",
+   "name": "Pandora's Box",
+   "rarity": 8,
+   "desc": "Transmute all of your augments into <keywordMajor>random Prismatic Augments</keywordMajor>.",
+   "largeIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Pandoras_Box_Large.png",
+   "smallIcon": "https://opgg-static.akamaized.net/meta/images/lol/latest/aram-augment/Pandoras_Box_Small.png",
+   "nameZh": "潘朵拉的盒子",
+   "descZh": "将你的所有强化符文变为<keywordMajor>随机的棱彩阶强化符文</keywordMajor>。"
+  }
+ ]
+}

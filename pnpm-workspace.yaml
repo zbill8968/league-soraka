@@ -1,0 +1,5 @@
+nodeLinker: hoisted
+onlyBuiltDependencies:
+  - electron
+minimumReleaseAgeExclude:
+  - electron@45.2.3

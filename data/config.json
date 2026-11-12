@@ -1,0 +1,7 @@
+{
+ "window": "auto",
+ "version": 1,
+ "prefetch_champ_select": true,
+ "prefetch_champ_select_all_modes": false,
+ "auto_refresh_augments": true
+}

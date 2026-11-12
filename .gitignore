@@ -1,0 +1,25 @@
+# Local runtime / logs / caches
+.cache/
+.tools/
+node_modules/
+build/
+dist/
+__pycache__/
+*.py[cod]
+*.log
+
+# Local game data and user overrides
+data/tmp/
+data/screenshots/
+data/tag-overrides.json
+data/tag-overrides.json.bak
+
+# Local screenshots / captures
+/*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+docs/*.png

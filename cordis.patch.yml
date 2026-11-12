@@ -1,0 +1,20 @@
+# league-soraka bundle patch — inserts the host plugin row.
+#
+# Install (desktop profile):
+#   dsh plugin --profile desktop add link:D:\path\to\league-soraka
+# or through the Desktop plugin manager.
+#
+# Override config in the profile's own cordis.patch.yml by id:
+#   - id: league-soraka
+#     config:
+#       autoStart: false
+#       dataDir: D:\lol-data
+- insert:
+    - id: league-soraka
+      name: league-soraka
+      config:
+        enabled: true
+        autoStart: true
+        mock: false
+        # 'python' is the default backend; 'electron' only if Electron can start.
+        overlay: python
